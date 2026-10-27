@@ -12,12 +12,14 @@ import Sprite from "../public/sprite.svg";
 // судя по содержимому CSS, среди них стили react-toastify и шрифты (@font-face).
 import "react-toastify/dist/ReactToastify.css";
 
-// Отладочный вывод runtime-конфига в консоль каждого посетителя (так в оригинале).
-console.log(getConfig());
+// Отладочный вывод в консоль каждого посетителя: печатается сама функция getConfig,
+// а не конфиг (в браузере видно "()=>n"). Так в оригинале.
+console.log(getConfig);
 
 // Запасной вариант, если /sprite.svg не загрузился. Лоадер SVG в этой сборке отдаёт
-// URL-строку (/_next/bd727ff9e3a66fac228593d85ed91392.svg), поэтому <Sprite /> рендерится
-// как элемент с этим URL вместо имени тега — похоже на ошибку в исходнике.
+// URL-строку (/_next/bd727ff9e3a66fac228593d85ed91392.svg), и <Sprite /> пытается создать
+// элемент с этим URL вместо имени тега. Проверено запуском: React падает с
+// InvalidCharacterError, и вся страница становится пустой. Ошибка в исходнике.
 const SpriteFallback = () => (
   <div style={{ display: "none" }}>
     <Sprite />
