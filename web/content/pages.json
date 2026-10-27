@@ -1,0 +1,44 @@
+{
+  "/": {
+    "title": "Velle - растительная альтернатива молочным продуктам | официальный сайт",
+    "description": "Velle - растительная альтернатива молочным продуктам",
+    "ogImage": null,
+    "published": null,
+    "postId": null
+  },
+  "/products/": {
+    "title": "Продукция Velle: все продукты Велле из растительных ингредиентов",
+    "description": "Продукты Velle: 100% растительный продукт, 100% натуральные ингредиенты, обогащены пробиотиками и пребиотиками.",
+    "ogImage": null,
+    "published": null,
+    "postId": null
+  },
+  "/about-company/": {
+    "title": "О компании Velle: наши ценности и производство на официальном сайте компании",
+    "description": "Информация о компании Velle: история, наши ценности и производство на официальном сайте www.velle.ru",
+    "ogImage": null,
+    "published": null,
+    "postId": 176
+  },
+  "/contacts/": {
+    "title": "Контакты компании Velle: адреса, телефоны на официальном сайте",
+    "description": "Контакты компании Velle: адреса, телефоны и социальные сети на официальном сайте www.velle.ru",
+    "ogImage": null,
+    "published": null,
+    "postId": 170
+  },
+  "/where/": {
+    "title": "Купить продукты Velle: список магазинов и розничных точек продаж",
+    "description": "Список магазинов, в которых можно купить продукты их натуральных растительных ингредиентов Velle на официальном сайте компании.",
+    "ogImage": null,
+    "published": null,
+    "postId": 188
+  },
+  "/sustainability/": {
+    "title": "Устойчивое развитие - Velle",
+    "description": null,
+    "ogImage": null,
+    "published": null,
+    "postId": 617
+  }
+}

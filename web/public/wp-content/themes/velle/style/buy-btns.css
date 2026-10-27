@@ -1,0 +1,133 @@
+/*!*****************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/scss/main.scss ***!
+  \*****************************************************************************************************************************************/
+.buy-buttons-title {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 120%;
+  margin-bottom: 20px;
+  color: #3D3D3D;
+}
+@media screen and (max-width: 1199px) {
+  .buy-buttons-title {
+    margin-top: 30px;
+    align-self: flex-start;
+  }
+}
+
+.buttons {
+  margin-top: 40px;
+}
+@media screen and (max-width: 1200px) {
+  .buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+  .buttons .more {
+    width: max-content;
+  }
+}
+.buttons .where-btn {
+  display: none;
+}
+.buttons .buy-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-right: -40px;
+}
+@media screen and (max-width: 1199px) {
+  .buttons .buy-buttons {
+    margin-right: -20px;
+    justify-content: space-between;
+  }
+}
+.buttons .buy-buttons a {
+  margin-bottom: 20px;
+  width: 30% !important;
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width: 1599px) {
+  .buttons .buy-buttons a {
+    width: 30% !important;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .buttons .buy-buttons a {
+    margin-right: 20px;
+  }
+}
+.buttons .buy-buttons a img {
+  width: 100%;
+  height: auto;
+}
+@media screen and (max-width: 1599px) {
+  .buttons .buy-buttons a img {
+    height: auto;
+  }
+}
+.buttons .buy-buttons .ya_lavka {
+  width: 173px;
+  height: 42px;
+}
+@media screen and (max-width: 1199px) {
+  .buttons .buy-buttons .ya_lavka {
+    width: 173px !important;
+  }
+}
+.buttons .buy-buttons .v_prok {
+  width: 119px;
+  height: 33.19px;
+}
+@media screen and (max-width: 1199px) {
+  .buttons .buy-buttons .v_prok {
+    width: 119px !important;
+  }
+}
+.buttons .buy-buttons .ya_market {
+  width: 171.96px;
+  height: 33px;
+}
+@media screen and (max-width: 1199px) {
+  .buttons .buy-buttons .ya_market {
+    width: 171.96px !important;
+  }
+}
+.buttons .buy-buttons .wildberries {
+  width: 127.07px;
+  height: 34px;
+}
+@media screen and (max-width: 1199px) {
+  .buttons .buy-buttons .wildberries {
+    width: 127.07px !important;
+  }
+}
+.buttons .buy-buttons .ozon {
+  width: 131.69px;
+  height: 30px;
+}
+@media screen and (max-width: 1199px) {
+  .buttons .buy-buttons .ozon {
+    width: 120px !important;
+    height: 27px;
+  }
+}
+.buttons .buy-buttons .samokat {
+  width: 209.66px;
+  height: 31px;
+}
+@media screen and (max-width: 1199px) {
+  .buttons .buy-buttons .samokat {
+    width: 172px !important;
+    height: 27px;
+  }
+}
+
+/*# sourceMappingURL=buy-btns.css.map*/

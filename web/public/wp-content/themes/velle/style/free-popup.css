@@ -1,0 +1,61 @@
+/*!*****************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/scss/main.scss ***!
+  \*****************************************************************************************************************************************/
+#free-popup.active {
+  visibility: visible;
+  opacity: 1;
+  transform: scale(1);
+  display: flex;
+}
+#free-popup.active .feedback {
+  position: relative;
+  margin-top: 295px;
+  overflow: hidden;
+}
+#free-popup.active .feedback .sample-sub-desc {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 160%;
+  color: #3D3D3D;
+  margin-top: 5px;
+}
+#free-popup.active .feedback .feedback__header-title {
+  color: #008425;
+}
+@media screen and (max-width: 575px) {
+  #free-popup.active .feedback .feedback__form-item {
+    width: 100%;
+  }
+}
+#free-popup.active .feedback .feedback__form-button {
+  z-index: 1;
+  position: relative;
+}
+#free-popup.active .freeSampleBG {
+  position: absolute;
+  z-index: 0;
+}
+#free-popup.active .freeSampleBG1 {
+  top: 0;
+  left: 0;
+}
+#free-popup.active .freeSampleBG2 {
+  top: 236px;
+  right: 0;
+}
+#free-popup.active .freeSampleBG3 {
+  right: 0;
+  bottom: 0;
+}
+#free-popup.active .freeSampleBG4 {
+  bottom: 0;
+  left: 168px;
+}
+#free-popup.active .freeSampleBG5 {
+  bottom: 0;
+  left: 0;
+}
+
+/*# sourceMappingURL=free-popup.css.map*/
