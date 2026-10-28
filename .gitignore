@@ -1,8 +1,7 @@
 .DS_Store
-# personal Claude Code permissions
-.claude/settings.local.json
 node_modules/
 .next/
-web/out/
+out/
 next-env.d.ts
 *.tsbuildinfo
+__pycache__/
