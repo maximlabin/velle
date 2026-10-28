@@ -61,7 +61,7 @@
 }
 
 .index-main {
-	background: url('../images/about/main-bg.jpg') 0 0/cover no-repeat;
+	background: url('../images/about/main-bg.webp') 0 0/cover no-repeat;
 }
 
 
@@ -790,7 +790,7 @@
 	text-align: center;
 }
 .link-box__img {
-	background: url('../images/about/img-link.jpg') 0 0/cover no-repeat;
+	background: url('../images/about/img-link.webp') 0 0/cover no-repeat;
 	display: flex;
     flex-direction: column;
     align-items: center;
@@ -798,7 +798,7 @@
 	border-radius: 10px
 }
 .link-box__img2 {
-	background: url('../images/about/img-link2.jpg') 0 0/cover no-repeat;
+	background: url('../images/about/img-link2.webp') 0 0/cover no-repeat;
 	display: flex;
     flex-direction: column;
     align-items: center;

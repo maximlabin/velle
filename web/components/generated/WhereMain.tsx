@@ -4,7 +4,7 @@ export default function WhereMain() {
     <>
       <main className="mainWhere">
         <img src="/wp-content/themes/velle/images/where-box.png" alt="box" className="box" />
-        <img src="/wp-content/themes/velle/images/where-oats.png" alt="oats" className="oats" />
+        <img src="/wp-content/themes/velle/images/where-oats.webp" alt="oats" className="oats" />
         <nav>
           <div className="navItem">
             <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">

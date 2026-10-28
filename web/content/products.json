@@ -81,7 +81,7 @@
         {
           "slug": "vmesto-moloka-bananovoe",
           "flavour": "oatmeal",
-          "image": "/wp-content/uploads/2022/07/foto-produktov-3.png",
+          "image": "/wp-content/uploads/2022/07/foto-produktov-3.webp",
           "tag": null,
           "title": "Банановое молоко",
           "volume": "1л"
@@ -89,7 +89,7 @@
         {
           "slug": "kokosovoe",
           "flavour": "coconut-rice",
-          "image": "/wp-content/uploads/2022/07/foto-produktov-2.png",
+          "image": "/wp-content/uploads/2022/07/foto-produktov-2.webp",
           "tag": "/wp-content/themes/velle/images/products/hit.png",
           "title": "Кокосовое молоко",
           "volume": "1л"
@@ -97,7 +97,7 @@
         {
           "slug": "ovsyanoe",
           "flavour": "oatmeal",
-          "image": "/wp-content/uploads/2022/07/visual_velle_oat_milk_3_2.png",
+          "image": "/wp-content/uploads/2022/07/visual_velle_oat_milk_3_2.webp",
           "tag": null,
           "title": "Овсяное молоко",
           "volume": "1л"
@@ -105,7 +105,7 @@
         {
           "slug": "mindalnoe",
           "flavour": "rice",
-          "image": "/wp-content/uploads/2022/07/moloko.png",
+          "image": "/wp-content/uploads/2022/07/moloko.webp",
           "tag": "/wp-content/themes/velle/images/products/hit.png",
           "title": "Миндальное молоко",
           "volume": "1л"
@@ -165,7 +165,7 @@
         {
           "slug": "barista-ovsyanoe",
           "flavour": "oatmeal",
-          "image": "/wp-content/uploads/2022/07/barista.png",
+          "image": "/wp-content/uploads/2022/07/barista.webp",
           "tag": null,
           "title": "Овсяное",
           "volume": "1л"
@@ -173,7 +173,7 @@
         {
           "slug": "barista-mindalnoe",
           "flavour": "rice",
-          "image": "/wp-content/uploads/2022/07/foto-produktov-1.png",
+          "image": "/wp-content/uploads/2022/07/foto-produktov-1.webp",
           "tag": null,
           "title": "Миндальное",
           "volume": "1л"
@@ -181,7 +181,7 @@
         {
           "slug": "barista-kokosovoe",
           "flavour": "coconut-rice",
-          "image": "/wp-content/uploads/2022/07/foto-produktov.png",
+          "image": "/wp-content/uploads/2022/07/foto-produktov.webp",
           "tag": "/wp-content/themes/velle/images/products/hit.png",
           "title": "Кокосовое",
           "volume": "1л"
@@ -195,7 +195,7 @@
         {
           "slug": "vmesto-pitevogo-jogurta-chernika",
           "flavour": "oatmeal",
-          "image": "/wp-content/uploads/2022/07/chernika.png",
+          "image": "/wp-content/uploads/2022/07/chernika.webp",
           "tag": "/wp-content/themes/velle/images/products/hit.png",
           "title": "Черника",
           "volume": "250 гр"
@@ -203,7 +203,7 @@
         {
           "slug": "vmesto-pitevogo-jogurta-vishnya",
           "flavour": "oatmeal",
-          "image": "/wp-content/uploads/2022/07/cherry.png",
+          "image": "/wp-content/uploads/2022/07/cherry.webp",
           "tag": null,
           "title": "Вишня",
           "volume": "250 гр"
@@ -211,7 +211,7 @@
         {
           "slug": "vmesto-pitevogo-jogurta-malina",
           "flavour": "oatmeal",
-          "image": "/wp-content/uploads/2022/07/rasberry.png",
+          "image": "/wp-content/uploads/2022/07/rasberry.webp",
           "tag": null,
           "title": "Малина",
           "volume": "250 гр"
@@ -219,7 +219,7 @@
         {
           "slug": "vmesto-pitevogo-jogurta-kokosovyj-zemlyanika-klubnika",
           "flavour": "coconut-rice",
-          "image": "/wp-content/uploads/2022/07/klub_zem.png",
+          "image": "/wp-content/uploads/2022/07/klub_zem.webp",
           "tag": "/wp-content/themes/velle/images/products/new.png",
           "title": "Кокосовый Земляника-Клубника",
           "volume": "250 гр"
@@ -227,7 +227,7 @@
         {
           "slug": "vmesto-pitevogo-jogurta-oblepiha",
           "flavour": "oatmeal",
-          "image": "/wp-content/uploads/2022/07/pitevoj-jogurt-1.png",
+          "image": "/wp-content/uploads/2022/07/pitevoj-jogurt-1.webp",
           "tag": "/wp-content/themes/velle/images/products/hit.png",
           "title": "Облепиха",
           "volume": "250 гр"
@@ -241,7 +241,7 @@
         {
           "slug": "vmesto-lozhkovogo-jogurta-klubnika-banan",
           "flavour": "oatmeal",
-          "image": "/wp-content/uploads/2022/07/banana.png",
+          "image": "/wp-content/uploads/2022/07/banana.webp",
           "tag": "/wp-content/themes/velle/images/products/hit.png",
           "title": "Клубника-Банан",
           "volume": "140 гр"
@@ -249,7 +249,7 @@
         {
           "slug": "vmesto-lozhkovogo-jogurta-malina-ezhevika",
           "flavour": "oatmeal",
-          "image": "/wp-content/uploads/2022/07/malina.png",
+          "image": "/wp-content/uploads/2022/07/malina.webp",
           "tag": null,
           "title": "Малина-Ежевика",
           "volume": "140 гр"
@@ -257,7 +257,7 @@
         {
           "slug": "vmesto-lozhkovogo-jogurta-pechenoe-yabloko",
           "flavour": "oatmeal",
-          "image": "/wp-content/uploads/2022/07/apple.png",
+          "image": "/wp-content/uploads/2022/07/apple.webp",
           "tag": "/wp-content/themes/velle/images/products/hit.png",
           "title": "Печеное Яблоко",
           "volume": "140 гр"
@@ -309,7 +309,7 @@
       "textHtml": "Банановый растительный напиток на основе сои от Velle - это идеальное дополнение к кофейному ритуалу. Это нежный кремовый напиток, созданный из отборных соевых бобов и измельченных бананов. \n\nВ этом сочетании прекрасно сбалансированы натуральная сладость банана и богатство белка сои.",
       "tagsHtml": null,
       "where": "/where/",
-      "image": "/wp-content/uploads/2025/04/vizualpered-3.png",
+      "image": "/wp-content/uploads/2025/04/vizualpered-3.webp",
       "compound": [
         {
           "label": "Состав:",
@@ -336,7 +336,7 @@
       "textHtml": "Фундучное от Velle на соевой основе идеально подходит для приготовления разнообразных кофейных напитков, включая латте, капучино, эспрессо и другие. \n\nЕго нежный ореховый вкус и кремовая текстура придают кофейным напиткам особое изысканное волшебство, удовлетворяя даже самых изысканных гурманов.",
       "tagsHtml": null,
       "where": "/where/",
-      "image": "/wp-content/uploads/2025/04/pered-2.png",
+      "image": "/wp-content/uploads/2025/04/pered-2.webp",
       "compound": [
         {
           "label": "Состав:",
@@ -363,7 +363,7 @@
       "textHtml": "Velle Barista Овсяное для любителей классического чистого продукта. Напиток сделан на овсяной растительной основе, которая делает его невероятно мягким и легким. Овсяное идеально взбивается и дает гарантированный результат – стойкую высокую пенку. Мягкий и насыщенный вкус продукта идеально раскрывается в капучино и латте. \n\nПродукт обогащен кальцием, изготовлен без добавления сахара.",
       "tagsHtml": "<div class=\"tag\">\n                                                    <p>\n                                                        100% Vegan                                                    </p>\n                                                </div>\n                                                                                            <div class=\"tag\">\n                                                    <p>\n                                                        Без добавления сахара                                                    </p>\n                                                </div>\n                                                                                            <div class=\"tag\">\n                                                    <p>\n                                                        ОБОГАЩЕНО КАЛЬЦИЕМ                                                    </p>\n                                                </div>",
       "where": "/where/",
-      "image": "/wp-content/uploads/2022/07/barista.png",
+      "image": "/wp-content/uploads/2022/07/barista.webp",
       "compound": [
         {
           "label": "Состав:",
@@ -390,7 +390,7 @@
       "textHtml": "Velle Barista Миндальное на рисовой основе с добавлением ароматной натуральной миндальной пасты из сладкого обжаренного миндаля. Напиток идеально взбивается, благодаря добавлению специальных солей и дает гарантированный результат – стойкую высокую пенку. Мягкий и насыщенный вкус продукта идеально раскрывается в капучино и латте.\n\nПродукт обогащен кальцием, изготовлен без добавления сахара.",
       "tagsHtml": "<div class=\"tag\">\n                                                    <p>\n                                                        100% Vegan                                                    </p>\n                                                </div>\n                                                                                            <div class=\"tag\">\n                                                    <p>\n                                                        Без добавления сахара                                                    </p>\n                                                </div>\n                                                                                            <div class=\"tag\">\n                                                    <p>\n                                                        ОБОГАЩЕНО КАЛЬЦИЕМ                                                    </p>\n                                                </div>",
       "where": "/where/",
-      "image": "/wp-content/uploads/2022/07/foto-produktov-1.png",
+      "image": "/wp-content/uploads/2022/07/foto-produktov-1.webp",
       "compound": [
         {
           "label": "Состав:",
@@ -417,7 +417,7 @@
       "textHtml": "Velle Barista Кокосовое сделано на растительной рисовой основе, которую оттеняет ароматная кокосовая паста. Напиток идеально взбивается благодаря добавлению специальных солей и дает гарантированный результат – стойкую высокую пенку. Мягкий\n и насыщенный вкус продукта идеально раскрывается  в капучино \nи латте.\n\nПродукт обогащен кальцием, без добавления сахара.",
       "tagsHtml": "<div class=\"tag\">\n                                                    <p>\n                                                        100% Vegan                                                    </p>\n                                                </div>\n                                                                                            <div class=\"tag\">\n                                                    <p>\n                                                        Без добавления сахара*                                                    </p>\n                                                </div>\n                                                                                            <div class=\"tag\">\n                                                    <p>\n                                                        ОБОГАЩЕНО КАЛЬЦИЕМ                                                    </p>\n                                                </div>",
       "where": "/where/",
-      "image": "/wp-content/uploads/2022/07/foto-produktov.png",
+      "image": "/wp-content/uploads/2022/07/foto-produktov.webp",
       "compound": [
         {
           "label": "Состав:",
@@ -444,7 +444,7 @@
       "textHtml": "Фундучное от Velle на соевой основе идеально подходит для приготовления разнообразных кофейных напитков, включая латте, капучино, эспрессо и другие. \n\nЕго нежный ореховый вкус и кремовая текстура придают кофейным напиткам особое изысканное волшебство, удовлетворяя даже самых изысканных гурманов.",
       "tagsHtml": null,
       "where": "/where/",
-      "image": "/wp-content/uploads/2025/04/pered-2.png",
+      "image": "/wp-content/uploads/2025/04/pered-2.webp",
       "compound": [
         {
           "label": "Состав:",
@@ -471,7 +471,7 @@
       "textHtml": "Банановый растительный напиток на основе сои от Velle - это идеальное дополнение к кофейному ритуалу. Это нежный кремовый напиток, созданный из отборных соевых бобов и измельченных бананов. \n\nВ этом сочетании прекрасно сбалансированы натуральная сладость банана и богатство белка сои.",
       "tagsHtml": null,
       "where": "/where/",
-      "image": "/wp-content/uploads/2025/04/vizualpered-3.png",
+      "image": "/wp-content/uploads/2025/04/vizualpered-3.webp",
       "compound": [
         {
           "label": "Состав:",
@@ -498,7 +498,7 @@
       "textHtml": "Velle Barista Кокосовое сделано на растительной рисовой основе, которую оттеняет ароматная кокосовая паста. Напиток идеально взбивается благодаря добавлению специальных солей и дает гарантированный результат – стойкую высокую пенку. Мягкий\n и насыщенный вкус продукта идеально раскрывается  в капучино \nи латте.\n\nПродукт обогащен кальцием, без добавления сахара.",
       "tagsHtml": "<div class=\"tag\">\n                                            <p>\n                                                100% Vegan                                            </p>\n                                        </div>\n                                                                            <div class=\"tag\">\n                                            <p>\n                                                Без добавления сахара*                                            </p>\n                                        </div>\n                                                                            <div class=\"tag\">\n                                            <p>\n                                                ОБОГАЩЕНО КАЛЬЦИЕМ                                            </p>\n                                        </div>",
       "where": "/where/",
-      "image": "/wp-content/uploads/2022/07/foto-produktov.png",
+      "image": "/wp-content/uploads/2022/07/foto-produktov.webp",
       "compound": [
         {
           "label": "Состав:",
@@ -552,7 +552,7 @@
       "textHtml": "Velle Barista Миндальное на рисовой основе с добавлением ароматной натуральной миндальной пасты из сладкого обжаренного миндаля. Напиток идеально взбивается, благодаря добавлению специальных солей и дает гарантированный результат – стойкую высокую пенку. Мягкий и насыщенный вкус продукта идеально раскрывается в капучино и латте.\n\nПродукт обогащен кальцием, изготовлен без добавления сахара.",
       "tagsHtml": "<div class=\"tag\">\n                                            <p>\n                                                100% Vegan                                            </p>\n                                        </div>\n                                                                            <div class=\"tag\">\n                                            <p>\n                                                Без добавления сахара                                            </p>\n                                        </div>\n                                                                            <div class=\"tag\">\n                                            <p>\n                                                ОБОГАЩЕНО КАЛЬЦИЕМ                                            </p>\n                                        </div>",
       "where": "/where/",
-      "image": "/wp-content/uploads/2022/07/foto-produktov-1.png",
+      "image": "/wp-content/uploads/2022/07/foto-produktov-1.webp",
       "compound": [
         {
           "label": "Состав:",
@@ -579,7 +579,7 @@
       "textHtml": "Velle Barista Овсяное для любителей классического чистого продукта. Напиток сделан на овсяной растительной основе, которая делает его невероятно мягким и легким. Овсяное идеально взбивается и дает гарантированный результат – стойкую высокую пенку. Мягкий и насыщенный вкус продукта идеально раскрывается в капучино и латте. \n\nПродукт обогащен кальцием, изготовлен без добавления сахара.",
       "tagsHtml": "<div class=\"tag\">\n                                            <p>\n                                                100% Vegan                                            </p>\n                                        </div>\n                                                                            <div class=\"tag\">\n                                            <p>\n                                                Без добавления сахара                                            </p>\n                                        </div>\n                                                                            <div class=\"tag\">\n                                            <p>\n                                                ОБОГАЩЕНО КАЛЬЦИЕМ                                            </p>\n                                        </div>",
       "where": "/where/",
-      "image": "/wp-content/uploads/2022/07/barista.png",
+      "image": "/wp-content/uploads/2022/07/barista.webp",
       "compound": [
         {
           "label": "Состав:",
@@ -606,7 +606,7 @@
       "textHtml": "Растительные сливки созданные на основе нежной соево-рисовой основы и содержащие 10% жирности. Благодаря своей уникальной формуле, сливки Velle великолепно взбиваются, придавая вашему кофе или другим напиткам неповторимый вкус и аромат. \n\nОни также отлично сочетаются не только с напитками, но и с различными блюдами!",
       "tagsHtml": null,
       "where": "/where/",
-      "image": "/wp-content/uploads/2025/04/pered.png",
+      "image": "/wp-content/uploads/2025/04/pered.webp",
       "compound": [
         {
           "label": "Состав:",
@@ -687,7 +687,7 @@
       "textHtml": "Бархатный шоколад в сочетании с нежным ореховым вкусом прекрасно дополняют друг друга. Десерт на текстурной мультизлаковой основе, с добавлением ржаных хлопьев, семенами тыквы и тертым какао. Настоящее шоколадное наслаждение!",
       "tagsHtml": "<div class=\"tag\">\n                                            <p>\n                                                Без молока                                            </p>\n                                        </div>\n                                                                            <div class=\"tag\">\n                                            <p>\n                                                Содержит пробиотики                                            </p>\n                                        </div>",
       "where": "/where/",
-      "image": "/wp-content/uploads/2022/10/frame-471-1.png",
+      "image": "/wp-content/uploads/2022/10/frame-471-1.webp",
       "compound": [
         {
           "label": "Состав:",
@@ -714,7 +714,7 @@
       "textHtml": "Яркий и взрывной десерт от Velle Соленая Карамель выполнен на хрустящей мультизлаковой основе, с добавлением густого карамельного сиропа, с семенами тыквы и ядрами подсолнечника Умеренно сладкий и невероятно вкусный десерт!",
       "tagsHtml": "<div class=\"tag\">\n                                                    <p>\n                                                        Без молока                                                    </p>\n                                                </div>\n                                                                                            <div class=\"tag\">\n                                                    <p>\n                                                        Меньше сахара*                                                    </p>\n                                                </div>\n                                                                                            <div class=\"tag\">\n                                                    <p>\n                                                        Содержит пробиотики                                                    </p>\n                                                </div>",
       "where": "/where/",
-      "image": "/wp-content/uploads/2022/07/foto-produktov-13.png",
+      "image": "/wp-content/uploads/2022/07/foto-produktov-13.webp",
       "compound": [
         {
           "label": "Состав:",
@@ -1065,7 +1065,7 @@
       "textHtml": "Растительный напиток Velle «Вместо молока» Кокосовое приготовлен на рисовой основе с добавлением ароматной кокосовой пасты, благодаря которой вкус напитка получился особенно насыщенным и сбалансированным. Гармоничное сочетание растительной основы и кокосовых оттенков делает этот напиток по-настоящему нежным и мягким. \nПродукт обогащен кальцием, изготовлен без добавления сахара.",
       "tagsHtml": "<div class=\"tag\">\n                                            <p>\n                                                100% Vegan                                            </p>\n                                        </div>\n                                                                            <div class=\"tag\">\n                                            <p>\n                                                Без добавления сахара                                            </p>\n                                        </div>\n                                                                            <div class=\"tag\">\n                                            <p>\n                                                ОБОГАЩЕНО КАЛЬЦИЕМ                                            </p>\n                                        </div>",
       "where": "/where/",
-      "image": "/wp-content/uploads/2022/07/foto-produktov-2.png",
+      "image": "/wp-content/uploads/2022/07/foto-produktov-2.webp",
       "compound": [
         {
           "label": "Состав:",
@@ -1092,7 +1092,7 @@
       "textHtml": "Растительный напиток от Velle Банановое сделано на основе овсяной муки, что делает его вкус невероятно сбалансированным и нежным. Напиток с легким банановым оттенком разнообразит привычный рацион, с ним блюда и напитки заиграют новыми красками. \nНапиток обогащен кальцием и без добавления сахара.",
       "tagsHtml": "<div class=\"tag\">\n                                                    <p>\n                                                        100% Vegan                                                    </p>\n                                                </div>\n                                                                                            <div class=\"tag\">\n                                                    <p>\n                                                        Без добавления сахара                                                    </p>\n                                                </div>\n                                                                                            <div class=\"tag\">\n                                                    <p>\n                                                        ОБОГАЩЕНО КАЛЬЦИЕМ                                                    </p>\n                                                </div>",
       "where": "/where/",
-      "image": "/wp-content/uploads/2022/07/foto-produktov-3.png",
+      "image": "/wp-content/uploads/2022/07/foto-produktov-3.webp",
       "compound": [
         {
           "label": "Состав:",
@@ -1119,7 +1119,7 @@
       "textHtml": "Напиток от Velle на основе овсяной муки для любителей характерного растительного вкуса. Напиток очарует своим сбалансированным и насыщенным послевкусием, понравится любителям классического “чистого” продукта. \nНапиток обогащен кальцием, изготовлен без добавления сахара.",
       "tagsHtml": "<div class=\"tag\">\n                                                    <p>\n                                                        100% Vegan                                                    </p>\n                                                </div>\n                                                                                            <div class=\"tag\">\n                                                    <p>\n                                                        Без добавления сахара                                                    </p>\n                                                </div>\n                                                                                            <div class=\"tag\">\n                                                    <p>\n                                                        ОБОГАЩЕНО КАЛЬЦИЕМ                                                    </p>\n                                                </div>",
       "where": "/where/",
-      "image": "/wp-content/uploads/2022/07/visual_velle_oat_milk_3_2.png",
+      "image": "/wp-content/uploads/2022/07/visual_velle_oat_milk_3_2.webp",
       "compound": [
         {
           "label": "Состав:",
@@ -1146,7 +1146,7 @@
       "textHtml": "Насыщенный ореховый вкус и воздушная рисовая основа сплелись воедино в растительном напитке от Velle Миндальное, чтобы восхитить своим балансом сладости, нежным ароматом и сливочным вкусом. Благодаря запатентованной технологии продукт имеет мягкий вкус и приятную сладость. \nМиндальное от Vellе обогащен кальцием, изготовлен без добавления сахара.",
       "tagsHtml": "<div class=\"tag\">\n                                                    <p>\n                                                        100% Vegan                                                    </p>\n                                                </div>\n                                                                                            <div class=\"tag\">\n                                                    <p>\n                                                        Без добавления сахара                                                    </p>\n                                                </div>\n                                                                                            <div class=\"tag\">\n                                                    <p>\n                                                        ОБОГАЩЕНО КАЛЬЦИЕМ                                                    </p>\n                                                </div>",
       "where": "/where/",
-      "image": "/wp-content/uploads/2022/07/moloko.png",
+      "image": "/wp-content/uploads/2022/07/moloko.webp",
       "compound": [
         {
           "label": "Состав:",
@@ -1173,7 +1173,7 @@
       "textHtml": "Насыщенный ореховый вкус и воздушная рисовая основа сплелись воедино в растительном напитке от Velle Миндальное, чтобы восхитить своим балансом сладости, нежным ароматом и сливочным вкусом. Благодаря запатентованной технологии продукт имеет мягкий вкус и приятную сладость. \nМиндальное от Vellе обогащен кальцием, изготовлен без добавления сахара.",
       "tagsHtml": "<div class=\"tag\">\n                                            <p>\n                                                100% Vegan                                            </p>\n                                        </div>\n                                                                            <div class=\"tag\">\n                                            <p>\n                                                Без добавления сахара                                            </p>\n                                        </div>\n                                                                            <div class=\"tag\">\n                                            <p>\n                                                ОБОГАЩЕНО КАЛЬЦИЕМ                                            </p>\n                                        </div>",
       "where": "/where/",
-      "image": "/wp-content/uploads/2022/07/moloko.png",
+      "image": "/wp-content/uploads/2022/07/moloko.webp",
       "compound": [
         {
           "label": "Состав:",
@@ -1200,7 +1200,7 @@
       "textHtml": "Растительный напиток Velle «Вместо молока» Кокосовое приготовлен на рисовой основе с добавлением ароматной кокосовой пасты, благодаря которой вкус напитка получился особенно насыщенным и сбалансированным. Гармоничное сочетание растительной основы и кокосовых оттенков делает этот напиток по-настоящему нежным и мягким. \nПродукт обогащен кальцием, изготовлен без добавления сахара.",
       "tagsHtml": "<div class=\"tag\">\n                                                    <p>\n                                                        100% Vegan                                                    </p>\n                                                </div>\n                                                                                            <div class=\"tag\">\n                                                    <p>\n                                                        Без добавления сахара                                                    </p>\n                                                </div>\n                                                                                            <div class=\"tag\">\n                                                    <p>\n                                                        ОБОГАЩЕНО КАЛЬЦИЕМ                                                    </p>\n                                                </div>",
       "where": "/where/",
-      "image": "/wp-content/uploads/2022/07/foto-produktov-2.png",
+      "image": "/wp-content/uploads/2022/07/foto-produktov-2.webp",
       "compound": [
         {
           "label": "Состав:",
@@ -1254,7 +1254,7 @@
       "textHtml": "Растительные сливки созданные на основе нежной соево-рисовой основы и содержащие 10% жирности. Благодаря своей уникальной формуле, сливки Velle великолепно взбиваются, придавая вашему кофе или другим напиткам неповторимый вкус и аромат. \n\nОни также отлично сочетаются не только с напитками, но и с различными блюдами!",
       "tagsHtml": null,
       "where": "/where/",
-      "image": "/wp-content/uploads/2025/04/pered.png",
+      "image": "/wp-content/uploads/2025/04/pered.webp",
       "compound": [
         {
           "label": "Состав:",
@@ -1362,7 +1362,7 @@
       "textHtml": "“Клубника-Банан” от Velle приготовлен на овсяной основе, продукт дополняют кусочки свежей клубники и нежное банановое пюре. Классическое фруктовое сочетание идеально раскрывается в ферментированном продукте. ”Клубника-Банан” обогащен пробиотиками, пребиотиками и пищевыми волокнами для улучшения пищеварения - идеальное сочетание вкуса и пользы!",
       "tagsHtml": "<div class=\"tag\">\n                                                    <p>\n                                                        Без молока                                                    </p>\n                                                </div>\n                                                                                            <div class=\"tag\">\n                                                    <p>\n                                                        Меньше сахара*                                                    </p>\n                                                </div>\n                                                                                            <div class=\"tag\">\n                                                    <p>\n                                                        Содержит пробиотики                                                    </p>\n                                                </div>",
       "where": "/where/",
-      "image": "/wp-content/uploads/2022/07/banana.png",
+      "image": "/wp-content/uploads/2022/07/banana.webp",
       "compound": [
         {
           "label": "Состав:",
@@ -1389,7 +1389,7 @@
       "textHtml": "Velle Малина-Ежевика на основе из овсяных хлопьев и отрубей с ягодами лесной ежевики и кусочками домашней малины придется по вкусу всем любителям альтернативных продуктов. Продукт изготовлен путем ферментации злаков. В составе пробиотики, пребиотики и пищевые волокна, которые способствуют улучшению пищеварения. Velle Малина-Ежевика - Velleколепно вкусно!",
       "tagsHtml": "<div class=\"tag\">\n                                                    <p>\n                                                        Без молока                                                    </p>\n                                                </div>\n                                                                                            <div class=\"tag\">\n                                                    <p>\n                                                        Меньше сахара*                                                    </p>\n                                                </div>\n                                                                                            <div class=\"tag\">\n                                                    <p>\n                                                        Содержит пробиотики                                                    </p>\n                                                </div>",
       "where": "/where/",
-      "image": "/wp-content/uploads/2022/07/malina.png",
+      "image": "/wp-content/uploads/2022/07/malina.webp",
       "compound": [
         {
           "label": "Состав:",
@@ -1416,7 +1416,7 @@
       "textHtml": "Давно полюбившейся бестселлер от Velle “Печеное Яблоко” на текстурной овсяной основе с добавлением отрубей, изготовлен с кусочками ароматных свежеиспеченных яблок. Изготовлен путем ферментации злаков. В составе пробиотики, пребиотики и пищевые волокна – идеальное сочетание пользы и удовольствия!",
       "tagsHtml": "<div class=\"tag\">\n                                                    <p>\n                                                        Без молока                                                    </p>\n                                                </div>\n                                                                                            <div class=\"tag\">\n                                                    <p>\n                                                        Меньше сахара*                                                    </p>\n                                                </div>\n                                                                                            <div class=\"tag\">\n                                                    <p>\n                                                        Содержит пробиотики                                                    </p>\n                                                </div>",
       "where": "/where/",
-      "image": "/wp-content/uploads/2022/07/apple.png",
+      "image": "/wp-content/uploads/2022/07/apple.webp",
       "compound": [
         {
           "label": "Состав:",
@@ -1443,7 +1443,7 @@
       "textHtml": "“Клубника-Земляника” от Velle на кокосовой основе с добавлением кусочков свежей клубники, и насыщенного пюре земляники.  100% веганский продукт, насыщен пробиотиками. Изготовлен путем ферментации. Попробуй наслаждение на вкус вместе с Клубника-Земляника от Velle!",
       "tagsHtml": "<div class=\"tag\">\n                                                    <p>\n                                                        100% Vegan                                                    </p>\n                                                </div>\n                                                                                            <div class=\"tag\">\n                                                    <p>\n                                                        Без молока                                                    </p>\n                                                </div>\n                                                                                            <div class=\"tag\">\n                                                    <p>\n                                                        Меньше сахара                                                    </p>\n                                                </div>",
       "where": "/where/",
-      "image": "/wp-content/uploads/2022/07/klub_zem.png",
+      "image": "/wp-content/uploads/2022/07/klub_zem.webp",
       "compound": [
         {
           "label": "Состав:",
@@ -1470,7 +1470,7 @@
       "textHtml": "овсяная основа (вода, овсяные хлопья, сахар, овсяные отруби,  регулятор кислотности: молочная кислота; инулин (пребиотик), соль пищевая морская,  веганская закваска (Bifidobacterium bifidum, Bifidobacterium animalis ssp. lactis, Bifidobacterium longum ssp. longum, Lactobacillus rhamnosus, Lactococcus lactis ssp. lactis, Propionibacterium freudenreichii ssp. Freudenreichii)), фруктовый наполнитель «Вишня» (сахар, ягоды вишни*, вода, концентрированный яблочный сок, яблочное пюре, краситель: антоцианы;  ароматизаторы натуральные, загуститель: пектины; регулятор кислотности: лимонная кислота). *в продукте возможно присутствие косточек и/или их фрагментов, что свойственно продуктам из натурального сырья.",
       "tagsHtml": "<div class=\"tag\">\n                                                    <p>\n                                                        Preprofibers                                                    </p>\n                                                </div>\n                                                                                            <div class=\"tag\">\n                                                    <p>\n                                                        Без молока                                                    </p>\n                                                </div>\n                                                                                            <div class=\"tag\">\n                                                    <p>\n                                                        Меньше сахара*                                                    </p>\n                                                </div>",
       "where": "/where/",
-      "image": "/wp-content/uploads/2022/07/cherry.png",
+      "image": "/wp-content/uploads/2022/07/cherry.webp",
       "compound": [
         {
           "label": "Состав:",
@@ -1497,7 +1497,7 @@
       "textHtml": "Почувствуй невесомое сочетание натурального овса и свежей сладкой малины в растительном продукте от Velle “Вместо питьевого йогурта” Малина. Продукт изготовлен путем ферментации злаков, в составе только натуральные ингредиенты и пробиотики для комфортного пищеварения!",
       "tagsHtml": "<div class=\"tag\">\n                                                    <p>\n                                                        Preprofibers                                                    </p>\n                                                </div>\n                                                                                            <div class=\"tag\">\n                                                    <p>\n                                                        Без молока                                                    </p>\n                                                </div>\n                                                                                            <div class=\"tag\">\n                                                    <p>\n                                                        Меньше сахара*                                                    </p>\n                                                </div>",
       "where": "/where/",
-      "image": "/wp-content/uploads/2022/07/rasberry.png",
+      "image": "/wp-content/uploads/2022/07/rasberry.webp",
       "compound": [
         {
           "label": "Состав:",
@@ -1524,7 +1524,7 @@
       "textHtml": "овсяная основа (вода, овсяные хлопья, сахар, овсяные отруби, регулятор кислотности: молочная кислота; инулин (пребиотик),соль пищевая морская, веганская закваска (Bifidobacterium bifidum, Bifidobacterium animalis ssp. lactis, Bifidobacterium longum ssp. longum, Lactobacillus rhamnosus, Lactococcus lactis ssp. lactis, Propionibacterium freudenreichii ssp. Freudenreichii)), фруктовый наполнитель «Облепиха» (вода, сахар, яблочный сок концентрированный, кусочки яблока, облепиховое пюре, ароматизаторы натуральные, загуститель: пектины; красители: каротины, экстракт паприки; регулятор кислотности: лимонная кислота).",
       "tagsHtml": "<div class=\"tag\">\n                                                    <p>\n                                                        Preprofibers                                                    </p>\n                                                </div>\n                                                                                            <div class=\"tag\">\n                                                    <p>\n                                                        Без молока                                                    </p>\n                                                </div>\n                                                                                            <div class=\"tag\">\n                                                    <p>\n                                                        Меньше сахара*                                                    </p>\n                                                </div>",
       "where": "/where/",
-      "image": "/wp-content/uploads/2022/07/pitevoj-jogurt-1.png",
+      "image": "/wp-content/uploads/2022/07/pitevoj-jogurt-1.webp",
       "compound": [
         {
           "label": "Состав:",
@@ -1551,7 +1551,7 @@
       "textHtml": "Продукт выполнен на воздушной овсяной основе с добавлением кусочков ароматной черники. Изготовлен путем ферментации злаков. В составе только натуральные ингредиенты, обогащен пробиотиками. Насладись классическим сочетанием овсяного Velle с яркой Черникой!",
       "tagsHtml": "<div class=\"tag\">\n                                                    <p>\n                                                        Preprofibers                                                    </p>\n                                                </div>\n                                                                                            <div class=\"tag\">\n                                                    <p>\n                                                        Без молока                                                    </p>\n                                                </div>\n                                                                                            <div class=\"tag\">\n                                                    <p>\n                                                        Меньше сахара*                                                    </p>\n                                                </div>",
       "where": "/where/",
-      "image": "/wp-content/uploads/2022/07/chernika.png",
+      "image": "/wp-content/uploads/2022/07/chernika.webp",
       "compound": [
         {
           "label": "Состав:",
@@ -1578,7 +1578,7 @@
       "textHtml": "Напиток от Velle на основе овсяной муки для любителей характерного растительного вкуса. Напиток очарует своим сбалансированным и насыщенным послевкусием, понравится любителям классического “чистого” продукта. \nНапиток обогащен кальцием, изготовлен без добавления сахара.",
       "tagsHtml": "<div class=\"tag\">\n                                            <p>\n                                                100% Vegan                                            </p>\n                                        </div>\n                                                                            <div class=\"tag\">\n                                            <p>\n                                                Без добавления сахара                                            </p>\n                                        </div>\n                                                                            <div class=\"tag\">\n                                            <p>\n                                                ОБОГАЩЕНО КАЛЬЦИЕМ                                            </p>\n                                        </div>",
       "where": "/where/",
-      "image": "/wp-content/uploads/2022/07/visual_velle_oat_milk_3_2.png",
+      "image": "/wp-content/uploads/2022/07/visual_velle_oat_milk_3_2.webp",
       "compound": [
         {
           "label": "Состав:",
@@ -1605,7 +1605,7 @@
       "textHtml": "Смузи на растительном молоке Банан–яблоко–овёс Velle — это насыщенный, но при этом лёгкий напиток на каждый день. \n\nНежное овсяное молоко, сладость спелого банана и лёгкая кислинка яблока создают сбалансированный вкус, который бодрит и насыщает.",
       "tagsHtml": null,
       "where": "/where/",
-      "image": "/wp-content/uploads/2025/04/yabloko_banan_pered-1.png",
+      "image": "/wp-content/uploads/2025/04/yabloko_banan_pered-1.webp",
       "compound": [
         {
           "label": "Состав:",
@@ -1686,7 +1686,7 @@
       "textHtml": "Смузи на растительном молоке Банан–яблоко–овёс Velle — это насыщенный, но при этом лёгкий напиток на каждый день. \n\nНежное овсяное молоко, сладость спелого банана и лёгкая кислинка яблока создают сбалансированный вкус, который бодрит и насыщает.",
       "tagsHtml": null,
       "where": "/where/",
-      "image": "/wp-content/uploads/2025/04/yabloko_banan_pered-1.png",
+      "image": "/wp-content/uploads/2025/04/yabloko_banan_pered-1.webp",
       "compound": [
         {
           "label": "Состав:",
@@ -1713,7 +1713,7 @@
       "textHtml": "“Клубника-Банан” от Velle приготовлен на овсяной основе, продукт дополняют кусочки свежей клубники и нежное банановое пюре. Классическое фруктовое сочетание идеально раскрывается в ферментированном продукте. ”Клубника-Банан” обогащен пробиотиками, пребиотиками и пищевыми волокнами для улучшения пищеварения - идеальное сочетание вкуса и пользы!",
       "tagsHtml": "<div class=\"tag\">\n                                            <p>\n                                                Без молока                                            </p>\n                                        </div>\n                                                                            <div class=\"tag\">\n                                            <p>\n                                                Меньше сахара*                                            </p>\n                                        </div>\n                                                                            <div class=\"tag\">\n                                            <p>\n                                                Содержит пробиотики                                            </p>\n                                        </div>",
       "where": "/where/",
-      "image": "/wp-content/uploads/2022/07/banana.png",
+      "image": "/wp-content/uploads/2022/07/banana.webp",
       "compound": [
         {
           "label": "Состав:",
@@ -1740,7 +1740,7 @@
       "textHtml": "Velle Малина-Ежевика на основе из овсяных хлопьев и отрубей с ягодами лесной ежевики и кусочками домашней малины придется по вкусу всем любителям альтернативных продуктов. Продукт изготовлен путем ферментации злаков. В составе пробиотики, пребиотики и пищевые волокна, которые способствуют улучшению пищеварения. Velle Малина-Ежевика - Velleколепно вкусно!",
       "tagsHtml": "<div class=\"tag\">\n                                            <p>\n                                                Без молока                                            </p>\n                                        </div>\n                                                                            <div class=\"tag\">\n                                            <p>\n                                                Меньше сахара*                                            </p>\n                                        </div>\n                                                                            <div class=\"tag\">\n                                            <p>\n                                                Содержит пробиотики                                            </p>\n                                        </div>",
       "where": "/where/",
-      "image": "/wp-content/uploads/2022/07/malina.png",
+      "image": "/wp-content/uploads/2022/07/malina.webp",
       "compound": [
         {
           "label": "Состав:",
@@ -1767,7 +1767,7 @@
       "textHtml": "Новинка от Velle “Вместо ложкового йогурта” Манго-Маракуйя на нежнейшей кокосовой основе, имеет яркий фруктовый вкус за счет кусочков райского манго и умеренно-сладкой маракуйи. 100% веганский продукт, насыщен пробиотиками и изготовлен путем ферментации.",
       "tagsHtml": "<div class=\"tag\">\n                                            <p>\n                                                Без молока                                            </p>\n                                        </div>\n                                                                            <div class=\"tag\">\n                                            <p>\n                                                Меньше сахара*                                            </p>\n                                        </div>\n                                                                            <div class=\"tag\">\n                                            <p>\n                                                Содержит пробиотики                                            </p>\n                                        </div>",
       "where": "/where/",
-      "image": "/wp-content/uploads/2022/07/lozhkovoj-jogurt.png",
+      "image": "/wp-content/uploads/2022/07/lozhkovoj-jogurt.webp",
       "compound": [
         {
           "label": "Состав:",
@@ -1794,7 +1794,7 @@
       "textHtml": "“Клубника-Банан” от Velle приготовлен на овсяной основе, продукт дополняют кусочки свежей клубники и нежное банановое пюре. Классическое фруктовое сочетание идеально раскрывается в ферментированном продукте. ”Клубника-Банан” обогащен пробиотиками, пребиотиками и пищевыми волокнами для улучшения пищеварения - идеальное сочетание вкуса и пользы!",
       "tagsHtml": "<div class=\"tag\">\n                                                    <p>\n                                                        Без молока                                                    </p>\n                                                </div>\n                                                                                            <div class=\"tag\">\n                                                    <p>\n                                                        Меньше сахара*                                                    </p>\n                                                </div>\n                                                                                            <div class=\"tag\">\n                                                    <p>\n                                                        Содержит пробиотики                                                    </p>\n                                                </div>",
       "where": "/where/",
-      "image": "/wp-content/uploads/2022/07/foto-produktov-12.png",
+      "image": "/wp-content/uploads/2022/07/foto-produktov-12.webp",
       "compound": [
         {
           "label": "Состав:",
@@ -1821,7 +1821,7 @@
       "textHtml": "Velle Малина-Ежевика на основе из овсяных хлопьев и отрубей с ягодами лесной ежевики и кусочками домашней малины придется по вкусу всем любителям альтернативных продуктов. Продукт изготовлен путем ферментации злаков. В составе пробиотики, пребиотики и пищевые волокна, которые способствуют улучшению пищеварения. Velle Малина-Ежевика - Velleколепно вкусно!",
       "tagsHtml": "<div class=\"tag\">\n                                                    <p>\n                                                        Без молока                                                    </p>\n                                                </div>\n                                                                                            <div class=\"tag\">\n                                                    <p>\n                                                        Меньше сахара*                                                    </p>\n                                                </div>\n                                                                                            <div class=\"tag\">\n                                                    <p>\n                                                        Содержит пробиотики                                                    </p>\n                                                </div>",
       "where": "/where/",
-      "image": "/wp-content/uploads/2022/07/foto-produktov-11.png",
+      "image": "/wp-content/uploads/2022/07/foto-produktov-11.webp",
       "compound": [
         {
           "label": "Состав:",
@@ -1848,7 +1848,7 @@
       "textHtml": "Давно полюбившейся бестселлер от Velle “Печеное Яблоко” на текстурной овсяной основе с добавлением отрубей, изготовлен с кусочками ароматных свежеиспеченных яблок. Изготовлен путем ферментации злаков. В составе пробиотики, пребиотики и пищевые волокна – идеальное сочетание пользы и удовольствия!",
       "tagsHtml": "<div class=\"tag\">\n                                                    <p>\n                                                        Без молока                                                    </p>\n                                                </div>\n                                                                                            <div class=\"tag\">\n                                                    <p>\n                                                        Меньше сахара*                                                    </p>\n                                                </div>\n                                                                                            <div class=\"tag\">\n                                                    <p>\n                                                        Содержит пробиотики                                                    </p>\n                                                </div>",
       "where": "/where/",
-      "image": "/wp-content/uploads/2022/07/foto-produktov-10.png",
+      "image": "/wp-content/uploads/2022/07/foto-produktov-10.webp",
       "compound": [
         {
           "label": "Состав:",
@@ -1875,7 +1875,7 @@
       "textHtml": "Давно полюбившейся бестселлер от Velle “Печеное Яблоко” на текстурной овсяной основе с добавлением отрубей, изготовлен с кусочками ароматных свежеиспеченных яблок. Изготовлен путем ферментации злаков. В составе пробиотики, пребиотики и пищевые волокна – идеальное сочетание пользы и удовольствия!",
       "tagsHtml": "<div class=\"tag\">\n                                            <p>\n                                                Без молока                                            </p>\n                                        </div>\n                                                                            <div class=\"tag\">\n                                            <p>\n                                                Меньше сахара*                                            </p>\n                                        </div>\n                                                                            <div class=\"tag\">\n                                            <p>\n                                                Содержит пробиотики                                            </p>\n                                        </div>",
       "where": "/where/",
-      "image": "/wp-content/uploads/2022/07/apple.png",
+      "image": "/wp-content/uploads/2022/07/apple.webp",
       "compound": [
         {
           "label": "Состав:",
@@ -1902,7 +1902,7 @@
       "textHtml": "Растительный напиток от Velle Банановое сделано на основе овсяной муки, что делает его вкус невероятно сбалансированным и нежным. Напиток с легким банановым оттенком разнообразит привычный рацион, с ним блюда и напитки заиграют новыми красками. \nНапиток обогащен кальцием и без добавления сахара.",
       "tagsHtml": "<div class=\"tag\">\n                                            <p>\n                                                100% Vegan                                            </p>\n                                        </div>\n                                                                            <div class=\"tag\">\n                                            <p>\n                                                Без добавления сахара                                            </p>\n                                        </div>\n                                                                            <div class=\"tag\">\n                                            <p>\n                                                ОБОГАЩЕНО КАЛЬЦИЕМ                                            </p>\n                                        </div>",
       "where": "/where/",
-      "image": "/wp-content/uploads/2022/07/foto-produktov-3.png",
+      "image": "/wp-content/uploads/2022/07/foto-produktov-3.webp",
       "compound": [
         {
           "label": "Состав:",
@@ -2037,7 +2037,7 @@
       "textHtml": "Продукт выполнен на воздушной овсяной основе с добавлением кусочков ароматной черники. Изготовлен путем ферментации злаков. В составе только натуральные ингредиенты, обогащен пробиотиками. Насладись классическим сочетанием овсяного Velle с яркой Черникой!",
       "tagsHtml": "<div class=\"tag\">\n                                            <p>\n                                                Preprofibers                                            </p>\n                                        </div>\n                                                                            <div class=\"tag\">\n                                            <p>\n                                                Без молока                                            </p>\n                                        </div>\n                                                                            <div class=\"tag\">\n                                            <p>\n                                                Меньше сахара*                                            </p>\n                                        </div>",
       "where": "/where/",
-      "image": "/wp-content/uploads/2022/07/chernika.png",
+      "image": "/wp-content/uploads/2022/07/chernika.webp",
       "compound": [
         {
           "label": "Состав:",
@@ -2064,7 +2064,7 @@
       "textHtml": "“Клубника-Земляника” от Velle на кокосовой основе с добавлением кусочков свежей клубники, и насыщенного пюре земляники.  100% веганский продукт, насыщен пробиотиками. Изготовлен путем ферментации. Попробуй наслаждение на вкус вместе с Клубника-Земляника от Velle!",
       "tagsHtml": "<div class=\"tag\">\n                                                    <p>\n                                                        100% Vegan                                                    </p>\n                                                </div>\n                                                                                            <div class=\"tag\">\n                                                    <p>\n                                                        Без молока                                                    </p>\n                                                </div>\n                                                                                            <div class=\"tag\">\n                                                    <p>\n                                                        Меньше сахара                                                    </p>\n                                                </div>",
       "where": "/where/",
-      "image": "/wp-content/uploads/2022/07/klub_zem.png",
+      "image": "/wp-content/uploads/2022/07/klub_zem.webp",
       "compound": [
         {
           "label": "Состав:",
@@ -2091,7 +2091,7 @@
       "textHtml": "Velle “Вместо питьевого йогурта” Вишня на нежной овсяной основе с добавлением кусочков свежей вишни  не оставит равнодушным любителей растительных продуктов и тех, кто любит себя побаловать чем-то особенным. В составе только натуральные ингредиенты и пробиотики для комфортного пищеварения,  изготовлен путем ферментации злаков.",
       "tagsHtml": "<div class=\"tag\">\n                                                    <p>\n                                                        Preprofibers                                                    </p>\n                                                </div>\n                                                                                            <div class=\"tag\">\n                                                    <p>\n                                                        Без молока                                                    </p>\n                                                </div>\n                                                                                            <div class=\"tag\">\n                                                    <p>\n                                                        Меньше сахара*                                                    </p>\n                                                </div>",
       "where": "/where/",
-      "image": "/wp-content/uploads/2022/07/cherry.png",
+      "image": "/wp-content/uploads/2022/07/cherry.webp",
       "compound": [
         {
           "label": "Состав:",
@@ -2118,7 +2118,7 @@
       "textHtml": "Почувствуй невесомое сочетание натурального овса и свежей сладкой малины в растительном продукте от Velle “Вместо питьевого йогурта” Малина. Продукт изготовлен путем ферментации злаков, в составе только натуральные ингредиенты и пробиотики для комфортного пищеварения!",
       "tagsHtml": "<div class=\"tag\">\n                                                    <p>\n                                                        Preprofibers                                                    </p>\n                                                </div>\n                                                                                            <div class=\"tag\">\n                                                    <p>\n                                                        Без молока                                                    </p>\n                                                </div>\n                                                                                            <div class=\"tag\">\n                                                    <p>\n                                                        Меньше сахара*                                                    </p>\n                                                </div>",
       "where": "/where/",
-      "image": "/wp-content/uploads/2022/07/rasberry.png",
+      "image": "/wp-content/uploads/2022/07/rasberry.webp",
       "compound": [
         {
           "label": "Состав:",
@@ -2145,7 +2145,7 @@
       "textHtml": "Velle “Вместо питьевого йогурта” Облепиха на легкой овсяной основе с добавлением терпкого облепихового пюре. Изготовлен путем ферментации злаков. В составе только натуральные ингредиенты, обогащен пробиотиками. Попробуй невероятное сочетание овса и кисло-сладкой Облепихи!",
       "tagsHtml": "<div class=\"tag\">\n                                                    <p>\n                                                        Preprofibers                                                    </p>\n                                                </div>\n                                                                                            <div class=\"tag\">\n                                                    <p>\n                                                        Без молока                                                    </p>\n                                                </div>\n                                                                                            <div class=\"tag\">\n                                                    <p>\n                                                        Меньше сахара*                                                    </p>\n                                                </div>",
       "where": "/where/",
-      "image": "/wp-content/uploads/2022/07/pitevoj-jogurt-1.png",
+      "image": "/wp-content/uploads/2022/07/pitevoj-jogurt-1.webp",
       "compound": [
         {
           "label": "Состав:",
@@ -2172,7 +2172,7 @@
       "textHtml": "Гречишный “Вместо питьевого йогурта” на легкой кокосовой основе сделан с добавлением семян гречихи, что делает его вкус необыкновенно нежным. А нотки карамельного сахара добавляют продукту необыкновенного вкуса терпкой сладости.   100% веганский продукт, насыщен пробиотиками и изготовлен путем ферментации.",
       "tagsHtml": "<div class=\"tag\">\n                                            <p>\n                                                100% Vegan                                            </p>\n                                        </div>\n                                                                            <div class=\"tag\">\n                                            <p>\n                                                Без молока                                            </p>\n                                        </div>\n                                                                            <div class=\"tag\">\n                                            <p>\n                                                Меньше сахара*                                            </p>\n                                        </div>",
       "where": "/where/",
-      "image": "/wp-content/uploads/2022/07/foto-produktov-7.png",
+      "image": "/wp-content/uploads/2022/07/foto-produktov-7.webp",
       "compound": [
         {
           "label": "Состав:",
@@ -2199,7 +2199,7 @@
       "textHtml": "“Клубника-Земляника” от Velle на кокосовой основе с добавлением кусочков свежей клубники, и насыщенного пюре земляники.  100% веганский продукт, насыщен пробиотиками. Изготовлен путем ферментации. Попробуй наслаждение на вкус вместе с Клубника-Земляника от Velle!",
       "tagsHtml": "<div class=\"tag\">\n                                                    <p>\n                                                        100% Vegan                                                    </p>\n                                                </div>\n                                                                                            <div class=\"tag\">\n                                                    <p>\n                                                        Без добавления сахара                                                    </p>\n                                                </div>\n                                                                                            <div class=\"tag\">\n                                                    <p>\n                                                        Без молока                                                    </p>\n                                                </div>",
       "where": "/where/",
-      "image": "/wp-content/uploads/2022/07/foto-produktov-8.png",
+      "image": "/wp-content/uploads/2022/07/foto-produktov-8.webp",
       "compound": [
         {
           "label": "Состав:",
@@ -2253,7 +2253,7 @@
       "textHtml": "Velle “Вместо питьевого йогурта” Вишня на нежной овсяной основе с добавлением кусочков свежей вишни  не оставит равнодушным любителей растительных продуктов и тех, кто любит себя побаловать чем-то особенным. В составе только натуральные ингредиенты и пробиотики для комфортного пищеварения,  изготовлен путем ферментации злаков.",
       "tagsHtml": "<div class=\"tag\">\n                                                    <p>\n                                                        Preprofibers                                                    </p>\n                                                </div>\n                                                                                            <div class=\"tag\">\n                                                    <p>\n                                                        Без молока                                                    </p>\n                                                </div>\n                                                                                            <div class=\"tag\">\n                                                    <p>\n                                                        Меньше сахара*                                                    </p>\n                                                </div>",
       "where": "/where/",
-      "image": "/wp-content/uploads/2022/07/vishnya.png",
+      "image": "/wp-content/uploads/2022/07/vishnya.webp",
       "compound": [
         {
           "label": "Состав:",
@@ -2280,7 +2280,7 @@
       "textHtml": "Почувствуй невесомое сочетание натурального овса и свежей сладкой малины в растительном продукте от Velle “Вместо питьевого йогурта” Малина. Продукт изготовлен путем ферментации злаков, в составе только натуральные ингредиенты и пробиотики для комфортного пищеварения!",
       "tagsHtml": "<div class=\"tag\">\n                                                    <p>\n                                                        Preprofibers                                                    </p>\n                                                </div>\n                                                                                            <div class=\"tag\">\n                                                    <p>\n                                                        Без молока                                                    </p>\n                                                </div>\n                                                                                            <div class=\"tag\">\n                                                    <p>\n                                                        Меньше сахара*                                                    </p>\n                                                </div>",
       "where": "/where/",
-      "image": "/wp-content/uploads/2022/07/foto-produktov-5.png",
+      "image": "/wp-content/uploads/2022/07/foto-produktov-5.webp",
       "compound": [
         {
           "label": "Состав:",
@@ -2307,7 +2307,7 @@
       "textHtml": "Velle “Вместо питьевого йогурта” Облепиха на легкой овсяной основе с добавлением терпкого облепихового пюре. Изготовлен путем ферментации злаков. В составе только натуральные ингредиенты, обогащен пробиотиками. Попробуй невероятное сочетание овса и кисло-сладкой Облепихи!",
       "tagsHtml": "<div class=\"tag\">\n                                                    <p>\n                                                        Preprofibers                                                    </p>\n                                                </div>\n                                                                                            <div class=\"tag\">\n                                                    <p>\n                                                        Без молока                                                    </p>\n                                                </div>\n                                                                                            <div class=\"tag\">\n                                                    <p>\n                                                        Меньше сахара*                                                    </p>\n                                                </div>",
       "where": "/where/",
-      "image": "/wp-content/uploads/2022/07/pitevoj-jogurt.png",
+      "image": "/wp-content/uploads/2022/07/pitevoj-jogurt.webp",
       "compound": [
         {
           "label": "Состав:",
@@ -2334,7 +2334,7 @@
       "textHtml": "Продукт выполнен на воздушной овсяной основе с добавлением кусочков ароматной черники. Изготовлен путем ферментации злаков. В составе только натуральные ингредиенты, обогащен пробиотиками. Насладись классическим сочетанием овсяного Velle с яркой Черникой!",
       "tagsHtml": "<div class=\"tag\">\n                                                    <p>\n                                                        Preprofibers                                                    </p>\n                                                </div>\n                                                                                            <div class=\"tag\">\n                                                    <p>\n                                                        Без молока                                                    </p>\n                                                </div>\n                                                                                            <div class=\"tag\">\n                                                    <p>\n                                                        Меньше сахара*                                                    </p>\n                                                </div>",
       "where": "/where/",
-      "image": "/wp-content/uploads/2022/07/foto-produktov-4.png",
+      "image": "/wp-content/uploads/2022/07/foto-produktov-4.webp",
       "compound": [
         {
           "label": "Состав:",
@@ -2388,7 +2388,7 @@
       "textHtml": "Гречишный “Вместо питьевого йогурта” на легкой кокосовой основе сделан с добавлением семян гречихи, что делает его вкус необыкновенно нежным. А нотки карамельного сахара добавляют продукту необыкновенного вкуса терпкой сладости.   100% веганский продукт, насыщен пробиотиками и изготовлен путем ферментации.",
       "tagsHtml": "<div class=\"tag\">\n                                                    <p>\n                                                        100% Vegan                                                    </p>\n                                                </div>\n                                                                                            <div class=\"tag\">\n                                                    <p>\n                                                        Без молока                                                    </p>\n                                                </div>\n                                                                                            <div class=\"tag\">\n                                                    <p>\n                                                        Меньше сахара*                                                    </p>\n                                                </div>",
       "where": "/where/",
-      "image": "/wp-content/uploads/2022/07/foto-produktov-7.png",
+      "image": "/wp-content/uploads/2022/07/foto-produktov-7.webp",
       "compound": [
         {
           "label": "Состав:",
@@ -2415,7 +2415,7 @@
       "textHtml": "“Клубника-Земляника” от Velle на кокосовой основе с добавлением кусочков свежей клубники, и насыщенного пюре земляники.  100% веганский продукт, насыщен пробиотиками. Изготовлен путем ферментации. Попробуй наслаждение на вкус вместе с Клубника-Земляника от Velle!",
       "tagsHtml": "<div class=\"tag\">\n                                            <p>\n                                                100% Vegan                                            </p>\n                                        </div>\n                                                                            <div class=\"tag\">\n                                            <p>\n                                                Без молока                                            </p>\n                                        </div>\n                                                                            <div class=\"tag\">\n                                            <p>\n                                                Меньше сахара                                            </p>\n                                        </div>",
       "where": "/where/",
-      "image": "/wp-content/uploads/2022/07/klub_zem.png",
+      "image": "/wp-content/uploads/2022/07/klub_zem.webp",
       "compound": [
         {
           "label": "Состав:",
@@ -2442,7 +2442,7 @@
       "textHtml": "Почувствуй невесомое сочетание натурального овса и свежей сладкой малины в растительном продукте от Velle “Вместо питьевого йогурта” Малина. Продукт изготовлен путем ферментации злаков, в составе только натуральные ингредиенты и пробиотики для комфортного пищеварения!",
       "tagsHtml": "<div class=\"tag\">\n                                            <p>\n                                                Preprofibers                                            </p>\n                                        </div>\n                                                                            <div class=\"tag\">\n                                            <p>\n                                                Без молока                                            </p>\n                                        </div>\n                                                                            <div class=\"tag\">\n                                            <p>\n                                                Меньше сахара*                                            </p>\n                                        </div>",
       "where": "/where/",
-      "image": "/wp-content/uploads/2022/07/rasberry.png",
+      "image": "/wp-content/uploads/2022/07/rasberry.webp",
       "compound": [
         {
           "label": "Состав:",
@@ -2469,7 +2469,7 @@
       "textHtml": "овсяная основа (вода, овсяные хлопья, сахар, овсяные отруби, регулятор кислотности: молочная кислота; инулин (пребиотик),соль пищевая морская, веганская закваска (Bifidobacterium bifidum, Bifidobacterium animalis ssp. lactis, Bifidobacterium longum ssp. longum, Lactobacillus rhamnosus, Lactococcus lactis ssp. lactis, Propionibacterium freudenreichii ssp. Freudenreichii)), фруктовый наполнитель «Облепиха» (вода, сахар, яблочный сок концентрированный, кусочки яблока, облепиховое пюре, ароматизаторы натуральные, загуститель: пектины; красители: каротины, экстракт паприки; регулятор кислотности: лимонная кислота).",
       "tagsHtml": "<div class=\"tag\">\n                                            <p>\n                                                Preprofibers                                            </p>\n                                        </div>\n                                                                            <div class=\"tag\">\n                                            <p>\n                                                Без молока                                            </p>\n                                        </div>\n                                                                            <div class=\"tag\">\n                                            <p>\n                                                Меньше сахара*                                            </p>\n                                        </div>",
       "where": "/where/",
-      "image": "/wp-content/uploads/2022/07/pitevoj-jogurt-1.png",
+      "image": "/wp-content/uploads/2022/07/pitevoj-jogurt-1.webp",
       "compound": [
         {
           "label": "Состав:",
@@ -2496,7 +2496,7 @@
       "textHtml": "овсяная основа (вода, овсяные хлопья, сахар, овсяные отруби,  регулятор кислотности: молочная кислота; инулин (пребиотик), соль пищевая морская,  веганская закваска (Bifidobacterium bifidum, Bifidobacterium animalis ssp. lactis, Bifidobacterium longum ssp. longum, Lactobacillus rhamnosus, Lactococcus lactis ssp. lactis, Propionibacterium freudenreichii ssp. Freudenreichii)), фруктовый наполнитель «Вишня» (сахар, ягоды вишни*, вода, концентрированный яблочный сок, яблочное пюре, краситель: антоцианы;  ароматизаторы натуральные, загуститель: пектины; регулятор кислотности: лимонная кислота). *в продукте возможно присутствие косточек и/или их фрагментов, что свойственно продуктам из натурального сырья.",
       "tagsHtml": "<div class=\"tag\">\n                                            <p>\n                                                Preprofibers                                            </p>\n                                        </div>\n                                                                            <div class=\"tag\">\n                                            <p>\n                                                Без молока                                            </p>\n                                        </div>\n                                                                            <div class=\"tag\">\n                                            <p>\n                                                Меньше сахара*                                            </p>\n                                        </div>",
       "where": "/where/",
-      "image": "/wp-content/uploads/2022/07/cherry.png",
+      "image": "/wp-content/uploads/2022/07/cherry.webp",
       "compound": [
         {
           "label": "Состав:",
@@ -2546,7 +2546,7 @@
         {
           "slug": "goryachij-shokolad-na-mindalnom-moloke",
           "title": "Горячий шоколад на миндальном молоке",
-          "image": "/wp-content/uploads/2022/07/frame-436-1.png",
+          "image": "/wp-content/uploads/2022/07/frame-436-1.webp",
           "badges": [
             "20-45 мин",
             "Напитки"
@@ -2564,7 +2564,7 @@
         {
           "slug": "tapioka-na-kokosovom-moloke-s-chernym-kunzhutom",
           "title": "Тапиока на кокосовом молоке с черным кунжутом",
-          "image": "/wp-content/uploads/2022/07/priyanka-singh-szcczfq9hrc-unsplash-1-2.png",
+          "image": "/wp-content/uploads/2022/07/priyanka-singh-szcczfq9hrc-unsplash-1-2.webp",
           "badges": [
             "40-60 мин",
             "Завтрак"
@@ -2620,7 +2620,7 @@
         {
           "slug": "goryachij-shokolad-na-mindalnom-moloke",
           "title": "Горячий шоколад на миндальном молоке",
-          "image": "/wp-content/uploads/2022/07/frame-436-1.png",
+          "image": "/wp-content/uploads/2022/07/frame-436-1.webp",
           "badges": [
             "20-45 мин",
             "Напитки"
@@ -2638,7 +2638,7 @@
         {
           "slug": "tapioka-na-kokosovom-moloke-s-chernym-kunzhutom",
           "title": "Тапиока на кокосовом молоке с черным кунжутом",
-          "image": "/wp-content/uploads/2022/07/priyanka-singh-szcczfq9hrc-unsplash-1-2.png",
+          "image": "/wp-content/uploads/2022/07/priyanka-singh-szcczfq9hrc-unsplash-1-2.webp",
           "badges": [
             "40-60 мин",
             "Завтрак"
@@ -2654,7 +2654,7 @@
       "meta": {
         "title": "Фундучное растительное молоко Velle Barista",
         "description": "Фундучное растительное молоко Velle Barista | Профессиональная линейка натуральных напитков для кофеен от Велле.",
-        "ogImage": "../../wp-content/uploads/2025/04/pered-2.png",
+        "ogImage": "../../wp-content/uploads/2025/04/pered-2.webp",
         "published": null,
         "postId": 1587
       },
@@ -2694,7 +2694,7 @@
         {
           "slug": "goryachij-shokolad-na-mindalnom-moloke",
           "title": "Горячий шоколад на миндальном молоке",
-          "image": "/wp-content/uploads/2022/07/frame-436-1.png",
+          "image": "/wp-content/uploads/2022/07/frame-436-1.webp",
           "badges": [
             "20-45 мин",
             "Напитки"
@@ -2712,7 +2712,7 @@
         {
           "slug": "tapioka-na-kokosovom-moloke-s-chernym-kunzhutom",
           "title": "Тапиока на кокосовом молоке с черным кунжутом",
-          "image": "/wp-content/uploads/2022/07/priyanka-singh-szcczfq9hrc-unsplash-1-2.png",
+          "image": "/wp-content/uploads/2022/07/priyanka-singh-szcczfq9hrc-unsplash-1-2.webp",
           "badges": [
             "40-60 мин",
             "Завтрак"
@@ -2728,7 +2728,7 @@
       "meta": {
         "title": "Кокосовое растительное молоко Velle Barista",
         "description": "Кокосовое растительное молоко Velle Barista на рисовой основе | Профессиональная линейка натуральных напитков для кофеен от Велле.",
-        "ogImage": "../../wp-content/uploads/2022/07/foto-produktov.png",
+        "ogImage": "../../wp-content/uploads/2022/07/foto-produktov.webp",
         "published": null,
         "postId": 239
       },
@@ -2768,7 +2768,7 @@
         {
           "slug": "goryachij-shokolad-na-mindalnom-moloke",
           "title": "Горячий шоколад на миндальном молоке",
-          "image": "/wp-content/uploads/2022/07/frame-436-1.png",
+          "image": "/wp-content/uploads/2022/07/frame-436-1.webp",
           "badges": [
             "20-45 мин",
             "Напитки"
@@ -2786,7 +2786,7 @@
         {
           "slug": "tapioka-na-kokosovom-moloke-s-chernym-kunzhutom",
           "title": "Тапиока на кокосовом молоке с черным кунжутом",
-          "image": "/wp-content/uploads/2022/07/priyanka-singh-szcczfq9hrc-unsplash-1-2.png",
+          "image": "/wp-content/uploads/2022/07/priyanka-singh-szcczfq9hrc-unsplash-1-2.webp",
           "badges": [
             "40-60 мин",
             "Завтрак"
@@ -2843,7 +2843,7 @@
         {
           "slug": "goryachij-shokolad-na-mindalnom-moloke",
           "title": "Горячий шоколад на миндальном молоке",
-          "image": "/wp-content/uploads/2022/07/frame-436-1.png",
+          "image": "/wp-content/uploads/2022/07/frame-436-1.webp",
           "badges": [
             "20-45 мин",
             "Напитки"
@@ -2861,7 +2861,7 @@
         {
           "slug": "tapioka-na-kokosovom-moloke-s-chernym-kunzhutom",
           "title": "Тапиока на кокосовом молоке с черным кунжутом",
-          "image": "/wp-content/uploads/2022/07/priyanka-singh-szcczfq9hrc-unsplash-1-2.png",
+          "image": "/wp-content/uploads/2022/07/priyanka-singh-szcczfq9hrc-unsplash-1-2.webp",
           "badges": [
             "40-60 мин",
             "Завтрак"
@@ -2877,7 +2877,7 @@
       "meta": {
         "title": "Миндальное растительное молоко Velle Barista",
         "description": "Миндальное растительное молоко Velle Barista на рисовой основе | Профессиональная линейка натуральных напитков для кофеен от Велле.",
-        "ogImage": "../../wp-content/uploads/2022/07/foto-produktov-1.png",
+        "ogImage": "../../wp-content/uploads/2022/07/foto-produktov-1.webp",
         "published": null,
         "postId": 241
       },
@@ -2917,7 +2917,7 @@
         {
           "slug": "goryachij-shokolad-na-mindalnom-moloke",
           "title": "Горячий шоколад на миндальном молоке",
-          "image": "/wp-content/uploads/2022/07/frame-436-1.png",
+          "image": "/wp-content/uploads/2022/07/frame-436-1.webp",
           "badges": [
             "20-45 мин",
             "Напитки"
@@ -2935,7 +2935,7 @@
         {
           "slug": "tapioka-na-kokosovom-moloke-s-chernym-kunzhutom",
           "title": "Тапиока на кокосовом молоке с черным кунжутом",
-          "image": "/wp-content/uploads/2022/07/priyanka-singh-szcczfq9hrc-unsplash-1-2.png",
+          "image": "/wp-content/uploads/2022/07/priyanka-singh-szcczfq9hrc-unsplash-1-2.webp",
           "badges": [
             "40-60 мин",
             "Завтрак"
@@ -2951,7 +2951,7 @@
       "meta": {
         "title": "Овсяное растительное молоко Velle Barista",
         "description": "Овсяное растительное молоко Velle Barista | Профессиональная линейка натуральных напитков для кофеен от Велле.",
-        "ogImage": "../../wp-content/uploads/2022/07/barista.png",
+        "ogImage": "../../wp-content/uploads/2022/07/barista.webp",
         "published": null,
         "postId": 246
       },
@@ -2980,7 +2980,7 @@
       "meta": {
         "title": "Растительные сливки Velle Barista",
         "description": "Растительные сливки Velle Barista | Профессиональная линейка натуральных напитков для кофеен от Велле.",
-        "ogImage": "../../wp-content/uploads/2025/04/pered.png",
+        "ogImage": "../../wp-content/uploads/2025/04/pered.webp",
         "published": null,
         "postId": 1564
       },
@@ -3008,7 +3008,7 @@
       "meta": {
         "title": "Шоколадный десерт Velle со вкусом ореха",
         "description": "Шоколадный растительный десерт Velle со вкусом ореха на мультизлаковой основе | Только натуральные ингредиенты в продуктах Велле.",
-        "ogImage": "../../wp-content/uploads/2022/10/frame-471-1.png",
+        "ogImage": "../../wp-content/uploads/2022/10/frame-471-1.webp",
         "published": null,
         "postId": 1206
       },
@@ -3183,7 +3183,7 @@
         {
           "slug": "grechnevaya-kasha-na-kokosovom-moloke-s-tykvoj-i-mindalem",
           "title": "Гречневая каша на кокосовом молоке с тыквой и миндалем",
-          "image": "/wp-content/uploads/2023/03/kasha_pre_427x300.png",
+          "image": "/wp-content/uploads/2023/03/kasha_pre_427x300.webp",
           "badges": [
             "30 мин",
             "Завтрак"
@@ -3192,7 +3192,7 @@
         {
           "slug": "bliny-na-mindalnom-moloke",
           "title": "Блины на миндальном молоке",
-          "image": "/wp-content/uploads/2023/02/blin_rec_kat_427x300.png",
+          "image": "/wp-content/uploads/2023/02/blin_rec_kat_427x300.webp",
           "badges": [
             "30 мин",
             "Завтрак"
@@ -3381,7 +3381,7 @@
         {
           "slug": "grechnevaya-kasha-s-mindalnym-molokom",
           "title": "Гречневая каша с миндальным молоком",
-          "image": "/wp-content/uploads/2022/07/img-6185-1152x1536-1-%E2%80%94-kopiya.png",
+          "image": "/wp-content/uploads/2022/07/img-6185-1152x1536-1-%E2%80%94-kopiya.webp",
           "badges": [
             "20-45 мин",
             "Завтрак"
@@ -3390,7 +3390,7 @@
         {
           "slug": "kartofelnaya-zapekanka-s-indejkoj-na-kokosovom-moloke",
           "title": "Картофельная запеканка с индейкой на кокосовом молоке",
-          "image": "/wp-content/uploads/2022/07/frame-434-1.png",
+          "image": "/wp-content/uploads/2022/07/frame-434-1.webp",
           "badges": [
             "40-60 мин",
             "Обед"
@@ -3399,7 +3399,7 @@
         {
           "slug": "shokoladnyj-keks-c-bananom",
           "title": "Шоколадный кекс с бананом",
-          "image": "/wp-content/uploads/2022/07/velle5632-2-1-1.png",
+          "image": "/wp-content/uploads/2022/07/velle5632-2-1-1.webp",
           "badges": [
             "более 60 мин",
             "Десерт"
@@ -3408,7 +3408,7 @@
         {
           "slug": "yablochnyj-pirog-na-bananovom-moloke",
           "title": "Ирландский яблочный пирог на банановом молоке",
-          "image": "/wp-content/uploads/2022/07/rectangle-144-11.png",
+          "image": "/wp-content/uploads/2022/07/rectangle-144-11.webp",
           "badges": [
             "более 60 мин",
             "Десерт"
@@ -3417,7 +3417,7 @@
         {
           "slug": "pasta-karbonara-na-mindalnom-moloke",
           "title": "Паста карбонара на миндальном молоке",
-          "image": "/wp-content/uploads/2022/07/rectangle-144-6.png",
+          "image": "/wp-content/uploads/2022/07/rectangle-144-6.webp",
           "badges": [
             "20-45 мин",
             "Ужин"
@@ -3426,7 +3426,7 @@
         {
           "slug": "pshennaya-kasha-s-tykvoj-na-ovsyanom-moloke",
           "title": "Пшенная каша с тыквой на овсяном молоке",
-          "image": "/wp-content/uploads/2022/07/rectangle-144-2.png",
+          "image": "/wp-content/uploads/2022/07/rectangle-144-2.webp",
           "badges": [
             "40-60 мин",
             "Завтрак"
@@ -3435,7 +3435,7 @@
         {
           "slug": "bulochki-sinnabony-na-ovsyanom-moloke",
           "title": "Булочки Синнабоны на овсяном молоке",
-          "image": "/wp-content/uploads/2022/07/klara-avsenik-__6bahm9jqs-unsplash-1-1.png",
+          "image": "/wp-content/uploads/2022/07/klara-avsenik-__6bahm9jqs-unsplash-1-1.webp",
           "badges": [
             "более 60 мин",
             "Обед"
@@ -3462,7 +3462,7 @@
         {
           "slug": "risovaya-kasha-s-tykvoj-i-bananom-na-ovsyanom-moloke",
           "title": "Рисовая каша с тыквой и бананом на овсяном молоке",
-          "image": "/wp-content/uploads/2022/07/1-1-1.png",
+          "image": "/wp-content/uploads/2022/07/1-1-1.webp",
           "badges": [
             "более 60 мин",
             "Завтрак"
@@ -3471,7 +3471,7 @@
         {
           "slug": "sup-tom-yam-na-kokosovom-moloke",
           "title": "Том ям на кокосовом молоке",
-          "image": "/wp-content/uploads/2022/06/rectangle-144-1.png",
+          "image": "/wp-content/uploads/2022/06/rectangle-144-1.webp",
           "badges": [
             "20-45 мин",
             "Обед"
@@ -3488,7 +3488,7 @@
       "meta": {
         "title": "Кокосовое растительное молоко Velle",
         "description": "Кокосовое растительное молоко Velle на рисовой основе | Только натуральные ингредиенты в напитках Велле.",
-        "ogImage": "../../wp-content/uploads/2022/07/foto-produktov-2.png",
+        "ogImage": "../../wp-content/uploads/2022/07/foto-produktov-2.webp",
         "published": null,
         "postId": 229
       },
@@ -3509,7 +3509,7 @@
         {
           "slug": "grechnevaya-kasha-na-kokosovom-moloke-s-tykvoj-i-mindalem",
           "title": "Гречневая каша на кокосовом молоке с тыквой и миндалем",
-          "image": "/wp-content/uploads/2023/03/kasha_pre_427x300.png",
+          "image": "/wp-content/uploads/2023/03/kasha_pre_427x300.webp",
           "badges": [
             "30 мин",
             "Завтрак"
@@ -3518,7 +3518,7 @@
         {
           "slug": "bliny-na-mindalnom-moloke",
           "title": "Блины на миндальном молоке",
-          "image": "/wp-content/uploads/2023/02/blin_rec_kat_427x300.png",
+          "image": "/wp-content/uploads/2023/02/blin_rec_kat_427x300.webp",
           "badges": [
             "30 мин",
             "Завтрак"
@@ -3707,7 +3707,7 @@
         {
           "slug": "grechnevaya-kasha-s-mindalnym-molokom",
           "title": "Гречневая каша с миндальным молоком",
-          "image": "/wp-content/uploads/2022/07/img-6185-1152x1536-1-%E2%80%94-kopiya.png",
+          "image": "/wp-content/uploads/2022/07/img-6185-1152x1536-1-%E2%80%94-kopiya.webp",
           "badges": [
             "20-45 мин",
             "Завтрак"
@@ -3716,7 +3716,7 @@
         {
           "slug": "kartofelnaya-zapekanka-s-indejkoj-na-kokosovom-moloke",
           "title": "Картофельная запеканка с индейкой на кокосовом молоке",
-          "image": "/wp-content/uploads/2022/07/frame-434-1.png",
+          "image": "/wp-content/uploads/2022/07/frame-434-1.webp",
           "badges": [
             "40-60 мин",
             "Обед"
@@ -3725,7 +3725,7 @@
         {
           "slug": "shokoladnyj-keks-c-bananom",
           "title": "Шоколадный кекс с бананом",
-          "image": "/wp-content/uploads/2022/07/velle5632-2-1-1.png",
+          "image": "/wp-content/uploads/2022/07/velle5632-2-1-1.webp",
           "badges": [
             "более 60 мин",
             "Десерт"
@@ -3734,7 +3734,7 @@
         {
           "slug": "yablochnyj-pirog-na-bananovom-moloke",
           "title": "Ирландский яблочный пирог на банановом молоке",
-          "image": "/wp-content/uploads/2022/07/rectangle-144-11.png",
+          "image": "/wp-content/uploads/2022/07/rectangle-144-11.webp",
           "badges": [
             "более 60 мин",
             "Десерт"
@@ -3743,7 +3743,7 @@
         {
           "slug": "pasta-karbonara-na-mindalnom-moloke",
           "title": "Паста карбонара на миндальном молоке",
-          "image": "/wp-content/uploads/2022/07/rectangle-144-6.png",
+          "image": "/wp-content/uploads/2022/07/rectangle-144-6.webp",
           "badges": [
             "20-45 мин",
             "Ужин"
@@ -3752,7 +3752,7 @@
         {
           "slug": "pshennaya-kasha-s-tykvoj-na-ovsyanom-moloke",
           "title": "Пшенная каша с тыквой на овсяном молоке",
-          "image": "/wp-content/uploads/2022/07/rectangle-144-2.png",
+          "image": "/wp-content/uploads/2022/07/rectangle-144-2.webp",
           "badges": [
             "40-60 мин",
             "Завтрак"
@@ -3761,7 +3761,7 @@
         {
           "slug": "bulochki-sinnabony-na-ovsyanom-moloke",
           "title": "Булочки Синнабоны на овсяном молоке",
-          "image": "/wp-content/uploads/2022/07/klara-avsenik-__6bahm9jqs-unsplash-1-1.png",
+          "image": "/wp-content/uploads/2022/07/klara-avsenik-__6bahm9jqs-unsplash-1-1.webp",
           "badges": [
             "более 60 мин",
             "Обед"
@@ -3788,7 +3788,7 @@
         {
           "slug": "risovaya-kasha-s-tykvoj-i-bananom-na-ovsyanom-moloke",
           "title": "Рисовая каша с тыквой и бананом на овсяном молоке",
-          "image": "/wp-content/uploads/2022/07/1-1-1.png",
+          "image": "/wp-content/uploads/2022/07/1-1-1.webp",
           "badges": [
             "более 60 мин",
             "Завтрак"
@@ -3797,7 +3797,7 @@
         {
           "slug": "sup-tom-yam-na-kokosovom-moloke",
           "title": "Том ям на кокосовом молоке",
-          "image": "/wp-content/uploads/2022/06/rectangle-144-1.png",
+          "image": "/wp-content/uploads/2022/06/rectangle-144-1.webp",
           "badges": [
             "20-45 мин",
             "Обед"
@@ -3814,7 +3814,7 @@
       "meta": {
         "title": "Миндальное растительное молоко Velle",
         "description": "Миндальное растительное молоко Velle на рисовой основе | Только натуральные ингредиенты в напитках Велле.",
-        "ogImage": "../../wp-content/uploads/2022/07/moloko.png",
+        "ogImage": "../../wp-content/uploads/2022/07/moloko.webp",
         "published": null,
         "postId": 214
       },
@@ -3835,7 +3835,7 @@
         {
           "slug": "grechnevaya-kasha-na-kokosovom-moloke-s-tykvoj-i-mindalem",
           "title": "Гречневая каша на кокосовом молоке с тыквой и миндалем",
-          "image": "/wp-content/uploads/2023/03/kasha_pre_427x300.png",
+          "image": "/wp-content/uploads/2023/03/kasha_pre_427x300.webp",
           "badges": [
             "30 мин",
             "Завтрак"
@@ -3844,7 +3844,7 @@
         {
           "slug": "bliny-na-mindalnom-moloke",
           "title": "Блины на миндальном молоке",
-          "image": "/wp-content/uploads/2023/02/blin_rec_kat_427x300.png",
+          "image": "/wp-content/uploads/2023/02/blin_rec_kat_427x300.webp",
           "badges": [
             "30 мин",
             "Завтрак"
@@ -4051,7 +4051,7 @@
         {
           "slug": "goryachij-shokolad-na-mindalnom-moloke",
           "title": "Горячий шоколад на миндальном молоке",
-          "image": "/wp-content/uploads/2022/07/frame-436-1.png",
+          "image": "/wp-content/uploads/2022/07/frame-436-1.webp",
           "badges": [
             "20-45 мин",
             "Напитки"
@@ -4060,7 +4060,7 @@
         {
           "slug": "grechnevaya-kasha-s-mindalnym-molokom",
           "title": "Гречневая каша с миндальным молоком",
-          "image": "/wp-content/uploads/2022/07/img-6185-1152x1536-1-%E2%80%94-kopiya.png",
+          "image": "/wp-content/uploads/2022/07/img-6185-1152x1536-1-%E2%80%94-kopiya.webp",
           "badges": [
             "20-45 мин",
             "Завтрак"
@@ -4069,7 +4069,7 @@
         {
           "slug": "kartofelnaya-zapekanka-s-indejkoj-na-kokosovom-moloke",
           "title": "Картофельная запеканка с индейкой на кокосовом молоке",
-          "image": "/wp-content/uploads/2022/07/frame-434-1.png",
+          "image": "/wp-content/uploads/2022/07/frame-434-1.webp",
           "badges": [
             "40-60 мин",
             "Обед"
@@ -4078,7 +4078,7 @@
         {
           "slug": "shokoladnyj-keks-c-bananom",
           "title": "Шоколадный кекс с бананом",
-          "image": "/wp-content/uploads/2022/07/velle5632-2-1-1.png",
+          "image": "/wp-content/uploads/2022/07/velle5632-2-1-1.webp",
           "badges": [
             "более 60 мин",
             "Десерт"
@@ -4087,7 +4087,7 @@
         {
           "slug": "yablochnyj-pirog-na-bananovom-moloke",
           "title": "Ирландский яблочный пирог на банановом молоке",
-          "image": "/wp-content/uploads/2022/07/rectangle-144-11.png",
+          "image": "/wp-content/uploads/2022/07/rectangle-144-11.webp",
           "badges": [
             "более 60 мин",
             "Десерт"
@@ -4096,7 +4096,7 @@
         {
           "slug": "pasta-karbonara-na-mindalnom-moloke",
           "title": "Паста карбонара на миндальном молоке",
-          "image": "/wp-content/uploads/2022/07/rectangle-144-6.png",
+          "image": "/wp-content/uploads/2022/07/rectangle-144-6.webp",
           "badges": [
             "20-45 мин",
             "Ужин"
@@ -4105,7 +4105,7 @@
         {
           "slug": "pshennaya-kasha-s-tykvoj-na-ovsyanom-moloke",
           "title": "Пшенная каша с тыквой на овсяном молоке",
-          "image": "/wp-content/uploads/2022/07/rectangle-144-2.png",
+          "image": "/wp-content/uploads/2022/07/rectangle-144-2.webp",
           "badges": [
             "40-60 мин",
             "Завтрак"
@@ -4114,7 +4114,7 @@
         {
           "slug": "bulochki-sinnabony-na-ovsyanom-moloke",
           "title": "Булочки Синнабоны на овсяном молоке",
-          "image": "/wp-content/uploads/2022/07/klara-avsenik-__6bahm9jqs-unsplash-1-1.png",
+          "image": "/wp-content/uploads/2022/07/klara-avsenik-__6bahm9jqs-unsplash-1-1.webp",
           "badges": [
             "более 60 мин",
             "Обед"
@@ -4141,7 +4141,7 @@
         {
           "slug": "tapioka-na-kokosovom-moloke-s-chernym-kunzhutom",
           "title": "Тапиока на кокосовом молоке с черным кунжутом",
-          "image": "/wp-content/uploads/2022/07/priyanka-singh-szcczfq9hrc-unsplash-1-2.png",
+          "image": "/wp-content/uploads/2022/07/priyanka-singh-szcczfq9hrc-unsplash-1-2.webp",
           "badges": [
             "40-60 мин",
             "Завтрак"
@@ -4159,7 +4159,7 @@
         {
           "slug": "risovaya-kasha-s-tykvoj-i-bananom-na-ovsyanom-moloke",
           "title": "Рисовая каша с тыквой и бананом на овсяном молоке",
-          "image": "/wp-content/uploads/2022/07/1-1-1.png",
+          "image": "/wp-content/uploads/2022/07/1-1-1.webp",
           "badges": [
             "более 60 мин",
             "Завтрак"
@@ -4168,7 +4168,7 @@
         {
           "slug": "sup-tom-yam-na-kokosovom-moloke",
           "title": "Том ям на кокосовом молоке",
-          "image": "/wp-content/uploads/2022/06/rectangle-144-1.png",
+          "image": "/wp-content/uploads/2022/06/rectangle-144-1.webp",
           "badges": [
             "20-45 мин",
             "Обед"
@@ -4232,7 +4232,7 @@
         {
           "slug": "grechnevaya-kasha-na-kokosovom-moloke-s-tykvoj-i-mindalem",
           "title": "Гречневая каша на кокосовом молоке с тыквой и миндалем",
-          "image": "/wp-content/uploads/2023/03/kasha_pre_427x300.png",
+          "image": "/wp-content/uploads/2023/03/kasha_pre_427x300.webp",
           "badges": [
             "30 мин",
             "Завтрак"
@@ -4241,7 +4241,7 @@
         {
           "slug": "bliny-na-mindalnom-moloke",
           "title": "Блины на миндальном молоке",
-          "image": "/wp-content/uploads/2023/02/blin_rec_kat_427x300.png",
+          "image": "/wp-content/uploads/2023/02/blin_rec_kat_427x300.webp",
           "badges": [
             "30 мин",
             "Завтрак"
@@ -4448,7 +4448,7 @@
         {
           "slug": "goryachij-shokolad-na-mindalnom-moloke",
           "title": "Горячий шоколад на миндальном молоке",
-          "image": "/wp-content/uploads/2022/07/frame-436-1.png",
+          "image": "/wp-content/uploads/2022/07/frame-436-1.webp",
           "badges": [
             "20-45 мин",
             "Напитки"
@@ -4457,7 +4457,7 @@
         {
           "slug": "grechnevaya-kasha-s-mindalnym-molokom",
           "title": "Гречневая каша с миндальным молоком",
-          "image": "/wp-content/uploads/2022/07/img-6185-1152x1536-1-%E2%80%94-kopiya.png",
+          "image": "/wp-content/uploads/2022/07/img-6185-1152x1536-1-%E2%80%94-kopiya.webp",
           "badges": [
             "20-45 мин",
             "Завтрак"
@@ -4466,7 +4466,7 @@
         {
           "slug": "kartofelnaya-zapekanka-s-indejkoj-na-kokosovom-moloke",
           "title": "Картофельная запеканка с индейкой на кокосовом молоке",
-          "image": "/wp-content/uploads/2022/07/frame-434-1.png",
+          "image": "/wp-content/uploads/2022/07/frame-434-1.webp",
           "badges": [
             "40-60 мин",
             "Обед"
@@ -4475,7 +4475,7 @@
         {
           "slug": "shokoladnyj-keks-c-bananom",
           "title": "Шоколадный кекс с бананом",
-          "image": "/wp-content/uploads/2022/07/velle5632-2-1-1.png",
+          "image": "/wp-content/uploads/2022/07/velle5632-2-1-1.webp",
           "badges": [
             "более 60 мин",
             "Десерт"
@@ -4484,7 +4484,7 @@
         {
           "slug": "yablochnyj-pirog-na-bananovom-moloke",
           "title": "Ирландский яблочный пирог на банановом молоке",
-          "image": "/wp-content/uploads/2022/07/rectangle-144-11.png",
+          "image": "/wp-content/uploads/2022/07/rectangle-144-11.webp",
           "badges": [
             "более 60 мин",
             "Десерт"
@@ -4493,7 +4493,7 @@
         {
           "slug": "pasta-karbonara-na-mindalnom-moloke",
           "title": "Паста карбонара на миндальном молоке",
-          "image": "/wp-content/uploads/2022/07/rectangle-144-6.png",
+          "image": "/wp-content/uploads/2022/07/rectangle-144-6.webp",
           "badges": [
             "20-45 мин",
             "Ужин"
@@ -4502,7 +4502,7 @@
         {
           "slug": "pshennaya-kasha-s-tykvoj-na-ovsyanom-moloke",
           "title": "Пшенная каша с тыквой на овсяном молоке",
-          "image": "/wp-content/uploads/2022/07/rectangle-144-2.png",
+          "image": "/wp-content/uploads/2022/07/rectangle-144-2.webp",
           "badges": [
             "40-60 мин",
             "Завтрак"
@@ -4511,7 +4511,7 @@
         {
           "slug": "bulochki-sinnabony-na-ovsyanom-moloke",
           "title": "Булочки Синнабоны на овсяном молоке",
-          "image": "/wp-content/uploads/2022/07/klara-avsenik-__6bahm9jqs-unsplash-1-1.png",
+          "image": "/wp-content/uploads/2022/07/klara-avsenik-__6bahm9jqs-unsplash-1-1.webp",
           "badges": [
             "более 60 мин",
             "Обед"
@@ -4538,7 +4538,7 @@
         {
           "slug": "tapioka-na-kokosovom-moloke-s-chernym-kunzhutom",
           "title": "Тапиока на кокосовом молоке с черным кунжутом",
-          "image": "/wp-content/uploads/2022/07/priyanka-singh-szcczfq9hrc-unsplash-1-2.png",
+          "image": "/wp-content/uploads/2022/07/priyanka-singh-szcczfq9hrc-unsplash-1-2.webp",
           "badges": [
             "40-60 мин",
             "Завтрак"
@@ -4556,7 +4556,7 @@
         {
           "slug": "risovaya-kasha-s-tykvoj-i-bananom-na-ovsyanom-moloke",
           "title": "Рисовая каша с тыквой и бананом на овсяном молоке",
-          "image": "/wp-content/uploads/2022/07/1-1-1.png",
+          "image": "/wp-content/uploads/2022/07/1-1-1.webp",
           "badges": [
             "более 60 мин",
             "Завтрак"
@@ -4565,7 +4565,7 @@
         {
           "slug": "sup-tom-yam-na-kokosovom-moloke",
           "title": "Том ям на кокосовом молоке",
-          "image": "/wp-content/uploads/2022/06/rectangle-144-1.png",
+          "image": "/wp-content/uploads/2022/06/rectangle-144-1.webp",
           "badges": [
             "20-45 мин",
             "Обед"
@@ -4629,7 +4629,7 @@
         {
           "slug": "grechnevaya-kasha-na-kokosovom-moloke-s-tykvoj-i-mindalem",
           "title": "Гречневая каша на кокосовом молоке с тыквой и миндалем",
-          "image": "/wp-content/uploads/2023/03/kasha_pre_427x300.png",
+          "image": "/wp-content/uploads/2023/03/kasha_pre_427x300.webp",
           "badges": [
             "30 мин",
             "Завтрак"
@@ -4638,7 +4638,7 @@
         {
           "slug": "bliny-na-mindalnom-moloke",
           "title": "Блины на миндальном молоке",
-          "image": "/wp-content/uploads/2023/02/blin_rec_kat_427x300.png",
+          "image": "/wp-content/uploads/2023/02/blin_rec_kat_427x300.webp",
           "badges": [
             "30 мин",
             "Завтрак"
@@ -4845,7 +4845,7 @@
         {
           "slug": "goryachij-shokolad-na-mindalnom-moloke",
           "title": "Горячий шоколад на миндальном молоке",
-          "image": "/wp-content/uploads/2022/07/frame-436-1.png",
+          "image": "/wp-content/uploads/2022/07/frame-436-1.webp",
           "badges": [
             "20-45 мин",
             "Напитки"
@@ -4854,7 +4854,7 @@
         {
           "slug": "grechnevaya-kasha-s-mindalnym-molokom",
           "title": "Гречневая каша с миндальным молоком",
-          "image": "/wp-content/uploads/2022/07/img-6185-1152x1536-1-%E2%80%94-kopiya.png",
+          "image": "/wp-content/uploads/2022/07/img-6185-1152x1536-1-%E2%80%94-kopiya.webp",
           "badges": [
             "20-45 мин",
             "Завтрак"
@@ -4863,7 +4863,7 @@
         {
           "slug": "kartofelnaya-zapekanka-s-indejkoj-na-kokosovom-moloke",
           "title": "Картофельная запеканка с индейкой на кокосовом молоке",
-          "image": "/wp-content/uploads/2022/07/frame-434-1.png",
+          "image": "/wp-content/uploads/2022/07/frame-434-1.webp",
           "badges": [
             "40-60 мин",
             "Обед"
@@ -4872,7 +4872,7 @@
         {
           "slug": "shokoladnyj-keks-c-bananom",
           "title": "Шоколадный кекс с бананом",
-          "image": "/wp-content/uploads/2022/07/velle5632-2-1-1.png",
+          "image": "/wp-content/uploads/2022/07/velle5632-2-1-1.webp",
           "badges": [
             "более 60 мин",
             "Десерт"
@@ -4881,7 +4881,7 @@
         {
           "slug": "yablochnyj-pirog-na-bananovom-moloke",
           "title": "Ирландский яблочный пирог на банановом молоке",
-          "image": "/wp-content/uploads/2022/07/rectangle-144-11.png",
+          "image": "/wp-content/uploads/2022/07/rectangle-144-11.webp",
           "badges": [
             "более 60 мин",
             "Десерт"
@@ -4890,7 +4890,7 @@
         {
           "slug": "pasta-karbonara-na-mindalnom-moloke",
           "title": "Паста карбонара на миндальном молоке",
-          "image": "/wp-content/uploads/2022/07/rectangle-144-6.png",
+          "image": "/wp-content/uploads/2022/07/rectangle-144-6.webp",
           "badges": [
             "20-45 мин",
             "Ужин"
@@ -4899,7 +4899,7 @@
         {
           "slug": "pshennaya-kasha-s-tykvoj-na-ovsyanom-moloke",
           "title": "Пшенная каша с тыквой на овсяном молоке",
-          "image": "/wp-content/uploads/2022/07/rectangle-144-2.png",
+          "image": "/wp-content/uploads/2022/07/rectangle-144-2.webp",
           "badges": [
             "40-60 мин",
             "Завтрак"
@@ -4908,7 +4908,7 @@
         {
           "slug": "bulochki-sinnabony-na-ovsyanom-moloke",
           "title": "Булочки Синнабоны на овсяном молоке",
-          "image": "/wp-content/uploads/2022/07/klara-avsenik-__6bahm9jqs-unsplash-1-1.png",
+          "image": "/wp-content/uploads/2022/07/klara-avsenik-__6bahm9jqs-unsplash-1-1.webp",
           "badges": [
             "более 60 мин",
             "Обед"
@@ -4935,7 +4935,7 @@
         {
           "slug": "tapioka-na-kokosovom-moloke-s-chernym-kunzhutom",
           "title": "Тапиока на кокосовом молоке с черным кунжутом",
-          "image": "/wp-content/uploads/2022/07/priyanka-singh-szcczfq9hrc-unsplash-1-2.png",
+          "image": "/wp-content/uploads/2022/07/priyanka-singh-szcczfq9hrc-unsplash-1-2.webp",
           "badges": [
             "40-60 мин",
             "Завтрак"
@@ -4953,7 +4953,7 @@
         {
           "slug": "risovaya-kasha-s-tykvoj-i-bananom-na-ovsyanom-moloke",
           "title": "Рисовая каша с тыквой и бананом на овсяном молоке",
-          "image": "/wp-content/uploads/2022/07/1-1-1.png",
+          "image": "/wp-content/uploads/2022/07/1-1-1.webp",
           "badges": [
             "более 60 мин",
             "Завтрак"
@@ -4962,7 +4962,7 @@
         {
           "slug": "sup-tom-yam-na-kokosovom-moloke",
           "title": "Том ям на кокосовом молоке",
-          "image": "/wp-content/uploads/2022/06/rectangle-144-1.png",
+          "image": "/wp-content/uploads/2022/06/rectangle-144-1.webp",
           "badges": [
             "20-45 мин",
             "Обед"
@@ -5026,7 +5026,7 @@
         {
           "slug": "grechnevaya-kasha-na-kokosovom-moloke-s-tykvoj-i-mindalem",
           "title": "Гречневая каша на кокосовом молоке с тыквой и миндалем",
-          "image": "/wp-content/uploads/2023/03/kasha_pre_427x300.png",
+          "image": "/wp-content/uploads/2023/03/kasha_pre_427x300.webp",
           "badges": [
             "30 мин",
             "Завтрак"
@@ -5035,7 +5035,7 @@
         {
           "slug": "bliny-na-mindalnom-moloke",
           "title": "Блины на миндальном молоке",
-          "image": "/wp-content/uploads/2023/02/blin_rec_kat_427x300.png",
+          "image": "/wp-content/uploads/2023/02/blin_rec_kat_427x300.webp",
           "badges": [
             "30 мин",
             "Завтрак"
@@ -5242,7 +5242,7 @@
         {
           "slug": "goryachij-shokolad-na-mindalnom-moloke",
           "title": "Горячий шоколад на миндальном молоке",
-          "image": "/wp-content/uploads/2022/07/frame-436-1.png",
+          "image": "/wp-content/uploads/2022/07/frame-436-1.webp",
           "badges": [
             "20-45 мин",
             "Напитки"
@@ -5251,7 +5251,7 @@
         {
           "slug": "grechnevaya-kasha-s-mindalnym-molokom",
           "title": "Гречневая каша с миндальным молоком",
-          "image": "/wp-content/uploads/2022/07/img-6185-1152x1536-1-%E2%80%94-kopiya.png",
+          "image": "/wp-content/uploads/2022/07/img-6185-1152x1536-1-%E2%80%94-kopiya.webp",
           "badges": [
             "20-45 мин",
             "Завтрак"
@@ -5260,7 +5260,7 @@
         {
           "slug": "kartofelnaya-zapekanka-s-indejkoj-na-kokosovom-moloke",
           "title": "Картофельная запеканка с индейкой на кокосовом молоке",
-          "image": "/wp-content/uploads/2022/07/frame-434-1.png",
+          "image": "/wp-content/uploads/2022/07/frame-434-1.webp",
           "badges": [
             "40-60 мин",
             "Обед"
@@ -5269,7 +5269,7 @@
         {
           "slug": "shokoladnyj-keks-c-bananom",
           "title": "Шоколадный кекс с бананом",
-          "image": "/wp-content/uploads/2022/07/velle5632-2-1-1.png",
+          "image": "/wp-content/uploads/2022/07/velle5632-2-1-1.webp",
           "badges": [
             "более 60 мин",
             "Десерт"
@@ -5278,7 +5278,7 @@
         {
           "slug": "yablochnyj-pirog-na-bananovom-moloke",
           "title": "Ирландский яблочный пирог на банановом молоке",
-          "image": "/wp-content/uploads/2022/07/rectangle-144-11.png",
+          "image": "/wp-content/uploads/2022/07/rectangle-144-11.webp",
           "badges": [
             "более 60 мин",
             "Десерт"
@@ -5287,7 +5287,7 @@
         {
           "slug": "pasta-karbonara-na-mindalnom-moloke",
           "title": "Паста карбонара на миндальном молоке",
-          "image": "/wp-content/uploads/2022/07/rectangle-144-6.png",
+          "image": "/wp-content/uploads/2022/07/rectangle-144-6.webp",
           "badges": [
             "20-45 мин",
             "Ужин"
@@ -5296,7 +5296,7 @@
         {
           "slug": "pshennaya-kasha-s-tykvoj-na-ovsyanom-moloke",
           "title": "Пшенная каша с тыквой на овсяном молоке",
-          "image": "/wp-content/uploads/2022/07/rectangle-144-2.png",
+          "image": "/wp-content/uploads/2022/07/rectangle-144-2.webp",
           "badges": [
             "40-60 мин",
             "Завтрак"
@@ -5305,7 +5305,7 @@
         {
           "slug": "bulochki-sinnabony-na-ovsyanom-moloke",
           "title": "Булочки Синнабоны на овсяном молоке",
-          "image": "/wp-content/uploads/2022/07/klara-avsenik-__6bahm9jqs-unsplash-1-1.png",
+          "image": "/wp-content/uploads/2022/07/klara-avsenik-__6bahm9jqs-unsplash-1-1.webp",
           "badges": [
             "более 60 мин",
             "Обед"
@@ -5332,7 +5332,7 @@
         {
           "slug": "tapioka-na-kokosovom-moloke-s-chernym-kunzhutom",
           "title": "Тапиока на кокосовом молоке с черным кунжутом",
-          "image": "/wp-content/uploads/2022/07/priyanka-singh-szcczfq9hrc-unsplash-1-2.png",
+          "image": "/wp-content/uploads/2022/07/priyanka-singh-szcczfq9hrc-unsplash-1-2.webp",
           "badges": [
             "40-60 мин",
             "Завтрак"
@@ -5350,7 +5350,7 @@
         {
           "slug": "risovaya-kasha-s-tykvoj-i-bananom-na-ovsyanom-moloke",
           "title": "Рисовая каша с тыквой и бананом на овсяном молоке",
-          "image": "/wp-content/uploads/2022/07/1-1-1.png",
+          "image": "/wp-content/uploads/2022/07/1-1-1.webp",
           "badges": [
             "более 60 мин",
             "Завтрак"
@@ -5359,7 +5359,7 @@
         {
           "slug": "sup-tom-yam-na-kokosovom-moloke",
           "title": "Том ям на кокосовом молоке",
-          "image": "/wp-content/uploads/2022/06/rectangle-144-1.png",
+          "image": "/wp-content/uploads/2022/06/rectangle-144-1.webp",
           "badges": [
             "20-45 мин",
             "Обед"
@@ -5423,7 +5423,7 @@
         {
           "slug": "grechnevaya-kasha-na-kokosovom-moloke-s-tykvoj-i-mindalem",
           "title": "Гречневая каша на кокосовом молоке с тыквой и миндалем",
-          "image": "/wp-content/uploads/2023/03/kasha_pre_427x300.png",
+          "image": "/wp-content/uploads/2023/03/kasha_pre_427x300.webp",
           "badges": [
             "30 мин",
             "Завтрак"
@@ -5432,7 +5432,7 @@
         {
           "slug": "bliny-na-mindalnom-moloke",
           "title": "Блины на миндальном молоке",
-          "image": "/wp-content/uploads/2023/02/blin_rec_kat_427x300.png",
+          "image": "/wp-content/uploads/2023/02/blin_rec_kat_427x300.webp",
           "badges": [
             "30 мин",
             "Завтрак"
@@ -5621,7 +5621,7 @@
         {
           "slug": "grechnevaya-kasha-s-mindalnym-molokom",
           "title": "Гречневая каша с миндальным молоком",
-          "image": "/wp-content/uploads/2022/07/img-6185-1152x1536-1-%E2%80%94-kopiya.png",
+          "image": "/wp-content/uploads/2022/07/img-6185-1152x1536-1-%E2%80%94-kopiya.webp",
           "badges": [
             "20-45 мин",
             "Завтрак"
@@ -5630,7 +5630,7 @@
         {
           "slug": "kartofelnaya-zapekanka-s-indejkoj-na-kokosovom-moloke",
           "title": "Картофельная запеканка с индейкой на кокосовом молоке",
-          "image": "/wp-content/uploads/2022/07/frame-434-1.png",
+          "image": "/wp-content/uploads/2022/07/frame-434-1.webp",
           "badges": [
             "40-60 мин",
             "Обед"
@@ -5639,7 +5639,7 @@
         {
           "slug": "shokoladnyj-keks-c-bananom",
           "title": "Шоколадный кекс с бананом",
-          "image": "/wp-content/uploads/2022/07/velle5632-2-1-1.png",
+          "image": "/wp-content/uploads/2022/07/velle5632-2-1-1.webp",
           "badges": [
             "более 60 мин",
             "Десерт"
@@ -5648,7 +5648,7 @@
         {
           "slug": "yablochnyj-pirog-na-bananovom-moloke",
           "title": "Ирландский яблочный пирог на банановом молоке",
-          "image": "/wp-content/uploads/2022/07/rectangle-144-11.png",
+          "image": "/wp-content/uploads/2022/07/rectangle-144-11.webp",
           "badges": [
             "более 60 мин",
             "Десерт"
@@ -5657,7 +5657,7 @@
         {
           "slug": "pasta-karbonara-na-mindalnom-moloke",
           "title": "Паста карбонара на миндальном молоке",
-          "image": "/wp-content/uploads/2022/07/rectangle-144-6.png",
+          "image": "/wp-content/uploads/2022/07/rectangle-144-6.webp",
           "badges": [
             "20-45 мин",
             "Ужин"
@@ -5666,7 +5666,7 @@
         {
           "slug": "pshennaya-kasha-s-tykvoj-na-ovsyanom-moloke",
           "title": "Пшенная каша с тыквой на овсяном молоке",
-          "image": "/wp-content/uploads/2022/07/rectangle-144-2.png",
+          "image": "/wp-content/uploads/2022/07/rectangle-144-2.webp",
           "badges": [
             "40-60 мин",
             "Завтрак"
@@ -5675,7 +5675,7 @@
         {
           "slug": "bulochki-sinnabony-na-ovsyanom-moloke",
           "title": "Булочки Синнабоны на овсяном молоке",
-          "image": "/wp-content/uploads/2022/07/klara-avsenik-__6bahm9jqs-unsplash-1-1.png",
+          "image": "/wp-content/uploads/2022/07/klara-avsenik-__6bahm9jqs-unsplash-1-1.webp",
           "badges": [
             "более 60 мин",
             "Обед"
@@ -5702,7 +5702,7 @@
         {
           "slug": "risovaya-kasha-s-tykvoj-i-bananom-na-ovsyanom-moloke",
           "title": "Рисовая каша с тыквой и бананом на овсяном молоке",
-          "image": "/wp-content/uploads/2022/07/1-1-1.png",
+          "image": "/wp-content/uploads/2022/07/1-1-1.webp",
           "badges": [
             "более 60 мин",
             "Завтрак"
@@ -5711,7 +5711,7 @@
         {
           "slug": "sup-tom-yam-na-kokosovom-moloke",
           "title": "Том ям на кокосовом молоке",
-          "image": "/wp-content/uploads/2022/06/rectangle-144-1.png",
+          "image": "/wp-content/uploads/2022/06/rectangle-144-1.webp",
           "badges": [
             "20-45 мин",
             "Обед"
@@ -5728,7 +5728,7 @@
       "meta": {
         "title": "Овсяное растительное молоко Velle",
         "description": "Овсяное растительное молоко Velle | Только натуральные ингредиенты в напитках Велле.",
-        "ogImage": "../../wp-content/uploads/2022/07/visual_velle_oat_milk_3_2.png",
+        "ogImage": "../../wp-content/uploads/2022/07/visual_velle_oat_milk_3_2.webp",
         "published": null,
         "postId": 222
       },
@@ -5755,7 +5755,7 @@
       "meta": {
         "title": "Смузи на растительном молоке Банан-яблоко-овес",
         "description": "Продукты Velle: 100% растительный продукт, 100% натуральные ингредиенты, обогащены пробиотиками и пребиотиками.",
-        "ogImage": "../../wp-content/uploads/2025/04/yabloko_banan_pered-1.png",
+        "ogImage": "../../wp-content/uploads/2025/04/yabloko_banan_pered-1.webp",
         "published": null,
         "postId": 1591
       },
@@ -5806,7 +5806,7 @@
       "meta": {
         "title": "Растительный йогурт клубника-банан Velle",
         "description": "Растительный йогурт клубника-банан Velle на овсяной основе | Меньше сахара, натуральные ингредиенты и пробиотики в продуктах Велле.",
-        "ogImage": "../../wp-content/uploads/2022/07/banana.png",
+        "ogImage": "../../wp-content/uploads/2022/07/banana.webp",
         "published": null,
         "postId": 270
       },
@@ -5833,7 +5833,7 @@
       "meta": {
         "title": "Растительный йогурт малина-ежевика Velle",
         "description": "Растительный йогурт малина-ежевика Velle на овсяной основе | Меньше сахара, натуральные ингредиенты и пробиотики в продуктах Велле.",
-        "ogImage": "../../wp-content/uploads/2022/07/malina.png",
+        "ogImage": "../../wp-content/uploads/2022/07/malina.webp",
         "published": null,
         "postId": 268
       },
@@ -5862,7 +5862,7 @@
       "meta": {
         "title": "Растительный йогурт манго-маракуйя Velle",
         "description": "Растительный йогурт манго-маракуйя Velle на кокосовой основе | Меньше сахара, натуральные ингредиенты и пробиотики в продуктах Велле.",
-        "ogImage": "../../wp-content/uploads/2022/07/lozhkovoj-jogurt.png",
+        "ogImage": "../../wp-content/uploads/2022/07/lozhkovoj-jogurt.webp",
         "published": null,
         "postId": 272
       },
@@ -5890,7 +5890,7 @@
       "meta": {
         "title": "Растительный йогурт печеное яблоко Velle",
         "description": "Растительный йогурт печеное яблоко Velle на овсяной основе | Меньше сахара, натуральные ингредиенты и пробиотики в продуктах Велле.",
-        "ogImage": "../../wp-content/uploads/2022/07/apple.png",
+        "ogImage": "../../wp-content/uploads/2022/07/apple.webp",
         "published": null,
         "postId": 266
       },
@@ -5910,7 +5910,7 @@
         {
           "slug": "grechnevaya-kasha-na-kokosovom-moloke-s-tykvoj-i-mindalem",
           "title": "Гречневая каша на кокосовом молоке с тыквой и миндалем",
-          "image": "/wp-content/uploads/2023/03/kasha_pre_427x300.png",
+          "image": "/wp-content/uploads/2023/03/kasha_pre_427x300.webp",
           "badges": [
             "30 мин",
             "Завтрак"
@@ -5919,7 +5919,7 @@
         {
           "slug": "bliny-na-mindalnom-moloke",
           "title": "Блины на миндальном молоке",
-          "image": "/wp-content/uploads/2023/02/blin_rec_kat_427x300.png",
+          "image": "/wp-content/uploads/2023/02/blin_rec_kat_427x300.webp",
           "badges": [
             "30 мин",
             "Завтрак"
@@ -6108,7 +6108,7 @@
         {
           "slug": "grechnevaya-kasha-s-mindalnym-molokom",
           "title": "Гречневая каша с миндальным молоком",
-          "image": "/wp-content/uploads/2022/07/img-6185-1152x1536-1-%E2%80%94-kopiya.png",
+          "image": "/wp-content/uploads/2022/07/img-6185-1152x1536-1-%E2%80%94-kopiya.webp",
           "badges": [
             "20-45 мин",
             "Завтрак"
@@ -6117,7 +6117,7 @@
         {
           "slug": "kartofelnaya-zapekanka-s-indejkoj-na-kokosovom-moloke",
           "title": "Картофельная запеканка с индейкой на кокосовом молоке",
-          "image": "/wp-content/uploads/2022/07/frame-434-1.png",
+          "image": "/wp-content/uploads/2022/07/frame-434-1.webp",
           "badges": [
             "40-60 мин",
             "Обед"
@@ -6126,7 +6126,7 @@
         {
           "slug": "shokoladnyj-keks-c-bananom",
           "title": "Шоколадный кекс с бананом",
-          "image": "/wp-content/uploads/2022/07/velle5632-2-1-1.png",
+          "image": "/wp-content/uploads/2022/07/velle5632-2-1-1.webp",
           "badges": [
             "более 60 мин",
             "Десерт"
@@ -6135,7 +6135,7 @@
         {
           "slug": "yablochnyj-pirog-na-bananovom-moloke",
           "title": "Ирландский яблочный пирог на банановом молоке",
-          "image": "/wp-content/uploads/2022/07/rectangle-144-11.png",
+          "image": "/wp-content/uploads/2022/07/rectangle-144-11.webp",
           "badges": [
             "более 60 мин",
             "Десерт"
@@ -6144,7 +6144,7 @@
         {
           "slug": "pasta-karbonara-na-mindalnom-moloke",
           "title": "Паста карбонара на миндальном молоке",
-          "image": "/wp-content/uploads/2022/07/rectangle-144-6.png",
+          "image": "/wp-content/uploads/2022/07/rectangle-144-6.webp",
           "badges": [
             "20-45 мин",
             "Ужин"
@@ -6153,7 +6153,7 @@
         {
           "slug": "pshennaya-kasha-s-tykvoj-na-ovsyanom-moloke",
           "title": "Пшенная каша с тыквой на овсяном молоке",
-          "image": "/wp-content/uploads/2022/07/rectangle-144-2.png",
+          "image": "/wp-content/uploads/2022/07/rectangle-144-2.webp",
           "badges": [
             "40-60 мин",
             "Завтрак"
@@ -6162,7 +6162,7 @@
         {
           "slug": "bulochki-sinnabony-na-ovsyanom-moloke",
           "title": "Булочки Синнабоны на овсяном молоке",
-          "image": "/wp-content/uploads/2022/07/klara-avsenik-__6bahm9jqs-unsplash-1-1.png",
+          "image": "/wp-content/uploads/2022/07/klara-avsenik-__6bahm9jqs-unsplash-1-1.webp",
           "badges": [
             "более 60 мин",
             "Обед"
@@ -6189,7 +6189,7 @@
         {
           "slug": "risovaya-kasha-s-tykvoj-i-bananom-na-ovsyanom-moloke",
           "title": "Рисовая каша с тыквой и бананом на овсяном молоке",
-          "image": "/wp-content/uploads/2022/07/1-1-1.png",
+          "image": "/wp-content/uploads/2022/07/1-1-1.webp",
           "badges": [
             "более 60 мин",
             "Завтрак"
@@ -6198,7 +6198,7 @@
         {
           "slug": "sup-tom-yam-na-kokosovom-moloke",
           "title": "Том ям на кокосовом молоке",
-          "image": "/wp-content/uploads/2022/06/rectangle-144-1.png",
+          "image": "/wp-content/uploads/2022/06/rectangle-144-1.webp",
           "badges": [
             "20-45 мин",
             "Обед"
@@ -6215,7 +6215,7 @@
       "meta": {
         "title": "Банановое растительное молоко Velle",
         "description": "Банановое растительное молоко Velle на основе овсяной муки | Только натуральные ингредиенты в напитках Велле.",
-        "ogImage": "../../wp-content/uploads/2022/07/foto-produktov-3.png",
+        "ogImage": "../../wp-content/uploads/2022/07/foto-produktov-3.webp",
         "published": null,
         "postId": 234
       },
@@ -6236,7 +6236,7 @@
         {
           "slug": "grechnevaya-kasha-na-kokosovom-moloke-s-tykvoj-i-mindalem",
           "title": "Гречневая каша на кокосовом молоке с тыквой и миндалем",
-          "image": "/wp-content/uploads/2023/03/kasha_pre_427x300.png",
+          "image": "/wp-content/uploads/2023/03/kasha_pre_427x300.webp",
           "badges": [
             "30 мин",
             "Завтрак"
@@ -6245,7 +6245,7 @@
         {
           "slug": "bliny-na-mindalnom-moloke",
           "title": "Блины на миндальном молоке",
-          "image": "/wp-content/uploads/2023/02/blin_rec_kat_427x300.png",
+          "image": "/wp-content/uploads/2023/02/blin_rec_kat_427x300.webp",
           "badges": [
             "30 мин",
             "Завтрак"
@@ -6434,7 +6434,7 @@
         {
           "slug": "grechnevaya-kasha-s-mindalnym-molokom",
           "title": "Гречневая каша с миндальным молоком",
-          "image": "/wp-content/uploads/2022/07/img-6185-1152x1536-1-%E2%80%94-kopiya.png",
+          "image": "/wp-content/uploads/2022/07/img-6185-1152x1536-1-%E2%80%94-kopiya.webp",
           "badges": [
             "20-45 мин",
             "Завтрак"
@@ -6443,7 +6443,7 @@
         {
           "slug": "kartofelnaya-zapekanka-s-indejkoj-na-kokosovom-moloke",
           "title": "Картофельная запеканка с индейкой на кокосовом молоке",
-          "image": "/wp-content/uploads/2022/07/frame-434-1.png",
+          "image": "/wp-content/uploads/2022/07/frame-434-1.webp",
           "badges": [
             "40-60 мин",
             "Обед"
@@ -6452,7 +6452,7 @@
         {
           "slug": "shokoladnyj-keks-c-bananom",
           "title": "Шоколадный кекс с бананом",
-          "image": "/wp-content/uploads/2022/07/velle5632-2-1-1.png",
+          "image": "/wp-content/uploads/2022/07/velle5632-2-1-1.webp",
           "badges": [
             "более 60 мин",
             "Десерт"
@@ -6461,7 +6461,7 @@
         {
           "slug": "yablochnyj-pirog-na-bananovom-moloke",
           "title": "Ирландский яблочный пирог на банановом молоке",
-          "image": "/wp-content/uploads/2022/07/rectangle-144-11.png",
+          "image": "/wp-content/uploads/2022/07/rectangle-144-11.webp",
           "badges": [
             "более 60 мин",
             "Десерт"
@@ -6470,7 +6470,7 @@
         {
           "slug": "pasta-karbonara-na-mindalnom-moloke",
           "title": "Паста карбонара на миндальном молоке",
-          "image": "/wp-content/uploads/2022/07/rectangle-144-6.png",
+          "image": "/wp-content/uploads/2022/07/rectangle-144-6.webp",
           "badges": [
             "20-45 мин",
             "Ужин"
@@ -6479,7 +6479,7 @@
         {
           "slug": "pshennaya-kasha-s-tykvoj-na-ovsyanom-moloke",
           "title": "Пшенная каша с тыквой на овсяном молоке",
-          "image": "/wp-content/uploads/2022/07/rectangle-144-2.png",
+          "image": "/wp-content/uploads/2022/07/rectangle-144-2.webp",
           "badges": [
             "40-60 мин",
             "Завтрак"
@@ -6488,7 +6488,7 @@
         {
           "slug": "bulochki-sinnabony-na-ovsyanom-moloke",
           "title": "Булочки Синнабоны на овсяном молоке",
-          "image": "/wp-content/uploads/2022/07/klara-avsenik-__6bahm9jqs-unsplash-1-1.png",
+          "image": "/wp-content/uploads/2022/07/klara-avsenik-__6bahm9jqs-unsplash-1-1.webp",
           "badges": [
             "более 60 мин",
             "Обед"
@@ -6515,7 +6515,7 @@
         {
           "slug": "risovaya-kasha-s-tykvoj-i-bananom-na-ovsyanom-moloke",
           "title": "Рисовая каша с тыквой и бананом на овсяном молоке",
-          "image": "/wp-content/uploads/2022/07/1-1-1.png",
+          "image": "/wp-content/uploads/2022/07/1-1-1.webp",
           "badges": [
             "более 60 мин",
             "Завтрак"
@@ -6524,7 +6524,7 @@
         {
           "slug": "sup-tom-yam-na-kokosovom-moloke",
           "title": "Том ям на кокосовом молоке",
-          "image": "/wp-content/uploads/2022/06/rectangle-144-1.png",
+          "image": "/wp-content/uploads/2022/06/rectangle-144-1.webp",
           "badges": [
             "20-45 мин",
             "Обед"
@@ -6564,7 +6564,7 @@
         {
           "slug": "grechnevaya-kasha-na-kokosovom-moloke-s-tykvoj-i-mindalem",
           "title": "Гречневая каша на кокосовом молоке с тыквой и миндалем",
-          "image": "/wp-content/uploads/2023/03/kasha_pre_427x300.png",
+          "image": "/wp-content/uploads/2023/03/kasha_pre_427x300.webp",
           "badges": [
             "30 мин",
             "Завтрак"
@@ -6573,7 +6573,7 @@
         {
           "slug": "bliny-na-mindalnom-moloke",
           "title": "Блины на миндальном молоке",
-          "image": "/wp-content/uploads/2023/02/blin_rec_kat_427x300.png",
+          "image": "/wp-content/uploads/2023/02/blin_rec_kat_427x300.webp",
           "badges": [
             "30 мин",
             "Завтрак"
@@ -6762,7 +6762,7 @@
         {
           "slug": "grechnevaya-kasha-s-mindalnym-molokom",
           "title": "Гречневая каша с миндальным молоком",
-          "image": "/wp-content/uploads/2022/07/img-6185-1152x1536-1-%E2%80%94-kopiya.png",
+          "image": "/wp-content/uploads/2022/07/img-6185-1152x1536-1-%E2%80%94-kopiya.webp",
           "badges": [
             "20-45 мин",
             "Завтрак"
@@ -6771,7 +6771,7 @@
         {
           "slug": "kartofelnaya-zapekanka-s-indejkoj-na-kokosovom-moloke",
           "title": "Картофельная запеканка с индейкой на кокосовом молоке",
-          "image": "/wp-content/uploads/2022/07/frame-434-1.png",
+          "image": "/wp-content/uploads/2022/07/frame-434-1.webp",
           "badges": [
             "40-60 мин",
             "Обед"
@@ -6780,7 +6780,7 @@
         {
           "slug": "shokoladnyj-keks-c-bananom",
           "title": "Шоколадный кекс с бананом",
-          "image": "/wp-content/uploads/2022/07/velle5632-2-1-1.png",
+          "image": "/wp-content/uploads/2022/07/velle5632-2-1-1.webp",
           "badges": [
             "более 60 мин",
             "Десерт"
@@ -6789,7 +6789,7 @@
         {
           "slug": "yablochnyj-pirog-na-bananovom-moloke",
           "title": "Ирландский яблочный пирог на банановом молоке",
-          "image": "/wp-content/uploads/2022/07/rectangle-144-11.png",
+          "image": "/wp-content/uploads/2022/07/rectangle-144-11.webp",
           "badges": [
             "более 60 мин",
             "Десерт"
@@ -6798,7 +6798,7 @@
         {
           "slug": "pasta-karbonara-na-mindalnom-moloke",
           "title": "Паста карбонара на миндальном молоке",
-          "image": "/wp-content/uploads/2022/07/rectangle-144-6.png",
+          "image": "/wp-content/uploads/2022/07/rectangle-144-6.webp",
           "badges": [
             "20-45 мин",
             "Ужин"
@@ -6807,7 +6807,7 @@
         {
           "slug": "pshennaya-kasha-s-tykvoj-na-ovsyanom-moloke",
           "title": "Пшенная каша с тыквой на овсяном молоке",
-          "image": "/wp-content/uploads/2022/07/rectangle-144-2.png",
+          "image": "/wp-content/uploads/2022/07/rectangle-144-2.webp",
           "badges": [
             "40-60 мин",
             "Завтрак"
@@ -6816,7 +6816,7 @@
         {
           "slug": "bulochki-sinnabony-na-ovsyanom-moloke",
           "title": "Булочки Синнабоны на овсяном молоке",
-          "image": "/wp-content/uploads/2022/07/klara-avsenik-__6bahm9jqs-unsplash-1-1.png",
+          "image": "/wp-content/uploads/2022/07/klara-avsenik-__6bahm9jqs-unsplash-1-1.webp",
           "badges": [
             "более 60 мин",
             "Обед"
@@ -6843,7 +6843,7 @@
         {
           "slug": "risovaya-kasha-s-tykvoj-i-bananom-na-ovsyanom-moloke",
           "title": "Рисовая каша с тыквой и бананом на овсяном молоке",
-          "image": "/wp-content/uploads/2022/07/1-1-1.png",
+          "image": "/wp-content/uploads/2022/07/1-1-1.webp",
           "badges": [
             "более 60 мин",
             "Завтрак"
@@ -6852,7 +6852,7 @@
         {
           "slug": "sup-tom-yam-na-kokosovom-moloke",
           "title": "Том ям на кокосовом молоке",
-          "image": "/wp-content/uploads/2022/06/rectangle-144-1.png",
+          "image": "/wp-content/uploads/2022/06/rectangle-144-1.webp",
           "badges": [
             "20-45 мин",
             "Обед"
@@ -6897,7 +6897,7 @@
       "meta": {
         "title": "Питьевой растительный йогурт с черникой Velle",
         "description": "Питьевой растительный йогурт с черникой Velle на овсяной основе | Только натуральные ингредиенты в напитках Велле.",
-        "ogImage": "../../wp-content/uploads/2022/07/chernika.png",
+        "ogImage": "../../wp-content/uploads/2022/07/chernika.webp",
         "published": null,
         "postId": 248
       },
@@ -6925,7 +6925,7 @@
       "meta": {
         "title": "Питьевой кокосовый йогурт с гречихой Velle",
         "description": "Питьевой гречишный йогурт Velle на кокосовой основе | Только натуральные растительные ингредиенты в напитках Велле.",
-        "ogImage": "../../wp-content/uploads/2022/07/foto-produktov-7.png",
+        "ogImage": "../../wp-content/uploads/2022/07/foto-produktov-7.webp",
         "published": null,
         "postId": 258
       },
@@ -6984,7 +6984,7 @@
       "meta": {
         "title": "Питьевой кокосовый йогурт с земляникой и клубникой Velle",
         "description": "Питьевой растительный йогурт с земляникой и клубникой Velle на кокосовой основе | Только натуральные ингредиенты в напитках Велле.",
-        "ogImage": "../../wp-content/uploads/2022/07/klub_zem.png",
+        "ogImage": "../../wp-content/uploads/2022/07/klub_zem.webp",
         "published": null,
         "postId": 260
       },
@@ -7011,7 +7011,7 @@
       "meta": {
         "title": "Питьевой растительный йогурт с малиной Velle",
         "description": "Питьевой растительный йогурт с малиной Velle на овсяной основе | Только натуральные ингредиенты в напитках Велле.",
-        "ogImage": "../../wp-content/uploads/2022/07/rasberry.png",
+        "ogImage": "../../wp-content/uploads/2022/07/rasberry.webp",
         "published": null,
         "postId": 252
       },
@@ -7038,7 +7038,7 @@
       "meta": {
         "title": "Питьевой растительный йогурт с облепихой Velle",
         "description": "Питьевой растительный йогурт с облепихой Velle на овсяной основе | Только натуральные ингредиенты в напитках Велле.",
-        "ogImage": "../../wp-content/uploads/2022/07/pitevoj-jogurt-1.png",
+        "ogImage": "../../wp-content/uploads/2022/07/pitevoj-jogurt-1.webp",
         "published": null,
         "postId": 250
       },
@@ -7065,7 +7065,7 @@
       "meta": {
         "title": "Питьевой растительный йогурт с вишней Velle",
         "description": "Питьевой растительный йогурт с вишней Velle на овсяной основе | Только натуральные ингредиенты в напитках Велле.",
-        "ogImage": "../../wp-content/uploads/2022/07/cherry.png",
+        "ogImage": "../../wp-content/uploads/2022/07/cherry.webp",
         "published": null,
         "postId": 254
       },

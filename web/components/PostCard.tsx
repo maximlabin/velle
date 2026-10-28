@@ -6,14 +6,15 @@ export default function PostCard({ card, wrap = true }: { card: CardData; wrap?:
   const inner = (
     <a className="post-card-wrapper" href={card.href}>
       <div className="post-card">
+        {/* Badges sit inside the picture: the theme placed them with per-screen pixel offsets that broke. */}
         <div className="card-image-wrapper">
           <img src={card.image ?? undefined} className="card-image" alt="" />
+          {card.badges && (
+            <div className="bottom">
+              {card.badges.map((b, i) => <div className="bottomItem" key={i}>{b}</div>)}
+            </div>
+          )}
         </div>
-        {card.badges && (
-          <div className="bottom">
-            {card.badges.map((b, i) => <div className="bottomItem" key={i}>{b}</div>)}
-          </div>
-        )}
         <div className="card-text">
           {card.date && <p className="date">{card.date}</p>}
           <h3>{card.title}</h3>

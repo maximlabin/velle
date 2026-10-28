@@ -1,4 +1,3 @@
-import { Suspense } from "react";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import FilteredList, { type ListItem } from "@/components/FilteredList";
 import ThemeStyles from "@/components/ThemeStyles";
@@ -33,9 +32,7 @@ export default function BlogPage() {
               style={{ background: "url('/wp-content/themes/velle/images/recipes/arrow-right.svg') no-repeat center center/cover" }} />
             <div className="blog-button-next" />
           </div>
-          <Suspense>
-            <FilteredList items={items} loadMore groups={[{ param: "blog-mark", dataAttr: "data-blog_mark", options: blog.filters }]} />
-          </Suspense>
+          <FilteredList items={items} loadMore groups={[{ param: "blog-mark", dataAttr: "data-blog_mark", options: blog.filters }]} />
         </div>
       </main>
     </>

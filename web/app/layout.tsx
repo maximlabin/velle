@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 import "swiper/css/bundle";
+import "./site.css";
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import ThemeScripts from "@/components/ThemeScripts";
-import BwPromo from "@/components/generated/BwPromo";
 import FeedbackPopup from "@/components/generated/FeedbackPopup";
 import FeedbackSent from "@/components/generated/FeedbackSent";
-import Footer from "@/components/generated/Footer";
 import FreePopup from "@/components/generated/FreePopup";
 
 export const metadata: Metadata = {
@@ -38,7 +38,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <FreePopup />
         <FeedbackSent />
         <Footer />
-        <BwPromo />
         <ThemeScripts />
       </body>
     </html>

@@ -1,0 +1,1761 @@
+/* Additions to the WordPress theme styles. */
+
+/* Home banner: the pictures of the shown slide slowly zoom out (slides change every 5 s, see ThemeScripts).
+   Slides with data-zoom="off" have their text drawn in the picture and stay still. */
+main .banner .mainSlider .swiper-slide {
+  overflow: hidden;
+}
+
+main .banner .mainSlider .swiper-slide-active:not([data-zoom="off"]) img {
+  animation: banner-zoom-out 5s ease-out both;
+}
+
+@keyframes banner-zoom-out {
+  from {
+    transform: scale(1.15);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  main .banner .mainSlider .swiper-slide-active img {
+    animation: none;
+  }
+}
+
+/* Product pictures missing from the archive (lib/files.ts): the logo, faded, instead of a broken image. */
+img.product-placeholder {
+  object-fit: contain;
+  opacity: 0.3;
+  padding: 15%;
+  box-sizing: border-box;
+}
+
+/* The top bar is always white (the theme made it white only on scroll or hover). */
+header,
+header .headerWrapper {
+  background: #FFFFFF;
+}
+
+/* Footer (components/Footer.tsx): four blocks on desktop, two on tablets, one on phones. */
+footer.site-footer {
+  --footer-bg: #004E16;
+  --footer-text: #F4F1EB;
+  --footer-muted: rgba(244, 241, 235, 0.7);
+  --footer-accent: #F4B223;
+  background: var(--footer-bg);
+  color: var(--footer-text);
+  font-family: 'PT Sans', sans-serif;
+  font-size: 18px;
+  line-height: 1.45;
+  /* The theme fixes footer at 524px (295px on phones) and lays it out as a centred flex column. */
+  display: block;
+  height: auto;
+  max-height: none;
+  padding: 0;
+}
+
+.site-footer__inner {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 64px 40px 32px;
+}
+
+.site-footer__blocks {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr 1fr 1fr 1.3fr;
+  gap: 40px;
+}
+
+.site-footer__block {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 0;
+}
+
+.site-footer__title {
+  margin: 0 0 4px;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--footer-accent);
+}
+
+.site-footer a {
+  color: var(--footer-text);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.site-footer a:hover {
+  color: var(--footer-accent);
+}
+
+.site-footer__logo {
+  width: 160px;
+  height: auto;
+}
+
+.site-footer__tagline {
+  margin: 0;
+  max-width: 260px;
+  color: var(--footer-muted);
+}
+
+.site-footer a.site-footer__button {
+  align-self: flex-start;
+  margin-top: 8px;
+  padding: 14px 28px;
+  border-radius: 12px;
+  background: var(--footer-accent);
+  color: var(--footer-bg);
+  font-weight: 700;
+}
+
+.site-footer a.site-footer__button:hover {
+  background: var(--footer-text);
+  color: var(--footer-bg);
+}
+
+.site-footer__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.site-footer__phone {
+  display: flex;
+  flex-direction: column;
+}
+
+.site-footer__phone span,
+.site-footer__address span {
+  font-size: 15px;
+  color: var(--footer-muted);
+}
+
+.site-footer__phone a {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+
+.site-footer__socials a {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.site-footer__address {
+  display: flex;
+  flex-direction: column;
+  font-style: normal;
+}
+
+.site-footer__bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 12px 32px;
+  margin-top: 56px;
+  padding-top: 24px;
+  border-top: 1px solid rgba(244, 241, 235, 0.2);
+  font-size: 15px;
+  color: var(--footer-muted);
+}
+
+.site-footer__bottom p {
+  margin: 0;
+}
+
+.site-footer__bottom a {
+  color: var(--footer-muted);
+  text-decoration: underline;
+}
+
+@media (max-width: 1200px) {
+  .site-footer__blocks {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 900px) {
+  .site-footer__blocks {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .site-footer__inner {
+    padding: 48px 20px 28px;
+  }
+  .site-footer__blocks {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+  .site-footer__bottom {
+    flex-direction: column;
+    margin-top: 40px;
+  }
+}
+
+/* Feedback and free-sample popups (components/generated/FeedbackPopup.tsx, FreePopup.tsx): a full-screen panel
+   that fits without scrolling; the theme centred a card with a 540px top margin inside a scrolling overlay. */
+body .feedback-overlay {
+  overflow: hidden;
+}
+
+body .feedback-overlay > .feedback.feedback-wrapper {
+  box-sizing: border-box;
+  width: 100vw;
+  max-width: none;
+  height: 100vh;
+  height: 100dvh;
+  margin: 0;
+  padding: 28px clamp(20px, 6vw, 96px);
+  border-radius: 0;
+  box-shadow: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow-y: auto; /* only on screens too short for the form */
+}
+
+body .feedback-overlay .feedback__header {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+body .feedback-overlay .feedback__header-title {
+  margin-bottom: 24px;
+}
+
+body .feedback-overlay .feedback__header-close {
+  top: 0;
+  right: 0;
+  padding: 8px;
+}
+
+body .feedback-overlay .feedback-form {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+body .feedback-overlay .form-list {
+  margin: 0;
+}
+
+body .feedback-overlay .form-list > .feedback__form-item,
+body .feedback-overlay .form-list > .organization {
+  width: auto;
+  margin-bottom: 14px;
+}
+
+body .feedback-overlay .feedback__form-textarea {
+  height: 110px;
+}
+
+body .feedback-overlay .feedback__form-btn {
+  margin-top: 8px;
+}
+
+@media (min-width: 900px) {
+  body .feedback-overlay .form-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
+  }
+  /* Rows that take the whole width: the organisation block, the message, check boxes, errors, the button. */
+  body .feedback-overlay .form-list > .organization,
+  body .feedback-overlay .form-list > .feedback__form-item:has(.feedback__textarea),
+  body .feedback-overlay .form-list > .feedback__form-item:has(.form-group),
+  body .feedback-overlay .form-list > .feedback__captcha,
+  body .feedback-overlay .form-list > li {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 899px) {
+  body .feedback-overlay > .feedback.feedback-wrapper {
+    padding: 16px 20px;
+  }
+  body .feedback-overlay .feedback__header-title {
+    margin-bottom: 14px;
+  }
+  body .feedback-overlay .form-list > .feedback__form-item,
+  body .feedback-overlay .form-list > .organization {
+    margin-bottom: 10px;
+  }
+  body .feedback-overlay .feedback__form-textarea {
+    height: 90px;
+  }
+}
+
+/* ---------- UI polish over the theme ---------- */
+
+/* Palette: green #008425 (brand), yellow #F4B223 (accent), dark #3D3D3D (text). */
+
+/* Small text the theme set at 12-15px. */
+main .bottom .bottomItem,
+main .compound span,
+main .compound p,
+main .tag p,
+main .bigItem .day,
+main .review-card .review-date {
+  font-size: 16px !important; /* the theme's selectors for these are long; size only */
+}
+
+main .review-body p,
+main .cardPage .description .text {
+  font-size: 17px !important;
+  line-height: 1.45 !important;
+}
+
+body .feedback-overlay .feedback__form-description,
+body .feedback-overlay .sample-sub-desc {
+  font-size: 14px;
+}
+
+/* Links: brand green on hover, smoothly; buttons keep their own hover (yellow). */
+header a,
+main a,
+.feedback-overlay a {
+  transition: color 0.2s ease;
+}
+
+header .headerMenu .mainItem:hover,
+header .headerlink:hover,
+header .itemAbout:hover,
+header .mWrapper a:hover,
+main nav .navItem a:hover,
+main a.back:hover,
+main .content a:not([class]):hover,
+main .card-text h3:hover,
+.feedback-overlay a:hover {
+  color: #008425;
+}
+
+main .content a:not([class]) {
+  text-decoration-color: #F4B223;
+  text-underline-offset: 3px;
+}
+
+/* Lists without markers (ingredients, lists inside posts and recipes). */
+main ul,
+main ol {
+  list-style: none;
+}
+
+main li::marker {
+  content: none;
+}
+
+/* Tighter gaps between sections (desktop; the theme's mobile spacing is already smaller). */
+@media (min-width: 769px) {
+  /* home */
+  main.index-main > .products { padding-top: 110px; }
+  main .evolve > .more { margin-bottom: 96px; }
+  main .wrapper > .recipes > .title { margin-top: 140px; }
+  main .wrapper > .recipes { padding-bottom: 72px; }
+  main .wrapper > .gallery { margin-bottom: 64px; }
+  main .wrapper > .sample-banner-wrapper__desktop { margin-top: 96px; margin-bottom: 72px; }
+  main .wrapper > .news { padding-bottom: 88px; }
+
+  /* product page (header is fixed and 100px tall, so the breadcrumbs keep room under it) */
+  main.mainCards > nav { margin-top: 116px; }
+  main.mainCards > .cardPage { padding-top: 48px; padding-bottom: 64px; }
+  main.mainCards .cardPage > .banner { padding-bottom: 64px; }
+  main.mainCards .cardPage > .recipes { margin-bottom: 64px; }
+
+  /* recipe and blog post pages */
+  main .intro-block .intro-text { margin-top: 72px; }
+  main .intro-text > p.subtitle { margin-bottom: 40px; }
+  main .intro-text > p.share { margin-top: 48px; }
+  main.mainRecipesPost > .content-wrapper,
+  main.mainBlogPost > .content-wrapper { margin-top: 56px; }
+  main .content-wrapper h3.cards-title,
+  main .content-wrapper h3.cards-title2 { margin-top: 64px; }
+  main .content-wrapper .cards-wrapper { margin-bottom: 64px; }
+  main .content > p.sub-text__share.mt-100 { margin-top: 56px; }
+  main .content > .promo-block { margin-top: 56px; margin-bottom: 56px; }
+}
+
+/* Recipe cards with a hover mask: the theme's 35px titles (max 250px wide) ran into the time/category
+   badges on 220px-high cards. Taller cards, smaller titles with room above the badges. */
+body .mainCards .cardPage .recipes .recipesSlider .recipeCard .item img {
+  height: 280px;
+  object-fit: cover;
+}
+
+body .mainCards .cardPage .recipes .recipesSlider .recipeCard .item .mask {
+  box-sizing: border-box;
+  border-radius: 20px;
+  padding: 24px 20px 64px; /* bottom: the badges sit there */
+  justify-content: center;
+}
+
+body .mainCards .cardPage .recipes .recipesSlider .recipeCard .item .mask .maskTitle {
+  max-width: none;
+  font-size: 24px;
+  line-height: 1.2;
+  overflow-wrap: anywhere;
+}
+
+body .mainCards .cardPage .recipes .recipesSlider .recipeCard .item .mask button {
+  bottom: 14px;
+}
+
+body main .wrapper .gallery .swiper-slide .galleryItem .items .item .mask,
+body main .wrapper .gallery .swiper-slide .galleryItem .bigItem .mask {
+  box-sizing: border-box;
+  padding: 20px 20px 48px;
+}
+
+body main .wrapper .gallery .swiper-slide .galleryItem .items .item .mask .maskTitle,
+body main .wrapper .gallery .swiper-slide .galleryItem .items .item .mask .maskSubtitle {
+  max-width: none;
+}
+
+body main .wrapper .gallery .swiper-slide .galleryItem .items .item .mask .maskTitle {
+  font-size: 24px;
+  line-height: 1.2;
+}
+
+body main .wrapper .gallery .swiper-slide .galleryItem .mask .maskSubtitle {
+  font-size: 17px;
+}
+
+/* ---------- Responsive fixes (audited at 375, 768 and 1024px) ---------- */
+
+/* Breadcrumbs set to width:100% plus a left margin stuck out on cover images and the sustainability page. */
+main .overlay > nav,
+main.sustainability-wrapper > nav {
+  width: auto;
+}
+
+/* Ingredient and step lists: the theme pulled them 40px left to hang the bullets; without bullets
+   that only pushed them past the text column. */
+main .content ul.list,
+main .ingredients-block ul.list {
+  margin-left: 0 !important;
+  padding-left: 0;
+  max-width: 100%;
+}
+
+/* Recipe steps: width 100% plus 35px side padding (content-box) overflowed the column. */
+main .content ul.list > .list-block,
+main .content ul.list > li.list-item {
+  box-sizing: border-box;
+  max-width: 100%;
+  margin-left: 0 !important; /* the theme's phone layout shifted steps 20px left */
+}
+
+/* sustainability: width:100% plus padding (content-box) and a 50px shift made these blocks 30-80px too wide. */
+main .sustainability-content__choice-section .choice-section-block {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+main .sustainability-content__choice-section .choice-section-block-center {
+  max-width: calc(100% - 50px);
+}
+
+/* "Назад" and other small labels the theme set at 10-13px on narrow screens. */
+main a.back.nav-back {
+  font-size: 15px;
+}
+
+@media (max-width: 1023px) {
+  main .intro-text > p.date,
+  main .intro-text > p.share,
+  main .index-main .item .itemSubtitle,
+  main .products .item .itemSubtitle {
+    font-size: 15px !important;
+  }
+  main .products__components .product__component {
+    font-size: 13px !important;
+  }
+  main.sustainability-wrapper .sub-text,
+  main.sustainability-wrapper .tabs__text p,
+  main.sustainability-wrapper .tabs__text li,
+  main.sustainability-wrapper ul.numbers li {
+    font-size: 15px !important;
+    line-height: 1.45 !important;
+  }
+}
+
+/* about-company: the products row turns into a slider below 1024px; up to 1200px it no longer fits in one row. */
+@media (max-width: 1200px) {
+  #productsBoxWithoutSlider {
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 32px;
+  }
+}
+
+/* Time/category badges on recipe and blog cards (components/PostCard.tsx). The theme pinned them with
+   per-screen pixel offsets (125/120/65/18px, a stacked column below 500px); since the card is a flex box
+   they ended up on top of the picture, which covered them when it scaled on hover. Now they sit in the
+   picture's bottom-left corner, wrap when narrow, and stay above the scaled image. */
+main .post-card .card-image-wrapper .bottom {
+  position: absolute !important;
+  top: auto !important;
+  left: 16px !important;
+  right: 16px;
+  bottom: 12px !important;
+  z-index: 5 !important;
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap;
+  justify-content: flex-start !important;
+  align-items: center !important;
+  gap: 8px;
+  width: auto !important;
+  max-width: none !important;
+  margin: 0 !important;
+}
+
+main .post-card .bottom .bottomItem,
+main .post-card-wrapper .bottom .bottomItem {
+  margin: 0 !important;
+  padding: 6px 14px !important;
+  font-size: 15px !important;
+  line-height: 1.2 !important;
+  white-space: nowrap;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+}
+
+/* The same badges on cards with a hover mask (product page slider, home gallery). */
+main .recipeCard .item .bottom,
+main .galleryItem .bottom {
+  flex-wrap: wrap;
+  gap: 8px;
+  max-width: calc(100% - 32px);
+}
+
+main .recipeCard .item .bottom .bottomItem,
+main .galleryItem .bottom .bottomItem {
+  margin: 0 !important;
+  white-space: nowrap;
+}
+
+/* ---------- Motion: hover effects and reveal on scroll (all off with "reduce motion") ---------- */
+@media (prefers-reduced-motion: no-preference) {
+  /* Footer links: colour change plus a yellow underline drawn from the left. */
+  .site-footer__menu a,
+  .site-footer__socials a,
+  .site-footer__phone a,
+  .site-footer__address,
+  .site-footer__bottom a {
+    background-image: linear-gradient(var(--footer-accent), var(--footer-accent));
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    background-size: 0 2px;
+    padding-bottom: 2px;
+    transition: color 0.25s ease, background-size 0.3s ease;
+  }
+
+  .site-footer__address {
+    background-image: none;
+  }
+
+  .site-footer__menu a:hover,
+  .site-footer__socials a:hover,
+  .site-footer__phone a:hover,
+  .site-footer__bottom a:hover {
+    color: var(--footer-accent);
+    background-size: 100% 2px;
+  }
+
+  .site-footer__socials img {
+    transition: transform 0.25s ease;
+  }
+
+  .site-footer__socials a:hover img {
+    transform: scale(1.18);
+  }
+
+  /* Buttons lift slightly. */
+  button.more,
+  .more,
+  .site-footer a.site-footer__button,
+  .feedback__form-btn,
+  .load-more,
+  .ingredients-milk__btn {
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease, color 0.2s ease;
+  }
+
+  button.more:hover,
+  .more:hover,
+  .site-footer a.site-footer__button:hover,
+  .feedback__form-btn:hover,
+  .load-more:hover,
+  .ingredients-milk__btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0, 78, 22, 0.18);
+  }
+
+  /* Cards lift. `translate` composes with the theme's own transforms instead of replacing them. */
+  main .post-card,
+  main .contentItem,
+  main .recipeCard .item,
+  main .galleryItem .item,
+  main .galleryItem .bigItem,
+  main.mainWhere .content .item {
+    transition: translate 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  main .post-card:hover,
+  main .contentItem:hover,
+  main .recipeCard .item:hover,
+  main .galleryItem .item:hover,
+  main .galleryItem .bigItem:hover,
+  main.mainWhere .content .item:hover {
+    translate: 0 -4px;
+  }
+
+  /* Header links fade to brand green rather than jump. */
+  header .headerMenu .mainItem,
+  header .headerlink,
+  header .itemAbout {
+    transition: color 0.2s ease;
+  }
+
+  /* Reveal on scroll: ThemeScripts adds .reveal (so nothing hides without JS) and .reveal--in when seen. */
+  .reveal {
+    opacity: 0;
+    translate: 0 16px;
+    transition: opacity 0.4s ease, translate 0.4s ease;
+  }
+
+  /* `none`, not `0 0`: any other value makes a stacking context, and a revealed section would paint
+     over the one before it where the theme lets them overlap (product cards over the field picture). */
+  .reveal.reveal--in {
+    opacity: 1;
+    translate: none;
+  }
+}
+
+/* Product cards hang 87px (163px on phones) into the sustainability field, and their "more" buttons
+   20px further; keep them above it even while that section is still fading in. */
+main.index-main > .products {
+  z-index: 1;
+}
+
+/* ---------- Header drop-downs (components/Header.tsx) ---------- */
+/* The theme hid the panels by moving them far up (translateY(-200%) / -1000px) and dropped them in one jump.
+   Closed panels now just fade out in place and ignore the pointer; open ones fade and slide in. */
+header .headerMenu .item .headerPopup {
+  transform: translateY(-12px);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+header .headerMenu .itemActive .headerPopup {
+  transform: none;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+header .headerMenu .item .aboutPopup.closedAbout {
+  transform: translateX(-40%) translateY(-10px);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+header .headerMenu .aboutActive .aboutPopup {
+  opacity: 1;
+  visibility: visible;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  header .headerMenu .item .headerPopup,
+  header .headerMenu .item .aboutPopup {
+    transition: transform 0.3s cubic-bezier(0.2, 0.7, 0.2, 1), opacity 0.25s ease, visibility 0.3s;
+  }
+
+  /* Product line columns come in one after another. */
+  header .headerMenu .itemActive .headerPopup .content > .item {
+    animation: header-menu-in 0.45s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+  }
+  header .headerMenu .itemActive .headerPopup .content > .item:nth-child(2) { animation-delay: 0.04s; }
+  header .headerMenu .itemActive .headerPopup .content > .item:nth-child(3) { animation-delay: 0.08s; }
+  header .headerMenu .itemActive .headerPopup .content > .item:nth-child(4) { animation-delay: 0.12s; }
+  header .headerMenu .itemActive .headerPopup .content > .item:nth-child(5) { animation-delay: 0.16s; }
+  header .headerMenu .itemActive .headerPopup .content > .item:nth-child(6) { animation-delay: 0.2s; }
+
+  /* A column's picture lifts while the pointer is over that column. */
+  header .headerMenu .item .headerPopup .content .item .itemPic {
+    transition: transform 0.35s cubic-bezier(0.2, 0.7, 0.2, 1), filter 0.35s ease;
+  }
+  header .headerMenu .item .headerPopup .content .item:hover .itemPic {
+    transform: translateY(-12px) scale(1.18);
+    filter: drop-shadow(0 12px 16px rgba(0, 78, 22, 0.18));
+  }
+
+  /* Links inside the panels turn green and nudge right. */
+  header .headerMenu .item .headerPopup .content .item .headerlink,
+  header .headerMenu .item .headerPopup .content .item .itemTitle a,
+  header .headerMenu .item .aboutPopup .itemAbout {
+    display: inline-block;
+    transition: color 0.2s ease, transform 0.2s ease;
+  }
+  header .headerMenu .item .headerPopup .content .item .headerlink:hover,
+  header .headerMenu .item .headerPopup .content .item .itemTitle a:hover,
+  header .headerMenu .item .aboutPopup .itemAbout:hover {
+    color: #008425;
+    transform: translateX(4px);
+  }
+
+  /* Chevrons turn smoothly. */
+  header .headerMenu svg,
+  header .mWrapper svg {
+    transition: transform 0.25s ease;
+  }
+
+  /* Phone menu and its sub-menus slide down when shown (they switch from display:none). */
+  header .mWrapper,
+  header .mWrapper .subItems,
+  header .mWrapper .subAbout {
+    animation: header-menu-in 0.3s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+  }
+  header .mWrapper a {
+    transition: color 0.2s ease;
+  }
+  header .mWrapper a:hover {
+    color: #008425;
+  }
+}
+
+@keyframes header-menu-in {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* Products drop-down: equal columns with thin dividers between product lines. */
+header .headerMenu .item .headerPopup .content {
+  justify-content: center;
+}
+
+/* `body` outranks the theme's rule of equal weight that adds 60px right margin to every column. */
+body header .headerMenu .item .headerPopup .content > .item {
+  flex: 1 1 0;
+  min-width: 0;
+  margin: 0;
+  padding: 0 24px;
+  border-radius: 0;
+}
+
+header .headerMenu .item .headerPopup .content > .item + .item {
+  border-left: 1px solid rgba(0, 132, 37, 0.18);
+}
+
+/* Columns touch, so only the outer corners of the row are rounded. */
+body header .headerMenu .item .headerPopup .content > .item:first-child {
+  border-radius: 16px 0 0 16px;
+}
+
+body header .headerMenu .item .headerPopup .content > .item:last-child {
+  border-radius: 0 16px 16px 0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  header .headerMenu .item .headerPopup .content > .item {
+    transition: background-color 0.25s ease;
+  }
+}
+
+header .headerMenu .item .headerPopup .content > .item:hover {
+  background-color: rgba(244, 241, 235, 0.7);
+}
+
+/* Drop-down text: larger, with room around it (the theme had 18px text in a 162x36px box). */
+/* The theme's panel is a fixed 614px; with larger text it grows with its columns instead. */
+body header .headerMenu .item .headerPopup {
+  top: 99px; /* where the theme put it: 1px under the header, so the pointer never crosses a gap */
+  bottom: auto;
+  height: auto;
+  max-height: calc(100dvh - 100px);
+  overflow-y: auto;
+}
+
+body header .headerMenu .item .headerPopup .content {
+  padding: 36px 48px;
+}
+
+body header .headerMenu .item .headerPopup .content > .item {
+  padding: 16px 14px;
+}
+
+body header .headerMenu .item .headerPopup .content .item .itemPic {
+  height: 190px;
+  margin-bottom: 16px;
+}
+
+body header .headerMenu .item .headerPopup .content .item .itemTitle {
+  max-width: none;
+  height: auto;
+  min-height: 2.4em; /* two lines, so the links of every column start level */
+  margin-bottom: 12px;
+  justify-content: center;
+  font-size: 21px;
+  line-height: 1.2;
+}
+
+body header .headerMenu .item .headerPopup .content .item .headerlink {
+  margin-bottom: 2px;
+  padding: 6px 10px;
+  border-radius: 8px;
+  font-size: 20px;
+  line-height: 1.3;
+  text-align: center;
+}
+
+body header .headerMenu .item .aboutPopup {
+  padding: 24px 36px;
+  gap: 4px;
+}
+
+body header .headerMenu .item .aboutPopup .itemAbout {
+  margin-bottom: 0;
+  padding: 8px 10px;
+  border-radius: 8px;
+  font-size: 20px;
+  line-height: 1.3;
+  white-space: nowrap;
+}
+
+/* ---------- Scrolling ---------- */
+/* The theme set smooth scrolling on every element (`*`); only the page needs it, for anchor jumps. */
+html * {
+  scroll-behavior: auto;
+}
+
+/* The theme's `will-change: contents/display/transform` kept a GPU layer per product card for nothing. */
+main .products * {
+  will-change: auto !important;
+}
+
+/* The theme's `main { overflow-x: hidden }` turned <main> into a scroll box of its own (the other axis
+   becomes `auto`). It had 16px of spare height, so after a reload the wheel scrolled <main> by those
+   16px and stayed latched to it while the page stood still. `clip` cuts the sides without a scroll box;
+   browsers without it keep `hidden`. !important: phone rules (.mainBlog, .mainWhere) set it again. */
+body main {
+  overflow-x: hidden !important;
+  overflow-x: clip !important;
+  /* `hidden` also kept the last block's bottom margin inside <main>; `clip` does not, and it showed as
+     a white strip above the footer. flow-root contains the margins without making a scroll box. */
+  display: flow-root;
+}
+
+/* Reviews: cards are a fixed 380px (340px on phones) and the text was cut at 10 lines of 18px. At the
+   17px/1.45 set above 10 lines no longer fit and pushed "Читать полностью" out of the card, so fewer
+   lines show and the link sits at the bottom of every card. */
+body main .review-body p {
+  -webkit-line-clamp: 8;
+}
+
+body main .review_show-more {
+  margin: auto auto 0;
+  padding-top: 14px;
+}
+
+@media (max-width: 767px) {
+  body main .review-card:not(.review-card--show) {
+    height: 360px;
+  }
+
+  body main .review-body p {
+    -webkit-line-clamp: 7;
+  }
+}
+
+/* ---------- Product page: description, ingredients card, motion ---------- */
+/* Wide screens: three columns that share the width. The theme's flex row squeezed the ingredients
+   card to 193px, pushed it past the right edge and stretched it to ~1400px tall. */
+@media (min-width: 1201px) {
+  body .mainCards .cardPage .banner .slideContent {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1.05fr) 340px;
+    gap: 40px;
+    align-items: start;
+    max-width: 1320px;
+    padding: 0 40px;
+    box-sizing: border-box;
+  }
+
+  body .mainCards .cardPage .banner .slideContent .description {
+    max-width: none;
+  }
+
+  body .mainCards .cardPage .banner .slideContent .pic {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    height: auto;
+    margin: 0;
+  }
+
+  body .mainCards .cardPage .banner .slideContent .pic img {
+    max-width: 100%;
+    height: auto;
+    max-height: 560px;
+    object-fit: contain;
+  }
+
+  body .mainCards .cardPage .banner .slideContent .compound {
+    max-width: none;
+    padding: 28px;
+    border-radius: 28px;
+    background: #FFFFFF;
+    box-shadow: 0 18px 40px rgba(61, 61, 61, 0.08);
+  }
+}
+
+/* Ingredients card (the column on wide screens and the "Состав" card on narrow ones). */
+body main .compound .compound-item + .compound-item {
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(0, 132, 37, 0.15);
+}
+
+body main .compound .compound-item p {
+  margin: 0 0 6px;
+  font-size: 15px !important;
+  line-height: 1.3;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #008425;
+}
+
+body main .compound .compound-item span,
+body main .compound .compound-text {
+  font-size: 17px !important;
+  line-height: 1.5;
+  color: #3D3D3D;
+}
+
+/* Folded to six lines; ThemeScripts animates max-height to the full height and back. */
+body main .compound .compound-text {
+  position: relative;
+  max-height: 9em;
+  overflow: hidden;
+  transition: max-height 0.45s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+body main .compound .compound-text::after {
+  content: "";
+  position: absolute;
+  inset: auto 0 0;
+  height: 3em;
+  background: linear-gradient(rgba(255, 255, 255, 0), var(--compound-bg, #FFFFFF));
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+body main .compound .is-folded:not(.is-open) .compound-text::after {
+  opacity: 1;
+}
+
+body main .compound .compound-more {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 10px;
+  padding: 4px 0;
+  border: 0;
+  background: none;
+  font-family: "PT Sans", sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  color: #008425;
+  cursor: pointer;
+}
+
+body main .compound .compound-more[hidden] {
+  display: none;
+}
+
+body main .compound .compound-more::after {
+  content: "";
+  width: 8px;
+  height: 8px;
+  margin-top: -4px;
+  border-right: 2.5px solid currentColor;
+  border-bottom: 2.5px solid currentColor;
+  rotate: 45deg;
+  transition: rotate 0.3s ease, margin 0.3s ease;
+}
+
+body main .compound .is-open .compound-more::after {
+  margin-top: 4px;
+  rotate: 225deg;
+}
+
+body main .compound .compound-more:hover {
+  color: #006a1e;
+}
+
+/* Narrow screens: the card shows the whole list, so no folding there. */
+body main .compound-mobile {
+  --compound-bg: #F4F1EB;
+  box-shadow: 0 24px 60px rgba(61, 61, 61, 0.18);
+}
+
+body main .compound-mobile.is-open {
+  display: block;
+}
+
+body main .compound-mobile .compound-text {
+  max-height: none !important;
+}
+
+body main .compound-mobile .compound-text::after,
+body main .compound-mobile .compound-more {
+  display: none !important;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  /* The slide on screen builds up line by line; it replays when the flavour changes. */
+  .mainCards .cardSlider .swiper-slide-active .description > * {
+    animation: product-in 0.6s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+  }
+  .mainCards .cardSlider .swiper-slide-active .description > :nth-child(2) { animation-delay: 0.06s; }
+  .mainCards .cardSlider .swiper-slide-active .description > :nth-child(3) { animation-delay: 0.12s; }
+  .mainCards .cardSlider .swiper-slide-active .description > :nth-child(4) { animation-delay: 0.18s; }
+  .mainCards .cardSlider .swiper-slide-active .description > :nth-child(5) { animation-delay: 0.24s; }
+
+  /* The pack grows in, then floats gently. `scale` and `translate` are separate, so both run. */
+  .mainCards .cardSlider .swiper-slide-active .pic img {
+    animation:
+      product-pic-in 0.8s cubic-bezier(0.2, 0.7, 0.2, 1) both,
+      product-float 6s ease-in-out 0.8s infinite;
+  }
+
+  .mainCards .cardSlider .swiper-slide-active .compound {
+    animation: product-card-in 0.6s cubic-bezier(0.2, 0.7, 0.2, 1) 0.2s both;
+  }
+
+  .mainCards .cardPage .banner .description .tags .tag {
+    transition: scale 0.25s ease, rotate 0.25s ease, background-color 0.25s ease;
+  }
+
+  .mainCards .cardPage .banner .description .tags .tag:hover {
+    scale: 1.08;
+    rotate: -4deg;
+    background-color: #006a1e;
+  }
+
+  body main .compound-mobile.is-open {
+    animation: product-pop 0.35s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+  }
+}
+
+@keyframes product-in {
+  from { opacity: 0; translate: 0 18px; }
+  to { opacity: 1; translate: none; }
+}
+
+@keyframes product-pic-in {
+  from { opacity: 0; scale: 0.92; }
+  to { opacity: 1; scale: 1; }
+}
+
+@keyframes product-float {
+  0%, 100% { translate: none; }
+  50% { translate: 0 -10px; }
+}
+
+@keyframes product-card-in {
+  from { opacity: 0; translate: 24px 0; }
+  to { opacity: 1; translate: none; }
+}
+
+@keyframes product-pop {
+  from { opacity: 0; scale: 0.96; }
+  to { opacity: 1; scale: 1; }
+}
+
+/* Benefit circles ("Без молока", "Preprofibers"…): larger, wrapping, with text sized to the circle
+   (container units), so the longest words fit at every width. The theme had 102px/70px circles and
+   the UI polish above raised their text to 16px, so it spilled out. */
+body .mainCards .cardPage .banner .slideContent .description .tags {
+  --tag: 104px;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 28px;
+}
+
+body .mainCards .cardPage .banner .slideContent .description .tags .tag {
+  flex: 0 0 var(--tag);
+  width: var(--tag);
+  height: var(--tag);
+  margin: 0;
+  padding: 0 8px;
+  box-sizing: border-box;
+  container-type: inline-size;
+  box-shadow: inset 0 0 0 3px rgba(255, 255, 255, 0.16), 0 8px 18px rgba(0, 132, 37, 0.18);
+}
+
+body .mainCards .cardPage .banner .slideContent .description .tags .tag p {
+  font-size: clamp(10px, 14.5cqi, 14px) !important; /* of the circle's inner width */
+  line-height: 1.1;
+  letter-spacing: 0.01em;
+  overflow-wrap: break-word;
+}
+
+@media (min-width: 1380px) {
+  body .mainCards .cardPage .banner .slideContent .description .tags {
+    --tag: 116px;
+  }
+}
+
+/* Up to 1200px the theme stacks the slide but floats the pack absolutely over a gap in the text, at
+   210px. Here the description's parts and the pack join one centred column in reading order. */
+@media (max-width: 1200px) {
+  body .mainCards .cardPage .banner {
+    max-width: none;
+    padding-bottom: 56px;
+  }
+
+  body .mainCards .cardPage .banner .slideContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 640px;
+    padding: 0 24px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  body .mainCards .cardPage .banner .slideContent .description {
+    display: contents;
+  }
+
+  body .mainCards .cardPage .banner .slideContent .description .title { order: 1; }
+  /* The theme left a 361px margin under the subtitle as room for the floating pack. */
+  body .mainCards .cardPage .banner .slideContent .description .subtitle { order: 2; margin-bottom: 0 !important; }
+  body .mainCards .cardPage .banner .slideContent .pic { order: 3; }
+  body .mainCards .cardPage .banner .slideContent .description .text { order: 4; }
+  body .mainCards .cardPage .banner .slideContent .description .tags { order: 5; }
+  body .mainCards .cardPage .banner .slideContent .description .buttons { order: 6; }
+  body .mainCards .cardPage .banner .slideContent .description > :not(.title, .subtitle, .text, .tags, .buttons) { order: 7; }
+
+  body .mainCards .cardPage .banner .slideContent .pic,
+  body .mainCards .cardPage .banner .slideContent .pic-yogurt {
+    position: static;
+    top: auto !important;
+    left: auto;
+    transform: none;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin: 24px 0 8px;
+  }
+
+  body .mainCards .cardPage .banner .slideContent .pic img {
+    width: auto !important;
+    max-width: 100%;
+    height: auto;
+    max-height: 340px;
+    object-fit: contain;
+  }
+
+  body .mainCards .cardPage .banner .slideContent .description .text {
+    max-width: 560px;
+    margin-top: 16px;
+  }
+
+  body .mainCards .cardPage .banner .slideContent .description .tags {
+    justify-content: center;
+  }
+
+  body .mainCards .cardPage .banner .slideContent .description .buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 28px;
+  }
+
+  body .mainCards .cardPage .banner .slideContent .description .buttons .more {
+    margin: 0;
+  }
+
+  body .mainCards .cardPage .banner .slideContent .description .tags {
+    --tag: 120px;
+    gap: 14px;
+  }
+
+  /* Dots under the slide instead of across the text (the theme put them at 42% of the height). */
+  body .mainCards .cardPage .banner .cardSlider {
+    padding-bottom: 56px;
+  }
+
+  /* The arrows sat at half the slide height, now over the text: they flank the dots instead. */
+  body .mainCards .cardPage .banner .cardSlider .prev-arrow,
+  body .mainCards .cardPage .banner .cardSlider .next-arrow {
+    top: auto;
+    bottom: 0;
+    transform: none;
+  }
+
+  body .mainCards .cardPage .banner .cardSlider .prev-arrow {
+    left: calc(50% - 96px);
+  }
+
+  body .mainCards .cardPage .banner .cardSlider .next-arrow {
+    right: calc(50% - 96px);
+  }
+
+  body .mainCards .cardPage .banner .swiper-pagination {
+    top: auto !important;
+    bottom: 10px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  body .mainCards .cardPage .banner .slideContent {
+    padding: 0 16px;
+  }
+
+  body .mainCards .cardPage .banner .slideContent .pic img {
+    max-height: 260px;
+  }
+
+  body .mainCards .cardPage .banner .slideContent .description .tags {
+    --tag: 96px;
+    gap: 10px;
+  }
+}
+
+/* ---------- List pagination (components/Pagination.tsx) ---------- */
+body main .mainPagination {
+  position: static;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  max-width: 100%;
+  width: auto;
+  margin: 40px auto 0;
+  padding: 0 16px;
+  box-sizing: border-box;
+  transform: none;
+}
+
+body main .mainPagination .numbers-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center !important;
+  width: auto !important;
+  max-width: none !important;
+  gap: 8px;
+  margin: 0;
+}
+
+body main .mainPagination .pagination-number,
+body main .mainPagination .pagination-gap {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 48px;
+  height: 48px;
+  margin: 0;
+  padding: 0 10px;
+  box-sizing: border-box;
+  border-radius: 24px;
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px !important;
+  font-weight: 700;
+  color: #008425;
+  text-decoration: none;
+}
+
+body main .mainPagination .pagination-number {
+  background: #FFFFFF;
+  border: 2px solid rgba(0, 132, 37, 0.25);
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease, translate 0.2s ease;
+}
+
+body main .mainPagination .pagination-number:hover {
+  border-color: #008425;
+  background: #F4B223;
+  translate: 0 -2px;
+}
+
+body main .mainPagination .pagination-number__active,
+body main .mainPagination .pagination-number__active:hover {
+  background: #008425;
+  border-color: #008425;
+  color: #FFFFFF;
+  box-shadow: 0 6px 16px rgba(0, 132, 37, 0.3);
+  translate: none;
+}
+
+body main .mainPagination .prev-arrow,
+body main .mainPagination .next-arrow {
+  position: static;
+  transform: none;
+  width: 48px;
+  height: 48px;
+}
+
+@media (max-width: 480px) {
+  body main .mainPagination .pagination-number,
+  body main .mainPagination .pagination-gap {
+    min-width: 42px;
+    height: 42px;
+    font-size: 18px !important;
+  }
+
+  body main .mainPagination .prev-arrow,
+  body main .mainPagination .next-arrow {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+/* The theme spaces numbers with margin-left: 30px and arrows with 0 15px; the gap above replaces both. */
+body main .mainPagination > *,
+body main .mainPagination .numbers-wrapper > * {
+  margin: 0 !important;
+}
+
+body main .mainPagination .numbers-wrapper {
+  flex: 0 1 auto;
+}
+
+body main .mainPagination .prev-arrow,
+body main .mainPagination .next-arrow {
+  width: 48px !important;
+  height: 48px !important;
+}
+
+@media (max-width: 480px) {
+  body main .mainPagination,
+  body main .mainPagination .numbers-wrapper {
+    gap: 4px;
+  }
+
+  body main .mainPagination .prev-arrow,
+  body main .mainPagination .next-arrow {
+    width: 42px !important;
+    height: 42px !important;
+  }
+}
+
+@media (max-width: 360px) {
+  body main .mainPagination .pagination-number,
+  body main .mainPagination .pagination-gap,
+  body main .mainPagination .prev-arrow,
+  body main .mainPagination .next-arrow {
+    min-width: 36px;
+    width: auto;
+    height: 36px !important;
+    padding: 0 6px;
+    font-size: 17px !important;
+  }
+
+  body main .mainPagination .prev-arrow,
+  body main .mainPagination .next-arrow {
+    width: 36px !important;
+  }
+}
+
+body main .mainPagination .prev-arrow,
+body main .mainPagination .next-arrow {
+  box-sizing: border-box;
+}
+
+/* Header: logo, menu and search gathered into a centred 1320px row on wide screens. Padding rather
+   than max-width keeps the white bar and the drop-down panels (positioned on .headerWrapper) full width. */
+@media (min-width: 1025px) {
+  body header .headerWrapper {
+    justify-content: space-between;
+    gap: 32px;
+    padding-left: max(40px, calc((100% - 1320px) / 2));
+    padding-right: max(40px, calc((100% - 1320px) / 2));
+    box-sizing: border-box;
+  }
+
+  body header .headerWrapper > .headerMenu {
+    margin: 0 auto;
+  }
+
+  body header .headerWrapper > .search {
+    margin: 0;
+  }
+}
+
+/* Pagination as one white pill, closer to the cards and clear of the footer (it sat right on it). */
+body main .d-flex:has(> .mainPagination) {
+  margin: 8px 0 96px;
+}
+
+body main .mainPagination {
+  width: fit-content !important;
+  margin: 0 auto;
+  padding: 8px;
+  border-radius: 999px;
+  background: #FFFFFF;
+  box-shadow: 0 10px 30px rgba(61, 61, 61, 0.1);
+}
+
+body main .mainPagination .pagination-number {
+  border-color: transparent;
+  background: transparent;
+}
+
+body main .mainPagination .pagination-number:hover {
+  border-color: transparent;
+  background: #F4F1EB;
+  color: #006a1e;
+}
+
+body main .mainPagination .prev-arrow,
+body main .mainPagination .next-arrow {
+  border: 0;
+  border-radius: 50%;
+  background: #F4B223;
+  transition: background-color 0.2s ease, translate 0.2s ease, opacity 0.2s ease;
+}
+
+body main .mainPagination .prev-arrow:hover,
+body main .mainPagination .next-arrow:hover {
+  background: #ffc23d;
+  border: 0;
+}
+
+body main .mainPagination .prev-arrow:hover { translate: -2px 0; }
+body main .mainPagination .next-arrow:hover { translate: 2px 0; }
+
+body main .mainPagination .arrow-disabled,
+body main .mainPagination .arrow-disabled:hover {
+  background: #EBE3D3;
+  opacity: 0.6;
+  translate: none;
+  cursor: default;
+}
+
+@media (max-width: 768px) {
+  body main .d-flex:has(> .mainPagination) {
+    margin-bottom: 64px;
+  }
+}
+
+/* ---------- Contacts page ---------- */
+body .mainContacts .contacts {
+  font-family: "PT Sans", sans-serif;
+  color: #3D3D3D;
+}
+
+body .mainContacts .contacts .content {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 32px;
+  width: auto;
+  max-width: 1200px;
+  margin: 48px auto 0;
+  padding: 0 24px;
+  box-sizing: border-box;
+}
+
+@media (min-width: 1024px) {
+  body .mainContacts .contacts .content {
+    grid-template-columns: minmax(0, 1.7fr) minmax(300px, 1fr);
+    align-items: start;
+  }
+
+  body .mainContacts .contacts .info {
+    position: sticky;
+    top: 124px;
+  }
+}
+
+body .mainContacts .contacts .address,
+body .mainContacts .contacts .info {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: auto;
+  margin: 0;
+}
+
+/* City and hot-line cards. */
+body .mainContacts .contacts .addressItem,
+body .mainContacts .contacts .info {
+  width: auto;
+  margin: 0;
+  padding: 32px;
+  border-radius: 28px;
+  background: #FFFFFF;
+  box-shadow: 0 14px 36px rgba(61, 61, 61, 0.08);
+  box-sizing: border-box;
+}
+
+body .mainContacts .contacts .city {
+  margin-bottom: 16px;
+  font-size: 34px;
+  line-height: 1.1;
+}
+
+body .mainContacts .contacts .location,
+body .mainContacts .contacts .addressItem .phone {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin: 0 0 16px;
+}
+
+body .mainContacts .contacts .location .geo-pin {
+  flex: none;
+  width: 20px;
+  margin-top: 2px;
+}
+
+body .mainContacts .contacts .location a,
+body .mainContacts .contacts .addressItem .phone a,
+body .mainContacts .contacts .socials .item a {
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+/* Managers: one card each, two per row where they fit. */
+body .mainContacts .contacts .managers {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 12px;
+  margin: 8px 0 20px !important;
+  padding: 0;
+  list-style: none;
+}
+
+body .mainContacts .contacts .manager {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 16px 18px;
+  border-radius: 18px;
+  background: #F4F1EB;
+  transition: background-color 0.2s ease, translate 0.2s ease;
+}
+
+body .mainContacts .contacts .manager:hover {
+  background: #EBE3D3;
+  translate: 0 -2px;
+}
+
+body .mainContacts .contacts .manager__role {
+  font-size: 15px;
+  line-height: 1.35;
+  color: #6b6b6b;
+}
+
+body .mainContacts .contacts .manager__name {
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+body .mainContacts .contacts .manager__email {
+  margin-top: 4px;
+  font-size: 18px;
+  font-weight: 700;
+  word-break: break-all;
+}
+
+body .mainContacts .contacts .info .title {
+  margin-bottom: 4px;
+  font-size: 18px;
+  color: #6b6b6b;
+}
+
+body .mainContacts .contacts .info .phone a {
+  font-size: 30px;
+  line-height: 1.2;
+}
+
+body .mainContacts .contacts .socials {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin: 8px 0 0;
+  padding-top: 20px;
+  border-top: 1px solid rgba(0, 132, 37, 0.15);
+}
+
+body .mainContacts .contacts .socials .item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 0;
+}
+
+/* Links: dark text turns green, green text turns yellow-underlined; icons follow. */
+body .mainContacts .contacts a {
+  color: #3D3D3D;
+  text-decoration: none;
+  transition: color 0.2s ease, text-decoration-color 0.2s ease;
+  text-decoration-line: underline;
+  text-decoration-color: transparent;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
+
+body .mainContacts .contacts .manager__email,
+body .mainContacts .contacts .info .phone a {
+  color: #008425;
+}
+
+body .mainContacts .contacts a:hover {
+  color: #008425;
+  text-decoration-color: #F4B223;
+}
+
+body .mainContacts .contacts .manager__email:hover,
+body .mainContacts .contacts .info .phone a:hover {
+  color: #006a1e;
+}
+
+body .mainContacts .contacts svg rect,
+body .mainContacts .contacts .phone svg path {
+  transition: fill 0.2s ease;
+}
+
+body .mainContacts .contacts .socials .item:hover svg rect,
+body .mainContacts .contacts .addressItem .phone:hover svg path {
+  fill: #008425;
+}
+
+@media (max-width: 600px) {
+  body .mainContacts .contacts .content {
+    padding: 0 16px;
+  }
+
+  body .mainContacts .contacts .addressItem,
+  body .mainContacts .contacts .info {
+    padding: 22px;
+    border-radius: 22px;
+  }
+
+  body .mainContacts .contacts .city {
+    font-size: 28px;
+  }
+
+  body .mainContacts .contacts .info .phone a {
+    font-size: 26px;
+  }
+}
+
+/* The theme pushed the logo ~140px into its link; it lines up with the row's left edge instead. */
+@media (min-width: 1025px) {
+  body header .headerWrapper > a:first-child {
+    width: auto;
+    flex: none;
+  }
+
+  body header .headerWrapper .logo {
+    margin-left: 0;
+  }
+}
+
+/* Home carousel: the header is always white now (100px, 60px up to 600px wide), so the carousel starts
+   below it instead of under it; on iPad the top line of the heading was hidden. */
+main.index-main {
+  padding-top: 100px;
+}
+
+@media (max-width: 600px) {
+  main.index-main {
+    padding-top: 60px;
+  }
+}
+
+/* Slide text sits over busy photos on tablets: a white glow keeps it readable. */
+main .banner .mainSlider .swiper-slide:not([data-zoom="off"]) .content .title,
+main .banner .mainSlider .swiper-slide:not([data-zoom="off"]) .content .subtitle {
+  text-shadow:
+    0 0 2px #FFFFFF,
+    0 0 10px rgba(255, 255, 255, 0.95),
+    0 0 22px rgba(255, 255, 255, 0.85);
+}
+
+@media (min-width: 601px) and (max-width: 1200px) {
+  main .banner .mainSlider .swiper-slide .content {
+    isolation: isolate;
+  }
+
+  main .banner .mainSlider .swiper-slide:not([data-zoom="off"]) .content::before {
+    content: "";
+    position: absolute;
+    inset: -24px -40px -24px -48px;
+    z-index: -1;
+    border-radius: 40px;
+    background: radial-gradient(closest-side, rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.55) 60%, rgba(255, 255, 255, 0));
+    pointer-events: none;
+  }
+}
+
+/* iPad: the slide is ~430px tall and the theme's 55px heading made the text taller than the slide, so
+   its top line went under the header. Smaller heading and tighter gaps keep it all inside. */
+@media (min-width: 601px) and (max-width: 1200px) {
+  main .banner .mainSlider .swiper-slide .content {
+    justify-content: center;
+    align-items: flex-start !important; /* heading, text and button share one left edge */
+    text-align: left !important;
+    padding: 20px 0;
+    box-sizing: border-box;
+  }
+
+  main .banner .mainSlider .swiper-slide .content .title {
+    font-size: clamp(32px, 4.6vw, 48px) !important;
+    line-height: 1.05 !important;
+    margin-bottom: 12px !important;
+  }
+
+  main .banner .mainSlider .swiper-slide .content .subtitle {
+    font-size: 17px !important;
+    line-height: 1.4 !important;
+  }
+
+  main .banner .mainSlider .swiper-slide .content .more {
+    margin-top: 18px !important;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1200px) {
+  main .banner .mainSlider .swiper-slide .content > .title,
+  main .banner .mainSlider .swiper-slide .content > .subtitle,
+  main .banner .mainSlider .swiper-slide .content > .more {
+    align-self: flex-start !important;
+    margin-left: 0 !important;
+    text-align: left !important;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1200px) {
+  /* The theme indented the description 20px inside its box, so its text started right of the heading. */
+  main .banner .mainSlider .swiper-slide .content > .subtitle {
+    padding-left: 0 !important;
+  }
+}

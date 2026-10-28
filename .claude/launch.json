@@ -10,7 +10,7 @@
     {
       "name": "velle-next",
       "runtimeExecutable": "python3",
-      "runtimeArgs": ["-I", "-m", "http.server", "3100", "--bind", "127.0.0.1", "--directory", "web/out"],
+      "runtimeArgs": ["-I", "web/scripts/serve.py", "3100", "web/out"],
       "port": 3100
     },
     {

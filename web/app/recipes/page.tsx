@@ -1,4 +1,3 @@
-import { Suspense } from "react";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import FilteredList, { type ListItem } from "@/components/FilteredList";
 import ThemeStyles from "@/components/ThemeStyles";
@@ -55,16 +54,14 @@ export default function RecipesPage() {
               })}
             </div>
           </div>
-          <Suspense>
-            <FilteredList
-              items={items}
-              separator
-              groups={[
-                { param: "meal", dataAttr: "data-meal_time", options: recipes.filters.meal },
-                { param: "time", dataAttr: "data-cooking_time", options: recipes.filters.time },
-              ]}
-            />
-          </Suspense>
+          <FilteredList
+            items={items}
+            separator
+            groups={[
+              { param: "meal", dataAttr: "data-meal_time", options: recipes.filters.meal },
+              { param: "time", dataAttr: "data-cooking_time", options: recipes.filters.time },
+            ]}
+          />
         </div>
       </main>
     </>

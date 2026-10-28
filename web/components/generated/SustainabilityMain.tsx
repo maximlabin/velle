@@ -76,7 +76,7 @@ export default function SustainabilityMain() {
             </h1>
             <img src="/wp-content/themes/velle/images/sustainability/mobile-top.svg" className="mobile-top" />
             <img src="/wp-content/themes/velle/images/sustainability/adv-top.svg" className="top" />
-            <img src="/wp-content/themes/velle/images/sustainability/planet-cows.png" className="planet" />
+            <img src="/wp-content/themes/velle/images/sustainability/planet-cows.webp" className="planet" />
             <div className="planet-text">
               <p>
                 Кроме того, для производства

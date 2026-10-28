@@ -314,7 +314,7 @@ input:focus {
     .sample-banner {
       flex-direction: column;
       justify-content: center;
-      background-image: url("../../../../images/sample-banner-bg.png");
+      background-image: url("../../../../images/sample-banner-bg.webp");
       background-position: center center;
       background-repeat: no-repeat;
       background-size: 100% 100%; } }
@@ -955,7 +955,7 @@ main {
             justify-content: center; }
   main .evolve {
     width: 100%;
-    background: url("../images/field.png") no-repeat center;
+    background: url("../images/field.webp") no-repeat center;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -1287,7 +1287,7 @@ main {
         max-width: 641px;
         width: 100%;
         height: 295px;
-        background: url("../images/cloud.png") no-repeat center bottom;
+        background: url("../images/cloud.webp") no-repeat center bottom;
         background-size: contain;
         display: flex;
         align-items: center;
@@ -1764,13 +1764,13 @@ main {
     margin-top: 102px;
     border-radius: 0;
     width: 100%;
-    background: url("../images/blog-intro-1.png") no-repeat;
+    background: url("../images/blog-intro-1.webp") no-repeat;
     background-size: cover;
     background-position: center bottom;
     height: 530px;
     position: relative; }
     .mainBlogPost .intro-block__2 {
-      background: url("../images/blog-intro-2.png") no-repeat;
+      background: url("../images/blog-intro-2.webp") no-repeat;
       background-size: cover;
       background-position: center bottom;
       height: 530px; }
@@ -1938,7 +1938,7 @@ main {
         margin-bottom: 100px;
         border-radius: 10px;
         width: 100%;
-        background: url("../images/choose-your-velle.png") no-repeat;
+        background: url("../images/choose-your-velle.webp") no-repeat;
         background-size: cover;
         background-position: center bottom;
         height: 227px;
@@ -2860,7 +2860,7 @@ main {
         position: relative;
         width: 690px;
         height: 314px;
-        background: url("../images/recipes/slider-tom-yam.png") no-repeat center center/cover;
+        background: url("../images/recipes/slider-tom-yam.webp") no-repeat center center/cover;
         object-fit: cover; }
         .allRecipesPage .all-recipes .recipes-blocks .recipes-item__button {
           display: flex;
@@ -3088,18 +3088,18 @@ main {
     margin-top: 102px;
     border-radius: 0;
     width: 100%;
-    background: url("../images/blog-intro-1.png") no-repeat;
+    background: url("../images/blog-intro-1.webp") no-repeat;
     background-size: cover;
     background-position: center bottom;
     height: 530px;
     position: relative; }
     .mainRecipesPost .intro-block__2 {
-      background: url("../images/recipes/tom-yam-background.png") no-repeat;
+      background: url("../images/recipes/tom-yam-background.webp") no-repeat;
       background-size: cover;
       background-position: center bottom;
       height: 530px; }
     .mainRecipesPost .intro-block__3 {
-      background: url("../images/recipes/millet-porridge-background.png") no-repeat;
+      background: url("../images/recipes/millet-porridge-background.webp") no-repeat;
       background-size: cover;
       background-position: center bottom;
       height: 530px; }
@@ -3384,7 +3384,7 @@ main {
         margin-bottom: 100px;
         border-radius: 10px;
         width: 100%;
-        background: url("../images/recipes/tom-yam-recipe.png") no-repeat;
+        background: url("../images/recipes/tom-yam-recipe.webp") no-repeat;
         background-size: cover;
         background-position: center bottom;
         height: 227px;
@@ -5241,7 +5241,7 @@ footer {
           font-size: 15px;
           line-height: 18px; }
         .mainBlogPost .content-wrapper .content .promo-block {
-          background: url("../images/choose-your-velle-mobile.png") no-repeat;
+          background: url("../images/choose-your-velle-mobile.webp") no-repeat;
           margin-bottom: 75px;
           margin-top: 66px; }
       .mainBlogPost .content-wrapper .cards-wrapper {

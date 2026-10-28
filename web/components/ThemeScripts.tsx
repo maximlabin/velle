@@ -5,10 +5,12 @@
 import { useEffect } from "react";
 import { usePathname } from "next/navigation";
 import Swiper from "swiper";
-import { EffectFade, Navigation, Pagination } from "swiper/modules";
+import { Autoplay, EffectFade, Navigation, Pagination } from "swiper/modules";
 import type { SwiperOptions } from "swiper/types";
 
-const MODULES = [Navigation, Pagination, EffectFade];
+const MODULES = [Navigation, Pagination, EffectFade, Autoplay];
+// Home banner: next slide every 5 s; the zoom-out of its pictures (app/site.css) lasts as long.
+const BANNER_DELAY = 5000;
 const YEARS = ["2003", "2004", "2008", "2009", "2010", "2012", "2015", "2020", "2021", "2022"];
 
 // [selector, options] from main.js and review-slider.js; elements missing on a page are skipped.
@@ -21,12 +23,23 @@ const SLIDERS: [string, SwiperOptions][] = [
     },
     navigation: { nextEl: ".next-arrow", prevEl: ".prev-arrow" },
   }],
-  [".mainSlider", { loop: true, pagination: { el: ".swiper-pagination", clickable: true }, navigation: { nextEl: ".next-arrow", prevEl: ".prev-arrow" } }],
+  [".mainSlider", {
+    loop: true, pagination: { el: ".swiper-pagination", clickable: true }, navigation: { nextEl: ".next-arrow", prevEl: ".prev-arrow" },
+    autoplay: { delay: BANNER_DELAY, disableOnInteraction: false },
+  }],
   [".gallery", { loop: true, navigation: { nextEl: ".next-gallery", prevEl: ".prev-gallery" } }],
   [".recipes-block", { centeredSlides: true, spaceBetween: 20, pagination: { el: ".slider__pagination", clickable: true }, navigation: { nextEl: ".recipes-button-prev", prevEl: ".recipes-button-next" } }],
   [".recipes-block2", { centeredSlides: true, spaceBetween: 20, pagination: { el: ".slider__pagination2", clickable: true }, navigation: { nextEl: ".recipes-button-prev2", prevEl: ".recipes-button-next2" } }],
-  [".cardSlider", { pagination: { el: ".main-pagination", clickable: true }, navigation: { nextEl: ".next-arrow", prevEl: ".prev-arrow" } }],
-  [".recipesSlider", { loop: true, slidesPerView: 1, navigation: { nextEl: ".next-recipe", prevEl: ".prev-recipe" }, breakpoints: { 768: { slidesPerView: 4, centeredSlides: true } } }],
+  // autoHeight: flavours differ in text length; the slider follows the one on screen, not the tallest.
+  [".cardSlider", { autoHeight: true, pagination: { el: ".main-pagination", clickable: true }, navigation: { nextEl: ".next-arrow", prevEl: ".prev-arrow" } }],
+  // Products show 3-6 recipes: loop + 4 centred slides needs more than that and jumped. rewind goes
+  // back to the first card after the last; autoplay turns it every 5 s and pauses under the pointer.
+  [".recipesSlider", {
+    rewind: true, slidesPerView: 1.15, spaceBetween: 16, watchOverflow: true,
+    autoplay: { delay: 5000, disableOnInteraction: false, pauseOnMouseEnter: true },
+    navigation: { nextEl: ".next-recipe", prevEl: ".prev-recipe" },
+    breakpoints: { 576: { slidesPerView: 2, spaceBetween: 20 }, 992: { slidesPerView: 3, spaceBetween: 24 }, 1280: { slidesPerView: 4, spaceBetween: 24 } },
+  }],
   [".otherSlider", { loop: true, slidesPerView: 1, spaceBetween: 21, pagination: { el: ".other-pagination", clickable: true }, breakpoints: { 768: { slidesPerView: 4, spaceBetween: 0 } } }],
   [".review-slider .swiper", {
     slidesPerView: 1, spaceBetween: 20,
@@ -71,6 +84,12 @@ function initSliders(): Swiper[] {
   const card = made.find((s) => s.el.classList.contains("cardSlider"));
   const index = parseInt(window.location.search.slice(1), 10);
   if (card && index) card.slideTo(index, 1000, false);
+  // With autoHeight the slider would clip an ingredients list as it unfolds: follow every size change.
+  if (card && "ResizeObserver" in window) {
+    const ro = new ResizeObserver(() => card.updateAutoHeight(0));
+    card.slides.forEach((slide) => ro.observe(slide));
+    card.on("destroy", () => ro.disconnect());
+  }
   return made;
 }
 
@@ -85,6 +104,32 @@ function initReviews() {
       more.innerHTML = open ? "Свернуть" : "Читать полностью";
     };
   });
+}
+
+// Product pages: long ingredient lists are folded; the button appears only where text is cut.
+function initCompound() {
+  document.querySelectorAll<HTMLElement>(".compound-item--main").forEach((item) => {
+    const text = item.querySelector<HTMLElement>(".compound-text");
+    const more = item.querySelector<HTMLElement>(".compound-more");
+    if (!text || !more) return;
+    const cut = text.scrollHeight - text.clientHeight >= 8;
+    more.hidden = !cut;
+    item.classList.toggle("is-folded", cut);
+  });
+}
+
+function toggleCompound(item: HTMLElement) {
+  const text = item.querySelector<HTMLElement>(".compound-text")!;
+  const more = item.querySelector<HTMLElement>(".compound-more")!;
+  const open = !item.classList.contains("is-open");
+  // max-height animates between the folded height (CSS) and the measured full height.
+  text.style.maxHeight = (open ? text.clientHeight : text.scrollHeight) + "px";
+  void text.offsetHeight;
+  item.classList.toggle("is-open", open);
+  text.style.maxHeight = open ? text.scrollHeight + "px" : "";
+  // Once open, drop the fixed height so the text can reflow when the window is resized.
+  if (open) text.addEventListener("transitionend", () => item.classList.contains("is-open") && (text.style.maxHeight = "none"), { once: true });
+  more.textContent = open ? "Свернуть" : "Читать полностью";
 }
 
 // video-recipes.js: the custom player inside a recipe's body.
@@ -114,6 +159,39 @@ function initVideo() {
     icons.forEach((el) => (el.style.fill = color));
     if (line) line.style.stroke = color;
   });
+}
+
+// Sections and cards fade up as they scroll into view (styles: .reveal in app/site.css).
+const REVEAL = [
+  // Not .wrapper itself: it is ~2800px tall and its sections fade on their own.
+  "main.index-main > div:not(:first-child):not(.wrapper)", "main .wrapper > div", "main section",
+  "main .cardPage > div:not(.banner):not(.compound)", "main .content-wrapper > .cards-wrapper",
+  "main .post-card-wrap", "main .contentBlock", "main.mainWhere .content .item", ".site-footer__block",
+].join(", ");
+
+function initReveal(): () => void {
+  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches || !("IntersectionObserver" in window)) return () => {};
+  const items = [...document.querySelectorAll<HTMLElement>(REVEAL)].filter((el) => !el.closest(".swiper-wrapper"));
+  const io = new IntersectionObserver(
+    (entries) => entries.forEach((e) => {
+      if (e.isIntersecting) {
+        e.target.classList.add("reveal--in");
+        io.unobserve(e.target);
+      }
+    }),
+    // Start just before a block scrolls in, so fast scrolling never shows empty space.
+    { rootMargin: "0px 0px 120px 0px" },
+  );
+  items.forEach((el) => {
+    el.classList.add("reveal");
+    // What is already on screen shows at once: nothing above the fold waits on the observer.
+    if (el.getBoundingClientRect().top < window.innerHeight) el.classList.add("reveal--in");
+    else io.observe(el);
+  });
+  return () => {
+    io.disconnect();
+    items.forEach((el) => el.classList.remove("reveal", "reveal--in"));
+  };
 }
 
 // accordion.js (#accordion with h6) and the certification tabs on sustainability (#sertification with h3).
@@ -198,6 +276,20 @@ function bindForm(form: HTMLFormElement, action: string, popup: HTMLElement | nu
   });
 }
 
+// Narrow screens: "Состав" opens a card with the ingredients of the flavour on screen (the theme always
+// showed the first one), in full.
+function openMobileCompound() {
+  const popup = document.querySelector<HTMLElement>(".compound-mobile");
+  const source = document.querySelector(".cardSlider .swiper-slide-active .compound");
+  if (!popup) return;
+  if (source) {
+    popup.querySelectorAll(".compound-item").forEach((el) => el.remove());
+    source.querySelectorAll(".compound-item").forEach((el) => popup.append(el.cloneNode(true)));
+  }
+  window.scrollTo({ top: 0, behavior: "smooth" });
+  popup.classList.add("is-open");
+}
+
 function initPopups(): () => void {
   const feedback = document.getElementById("feedback-popup");
   const free = document.getElementById("free-popup");
@@ -229,12 +321,12 @@ function initPopups(): () => void {
     else if (hit("#feedback-popup .feedback__header-close")) close(feedback);
     else if (hit("#free-popup .feedback__header-close")) close(free);
     else if (hit(".feedback-sent .xclose")) document.querySelector<HTMLElement>(".feedback-sent")!.style.display = "";
-    else if (hit(".footer__popup .footer__close")) hit(".footer__popup .footer__close")!.closest(".footer__popup")?.classList.add("footer__popup__close");
     else if (hit(".sustainability-popup")) document.querySelector<HTMLElement>(".sustainability-mask")!.style.display = "flex";
     else if (hit(".sustainability-mask .xclose")) document.querySelector<HTMLElement>(".sustainability-mask")!.style.display = "none";
     else if (hit("a.scroll-to")) { e.preventDefault(); window.scrollTo({ top: 900, behavior: "smooth" }); }
-    else if (hit(".comp")) { window.scrollTo(0, 0); document.querySelector<HTMLElement>(".compound-mobile")!.style.display = "block"; }
-    else if (hit(".comp-close")) document.querySelector<HTMLElement>(".compound-mobile")!.style.display = "none";
+    else if (hit(".compound-more")) toggleCompound(hit(".compound-item")!);
+    else if (hit(".comp")) openMobileCompound();
+    else if (hit(".comp-close")) document.querySelector<HTMLElement>(".compound-mobile")!.classList.remove("is-open");
 
     const option = hit(".dropdown__select-option");
     if (option && label) { label.textContent = option.textContent; organization?.classList.remove("active"); }
@@ -262,14 +354,18 @@ function initPopups(): () => void {
 export default function ThemeScripts() {
   const pathname = usePathname();
   useEffect(() => {
+    // Before the sliders: showing "Читать полностью" changes the slide height autoHeight measures.
+    initCompound();
     const sliders = initSliders();
     initReviews();
     initVideo();
     initAccordion("accordion", "H6");
     initAccordion("sertification", "H3");
     const stopPopups = initPopups();
+    const stopReveal = initReveal();
     return () => {
       stopPopups();
+      stopReveal();
       sliders.forEach((s) => s.destroy(true, false));
     };
   }, [pathname]);

@@ -1,3 +1,4 @@
+import path from "node:path";
 import type { NextConfig } from "next";
 
 const config: NextConfig = {
@@ -8,6 +9,8 @@ const config: NextConfig = {
   images: { unoptimized: true },
   // A stray package-lock.json higher up (in ~) would otherwise be taken for the workspace root.
   turbopack: { root: __dirname },
+  // For lib/files.ts: content can depend on which pictures are present.
+  env: { PUBLIC_DIR: path.join(__dirname, "public") },
 };
 
 export default config;

@@ -2,6 +2,13 @@ import { notFound } from "next/navigation";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import ThemeStyles from "@/components/ThemeStyles";
 import { catalogItem, products, toMetadata, type Variant } from "@/lib/content";
+import { PRODUCT_PLACEHOLDER, productImage } from "@/lib/files";
+
+const Picture = ({ src, className }: { src: string | null; className?: string }) => {
+  const image = productImage(src);
+  const cls = [className, image === PRODUCT_PLACEHOLDER && "product-placeholder"].filter(Boolean).join(" ");
+  return <img src={image} className={cls || undefined} alt="product" />;
+};
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -48,8 +55,23 @@ const GoButton = () => (
   </svg>
 );
 
+// The ingredients list runs to 1000 characters on some products: it is folded to a few lines with a
+// "Читать полностью" button (ThemeScripts shows the button only when the text is actually cut).
 const Compound = ({ v }: { v: Variant }) =>
-  v.compound.map((c, i) => [<p key={`p${i}`}>{c.label}</p>, <span key={`s${i}`}>{c.value}</span>]);
+  v.compound.map((c, i) =>
+    /состав/i.test(c.label) ? (
+      <div className="compound-item compound-item--main" key={i}>
+        <p>{c.label}</p>
+        <div className="compound-text"><span>{c.value}</span></div>
+        <button type="button" className="compound-more" hidden>Читать полностью</button>
+      </div>
+    ) : (
+      <div className="compound-item" key={i}>
+        <p>{c.label}</p>
+        <span>{c.value}</span>
+      </div>
+    ),
+  );
 
 function Slide({ v }: { v: Variant }) {
   return (
@@ -69,7 +91,7 @@ function Slide({ v }: { v: Variant }) {
           </div>
         </div>
         <div className="pic">
-          <img src={v.image ?? undefined} alt="product" />
+          <Picture src={v.image} />
         </div>
         <div className="compound">
           <Compound v={v} />
@@ -156,7 +178,7 @@ export default async function ProductPage({ params }: Props) {
                         <div className="contentItem">
                           {item.tag && <img loading="lazy" src={item.tag} alt="tag" className="tag" />}
                           <a className="otherLink" href={`/products/${slug}/`} />
-                          <img src={item.image ?? undefined} className="productPic" alt="product" />
+                          <Picture src={item.image} className="productPic" />
                           <div className="itemTitle" style={{ textAlign: "center" }}>{item.title}</div>
                           <div className="volume">{item.volume}</div>
                         </div>

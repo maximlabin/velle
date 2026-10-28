@@ -264,7 +264,13 @@ def extract_recipes():
 
 # ---------- blog ----------
 
-BARISTA = re.compile(r"бариста|barista|латте|капучино|кофе", re.I)
+# The WordPress filter ("Бариста" / "Вместо молока") was server-side and neither the copy nor the archive
+# records it, so categories are set by hand from each post's topic: coffee and HoReCa posts are "barista".
+BARISTA_POSTS = {
+    "kakoe-rastitelnoe-moloko-luchshe-vsego-podhodit-dlya-kofe",
+    "master-klass-ot-velle-v-almate",
+    "vystavka-pir-expo-2025",
+}
 
 
 def extract_blog():
@@ -296,8 +302,7 @@ def extract_blog():
             "introStyle": rewrite_attr(pf, "style", intro.attrs.get("style") or ""),
             "image": known.get("image") or bg_image(pf, intro.attrs.get("style")),
             "excerpt": known.get("excerpt") or (first_text[:160].rsplit(" ", 1)[0] + "…" if first_text else ""),
-            # The WordPress filter was server-side and the copy has no category marks: guessed by keywords.
-            "category": "barista" if BARISTA.search(title + " " + content.clean_text()[:2000]) else "vmesto-moloka",
+            "category": "barista" if slug in BARISTA_POSTS else "vmesto-moloka",
             "bodyHtml": to_html(content, pf),
             "meta": meta(d),
         })

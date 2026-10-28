@@ -16,7 +16,7 @@ export default function FeedbackPopup() {
           <form name="feedback" method="POST" className="feedback-form">
             <ul className="form-list">
               <div className="feedback__form-item">
-                <label htmlFor="name" className="feedback__form-label">Ваше имя:</label>
+                <label htmlFor="feedback-name" className="feedback__form-label">Ваше имя:</label>
                 <div className="feedback__form-input">
                   <span className="user">
                     <svg width="18" height="21" viewBox="0 0 18 21" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -24,17 +24,12 @@ export default function FeedbackPopup() {
                       <path d="M1.25353 14.1056C1.6858 11.7281 3.75645 10 6.17288 10H11.8271C14.2435 10 16.3142 11.7281 16.7465 14.1056L18 21H0L1.25353 14.1056Z" fill="#898989" />
                     </svg>
                   </span>
-                  <input className="form-control" type="text" name="username" maxLength={50} placeholder="ФИО..." defaultValue="" />
-                  <span className="feedback__error-icon">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <circle cx="12" cy="12" r="12" fill="#EB1D1D" />
-                      <path d="M11.584 14.31L11.242 9V5.4H13.132V9L12.79 14.31H11.584ZM12.178 18.198C11.854 18.198 11.578 18.084 11.35 17.856C11.122 17.628 11.008 17.352 11.008 17.028C11.008 16.704 11.122 16.428 11.35 16.2C11.578 15.972 11.854 15.858 12.178 15.858C12.514 15.858 12.79 15.972 13.006 16.2C13.234 16.428 13.348 16.704 13.348 17.028C13.348 17.352 13.234 17.628 13.006 17.856C12.79 18.084 12.514 18.198 12.178 18.198Z" fill="white" />
-                    </svg>
-                  </span>
+                  <input id="feedback-name" className="form-control" type="text" name="username" maxLength={50} placeholder="ФИО..." defaultValue="" />
+                  <span className="feedback__error-icon"><img src="/images/form-error-icon.svg" width={24} height={24} alt="" /></span>
                 </div>
               </div>
               <div className="feedback__form-item">
-                <label htmlFor="email" className="feedback__form-label">Адрес электронной почты:</label>
+                <label htmlFor="feedback-email" className="feedback__form-label">Адрес электронной почты:</label>
                 <div className="feedback__form-input">
                   <span className="email">
                     <svg width="20" height="13" viewBox="0 0 20 13" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -43,16 +38,11 @@ export default function FeedbackPopup() {
                     </svg>
                   </span>
                   <input id="feedback-email" className="form-control" type="text" name="usermail" maxLength={50} defaultValue="" placeholder="mail@example.com" />
-                  <span className="feedback__error-icon">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <circle cx="12" cy="12" r="12" fill="#EB1D1D" />
-                      <path d="M11.584 14.31L11.242 9V5.4H13.132V9L12.79 14.31H11.584ZM12.178 18.198C11.854 18.198 11.578 18.084 11.35 17.856C11.122 17.628 11.008 17.352 11.008 17.028C11.008 16.704 11.122 16.428 11.35 16.2C11.578 15.972 11.854 15.858 12.178 15.858C12.514 15.858 12.79 15.972 13.006 16.2C13.234 16.428 13.348 16.704 13.348 17.028C13.348 17.352 13.234 17.628 13.006 17.856C12.79 18.084 12.514 18.198 12.178 18.198Z" fill="white" />
-                    </svg>
-                  </span>
+                  <span className="feedback__error-icon"><img src="/images/form-error-icon.svg" width={24} height={24} alt="" /></span>
                 </div>
               </div>
               <div className="feedback__form-item">
-                <label htmlFor="phone" className="feedback__form-label">Телефон:</label>
+                <label htmlFor="feedback-phone" className="feedback__form-label">Телефон:</label>
                 <div className="feedback__form-input">
                   <span className="phone">
                     <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -60,12 +50,7 @@ export default function FeedbackPopup() {
                     </svg>
                   </span>
                   <input type="text" id="feedback-phone" name="phone" placeholder="+___________" required defaultValue="" className="form-control" />
-                  <span className="feedback__error-icon">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <circle cx="12" cy="12" r="12" fill="#EB1D1D" />
-                      <path d="M11.584 14.31L11.242 9V5.4H13.132V9L12.79 14.31H11.584ZM12.178 18.198C11.854 18.198 11.578 18.084 11.35 17.856C11.122 17.628 11.008 17.352 11.008 17.028C11.008 16.704 11.122 16.428 11.35 16.2C11.578 15.972 11.854 15.858 12.178 15.858C12.514 15.858 12.79 15.972 13.006 16.2C13.234 16.428 13.348 16.704 13.348 17.028C13.348 17.352 13.234 17.628 13.006 17.856C12.79 18.084 12.514 18.198 12.178 18.198Z" fill="white" />
-                    </svg>
-                  </span>
+                  <span className="feedback__error-icon"><img src="/images/form-error-icon.svg" width={24} height={24} alt="" /></span>
                 </div>
                 <p className="feedback__form-description">
                   Номер телефона с кодом страны состоит из 11 цифр.
@@ -74,7 +59,7 @@ export default function FeedbackPopup() {
                 </p>
               </div>
               <div className="feedback__form-item">
-                <label htmlFor="identification" className="feedback__form-label">Кем вы являетесь:</label>
+                <label className="feedback__form-label">Кем вы являетесь:</label>
                 <div className="dropdown">
                   <input type="checkbox" className="dropdown__switch" id="filter-switch" hidden />
                   <label htmlFor="filter-switch" className="dropdown__options-filter">
@@ -93,7 +78,7 @@ export default function FeedbackPopup() {
               </div>
               <div className="organization" id="organization">
                 <div className="feedback__form-item">
-                  <label htmlFor="name" className="feedback__form-label">Название организации:</label>
+                  <label htmlFor="feedback-organization" className="feedback__form-label">Название организации:</label>
                   <div className="feedback__form-input" id="input-focus">
                     <span>
                       <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -103,13 +88,8 @@ export default function FeedbackPopup() {
                         <path d="M16 4V4C16 2.34315 14.6569 1 13 1H7C5.34315 1 4 2.34315 4 4V4" stroke="#898989" />
                       </svg>
                     </span>
-                    <input className="form-control" type="text" name="userorganization" maxLength={50} placeholder="Организация" required defaultValue="" />
-                    <span className="feedback__error-icon">
-                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="12" cy="12" r="12" fill="#EB1D1D" />
-                        <path d="M11.584 14.31L11.242 9V5.4H13.132V9L12.79 14.31H11.584ZM12.178 18.198C11.854 18.198 11.578 18.084 11.35 17.856C11.122 17.628 11.008 17.352 11.008 17.028C11.008 16.704 11.122 16.428 11.35 16.2C11.578 15.972 11.854 15.858 12.178 15.858C12.514 15.858 12.79 15.972 13.006 16.2C13.234 16.428 13.348 16.704 13.348 17.028C13.348 17.352 13.234 17.628 13.006 17.856C12.79 18.084 12.514 18.198 12.178 18.198Z" fill="white" />
-                      </svg>
-                    </span>
+                    <input id="feedback-organization" className="form-control" type="text" name="userorganization" maxLength={50} placeholder="Организация" required defaultValue="" />
+                    <span className="feedback__error-icon"><img src="/images/form-error-icon.svg" width={24} height={24} alt="" /></span>
                   </div>
                 </div>
                 <div className="feedback__form-item">
@@ -122,7 +102,7 @@ export default function FeedbackPopup() {
                   </div>
                 </div>
                 <div className="feedback__form-item">
-                  <label htmlFor="identification" className="feedback__form-label">Тема обращения:</label>
+                  <label className="feedback__form-label">Тема обращения:</label>
                   <div className="dropdown-appeal">
                     <input type="checkbox" className="form-control dropdown__appeal-switch" id="appeal-switch" hidden />
                     <label htmlFor="appeal-switch" className="dropdown__appeal-options-filter">
@@ -142,15 +122,10 @@ export default function FeedbackPopup() {
                 </div>
               </div>
               <div className="feedback__form-item">
-                <label htmlFor="textmess" className="feedback__form-label">Текст обращения:</label>
+                <label htmlFor="feedback-textmess" className="feedback__form-label">Текст обращения:</label>
                 <div className="feedback__textarea">
-                  <textarea name="textmess" defaultValue="" required className="form-control feedback__form-textarea" placeholder="Введите текст сообщения..." />
-                  <span className="feedback__error-icon-textarea">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <circle cx="12" cy="12" r="12" fill="#EB1D1D" />
-                      <path d="M11.584 14.31L11.242 9V5.4H13.132V9L12.79 14.31H11.584ZM12.178 18.198C11.854 18.198 11.578 18.084 11.35 17.856C11.122 17.628 11.008 17.352 11.008 17.028C11.008 16.704 11.122 16.428 11.35 16.2C11.578 15.972 11.854 15.858 12.178 15.858C12.514 15.858 12.79 15.972 13.006 16.2C13.234 16.428 13.348 16.704 13.348 17.028C13.348 17.352 13.234 17.628 13.006 17.856C12.79 18.084 12.514 18.198 12.178 18.198Z" fill="white" />
-                    </svg>
-                  </span>
+                  <textarea id="feedback-textmess" name="textmess" defaultValue="" required className="form-control feedback__form-textarea" placeholder="Введите текст сообщения..." />
+                  <span className="feedback__error-icon-textarea"><img src="/images/form-error-icon.svg" width={24} height={24} alt="" /></span>
                 </div>
               </div>
               <div className="feedback__form-item">

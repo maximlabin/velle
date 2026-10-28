@@ -64,7 +64,7 @@ export default function AboutMain() {
                 </div>
               </div>
               <div className="years-block__info">
-                <div className="years-block__image"><img src="/wp-content/themes/velle/images/about/info1.jpg" alt="" /></div>
+                <div className="years-block__image"><img src="/wp-content/themes/velle/images/about/info1.webp" alt="" /></div>
                 <div className="years-block__info-text">
                   <div className="years-block__info-title ttl"><p>Сегодня компания Velle – новатор рынка растительных продуктов</p></div>
                   <div className="years-block__info-text txt">
@@ -87,7 +87,7 @@ export default function AboutMain() {
                     </p>
                   </div>
                 </div>
-                <div className="years-block__image2"><img src="/wp-content/themes/velle/images/about/info2.jpg" alt="" /></div>
+                <div className="years-block__image2"><img src="/wp-content/themes/velle/images/about/info2.webp" alt="" /></div>
               </div>
             </div>
           </div>
@@ -144,7 +144,7 @@ export default function AboutMain() {
                       </div>
                     </div>
                     <div className="slide-img">
-                      <img src="/wp-content/themes/velle/images/about/slide1.png" alt="slide1" />
+                      <img src="/wp-content/themes/velle/images/about/slide1.webp" alt="slide1" />
                     </div>
                   </div>
                 </div>
@@ -160,7 +160,7 @@ export default function AboutMain() {
                       </div>
                     </div>
                     <div className="slide-img">
-                      <img src="/wp-content/themes/velle/images/about/slide2.png" alt="slide2" />
+                      <img src="/wp-content/themes/velle/images/about/slide2.webp" alt="slide2" />
                     </div>
                   </div>
                 </div>
@@ -175,7 +175,7 @@ export default function AboutMain() {
                       </div>
                     </div>
                     <div className="slide-img">
-                      <img src="/wp-content/themes/velle/images/about/slide3.png" alt="slide3" />
+                      <img src="/wp-content/themes/velle/images/about/slide3.webp" alt="slide3" />
                     </div>
                   </div>
                 </div>
@@ -193,7 +193,7 @@ export default function AboutMain() {
                       </div>
                     </div>
                     <div className="slide-img">
-                      <img src="/wp-content/themes/velle/images/about/slide4.png" alt="slide4" />
+                      <img src="/wp-content/themes/velle/images/about/slide4.webp" alt="slide4" />
                     </div>
                   </div>
                 </div>
@@ -204,7 +204,7 @@ export default function AboutMain() {
                       <div className="slide-desc"><p>Первый выпуск питьевого йогурта на новой линии.</p></div>
                     </div>
                     <div className="slide-img">
-                      <img src="/wp-content/themes/velle/images/about/slide5.png" alt="slide5" />
+                      <img src="/wp-content/themes/velle/images/about/slide5.webp" alt="slide5" />
                     </div>
                   </div>
                 </div>
@@ -215,7 +215,7 @@ export default function AboutMain() {
                       <div className="slide-desc"><p>Первый выпуск питьевого йогурта на новой линии.</p></div>
                     </div>
                     <div className="slide-img">
-                      <img src="/wp-content/themes/velle/images/about/slide6.png" alt="slide6" />
+                      <img src="/wp-content/themes/velle/images/about/slide6.webp" alt="slide6" />
                     </div>
                   </div>
                 </div>
@@ -248,7 +248,7 @@ export default function AboutMain() {
                       </div>
                     </div>
                     <div className="slide-img">
-                      <img src="/wp-content/themes/velle/images/about/slide7.png" alt="slide7" />
+                      <img src="/wp-content/themes/velle/images/about/slide7.webp" alt="slide7" />
                     </div>
                   </div>
                 </div>
@@ -278,7 +278,7 @@ export default function AboutMain() {
                       </div>
                     </div>
                     <div className="slide-img">
-                      <img src="/wp-content/themes/velle/images/about/slide9.png" alt="slide9" />
+                      <img src="/wp-content/themes/velle/images/about/slide9.webp" alt="slide9" />
                     </div>
                   </div>
                 </div>
@@ -322,11 +322,11 @@ export default function AboutMain() {
               </div>
               <div className="products__box" id="productsBoxWithoutSlider">
                 <a className="products__block" href="">
-                  <img src="/wp-content/uploads/2025/04/1-1.png" alt="" width="150" />
+                  <img src="/wp-content/uploads/2025/04/1-1.webp" alt="" width="150" />
                   <p>Velle Вместо ложкового йогурта</p>
                 </a>
                 <a className="products__block" href="/products/vmesto-pitevogo-jogurta-kokosovyj-zemlyanika-klubnika/">
-                  <img src="/wp-content/uploads/2025/04/2-1.png" alt="" width="130" />
+                  <img src="/wp-content/uploads/2025/04/2-1.webp" alt="" width="130" />
                   <p>Velle Вместо питьевого йогурта</p>
                 </a>
                 <a className="products__block" href="/products/vmesto-moloka-bananovoe/">
@@ -338,11 +338,11 @@ export default function AboutMain() {
                   <p>Velle Barista</p>
                 </a>
                 <a className="products__block" href="/products/kasha-chernosliv/">
-                  <img src="/wp-content/uploads/2025/04/3-1.png" alt="" width="150" />
+                  <img src="/wp-content/uploads/2025/04/3-1.webp" alt="" width="150" />
                   <p>Velle Каша</p>
                 </a>
                 <a className="products__block" href="/products/desert-klubnichnii-chizkeik/">
-                  <img src="/wp-content/uploads/2025/04/4-1.png" alt="" width="160" />
+                  <img src="/wp-content/uploads/2025/04/4-1.webp" alt="" width="160" />
                   <p>Velle Десерт</p>
                 </a>
               </div>

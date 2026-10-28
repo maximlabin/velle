@@ -2,28 +2,28 @@
 
 import { useEffect, useState, type CSSProperties } from "react";
 
-const MENU = "/wp-content/themes/velle/images/menu";
-const UPLOADS = "/wp-content/uploads/2025/04";
+// Small copies made by scripts/optimize_images.py: the originals are up to 4.5 MB and loaded on every page.
+const THUMBS = "/images/menu-thumbs";
 
 // The products drop-down is a hand-picked list in the theme, not the whole catalog.
 const PRODUCT_MENU = [
-  { line: "vmestomoloka", title: "Velle Растительное молоко", image: `${MENU}/menu1.png`, links: [
+  { line: "vmestomoloka", title: "Velle Растительное молоко", image: `${THUMBS}/menu1.webp`, links: [
     ["vmesto-moloka-bananovoe", "Банановое молоко"], ["kokosovoe", "Кокосовое молоко"],
     ["ovsyanoe", "Овсяное молоко"], ["mindalnoe", "Миндальное молоко"]] },
-  { line: "barista", title: "Velle Barista", image: `${MENU}/menu2.png`, links: [
+  { line: "barista", title: "Velle Barista", image: `${THUMBS}/menu2.webp`, links: [
     ["barista-funduchnoe", "Фундучное"], ["barista-bananovoe", "Банановое"], ["barista-ovsyanoe", "Овсяное"],
     ["barista-mindalnoe", "Миндальное"], ["barista-kokosovoe", "Кокосовое"]] },
-  { line: "pityevoyyogurt", title: "Velle Вместо питьевого йогурта", image: `${UPLOADS}/vizualperedklubnika-2.png`, width: 70, links: [
+  { line: "pityevoyyogurt", title: "Velle Вместо питьевого йогурта", image: `${THUMBS}/vizualperedklubnika-2.webp`, width: 70, links: [
     ["vmesto-pitevogo-jogurta-kokosovyj-zemlyanika-klubnika", "Кокосовый Клубника-Земляника"],
     ["vmesto-pitevogo-jogurta-malina", "Овсяный Малина"], ["vmesto-pitevogo-jogurta-vishnya", "Овсяный Вишня"],
     ["vmesto-pitevogo-jogurta-oblepiha", "Овсяный Облепиха"], ["vmesto-pitevogo-jogurta-chernika", "Овсяный Черника"]] },
-  { line: "lozhkoviyyogurt", title: "Velle Вместо ложкового йогурта", image: `${UPLOADS}/vizualpered-pechenoe-yabloko-2.png`, width: 120, links: [
+  { line: "lozhkoviyyogurt", title: "Velle Вместо ложкового йогурта", image: `${THUMBS}/vizualpered-pechenoe-yabloko-2.webp`, width: 120, links: [
     ["vmesto-lozhkovogo-jogurta-pechenoe-yabloko", "Овсяный Печеное Яблоко"],
     ["vmesto-lozhkovogo-jogurta-klubnika-banan", "Овсяный Клубника-Банан"],
     ["vmesto-lozhkovogo-jogurta-malina-ezhevika", "Овсяный Малина-Ежевика"]] },
-  { line: "kasha", title: "Velle Каша", image: `${UPLOADS}/vizualperedkashi-kuraga-1.png`, width: 100, links: [
+  { line: "kasha", title: "Velle Каша", image: `${THUMBS}/vizualperedkashi-kuraga-1.webp`, width: 100, links: [
     ["kasha-chernosliv", "Мультизлак Чернослив"], ["kasha-kuraga", "Мультизлак Курага"]] },
-  { line: "dessert", title: "Velle Десерт", image: `${UPLOADS}/pered_limon-1.png`, width: 120, links: [
+  { line: "dessert", title: "Velle Десерт", image: `${THUMBS}/pered_limon-1.webp`, width: 120, links: [
     ["desert-yablochnaya-sharlotka", "Кокосовый \"Яблочная шарлотка\""], ["desert-limonnii-tart", "Кокосовый \"Лимонный тарт\""],
     ["desert-klubnichnii-chizkeik", "Кокосовый \"Клубничный чизкейк\""], ["desert-solenaya-karamel", "Соленая Карамель"]] },
 ] as const;

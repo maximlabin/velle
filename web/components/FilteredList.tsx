@@ -2,8 +2,9 @@
 
 // Recipe and blog lists. WordPress filtered and paged them on the server (admin-ajax.php and
 // ?meal=&time=&blog-mark= reloads); here the same query parameters filter the data in the browser.
-import { useSearchParams } from "next/navigation";
-import { useState } from "react";
+// The static HTML holds the unfiltered first page (for search engines and before scripts load);
+// the query is read after hydration, since useSearchParams would leave the export empty.
+import { useEffect, useState } from "react";
 import Pagination from "@/components/Pagination";
 import PostCard, { type CardData } from "@/components/PostCard";
 import type { Filter } from "@/lib/content";
@@ -17,7 +18,13 @@ const cls = (...p: (string | false | null | undefined)[]) => p.filter(Boolean).j
 export default function FilteredList({ items, groups, separator, loadMore }: {
   items: ListItem[]; groups: FilterGroup[]; separator?: boolean; loadMore?: boolean;
 }) {
-  const params = useSearchParams();
+  const [params, setParams] = useState(() => new URLSearchParams());
+  useEffect(() => {
+    const read = () => setParams(new URLSearchParams(window.location.search));
+    read();
+    window.addEventListener("popstate", read);
+    return () => window.removeEventListener("popstate", read);
+  }, []);
   const chosen = Object.fromEntries(groups.map((g) => [g.param, params.get(g.param)]));
   const page = Math.max(1, parseInt(params.get("page") ?? "1", 10) || 1);
   const [extra, setExtra] = useState(0); // pages appended by "Показать ещё"

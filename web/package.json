@@ -4,8 +4,7 @@
   "scripts": {
     "dev": "next dev -p 3100",
     "build": "next build",
-    "postbuild": "cp -R ../site/blackandwhite ../site/static out/ && cp -Rn ../site/_next/static/. out/_next/static/",
-    "start": "npx serve out -l 3100",
+    "start": "python3 -I scripts/serve.py 3100 out",
     "extract": "python3 -I scripts/extract.py ../site content"
   },
   "dependencies": {

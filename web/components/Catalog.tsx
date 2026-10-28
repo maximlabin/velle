@@ -18,7 +18,7 @@ function DesktopItem({ item, hide }: { item: CatalogItem; hide: boolean }) {
     <div className={cls("contentItem", item.flavour)} style={hidden(hide)}>
       {item.tag && <img loading="lazy" src={item.tag} alt="tag" className="tag" />}
       <a href={href} />
-      <img loading="lazy" src={item.image ?? undefined} className="productPic" alt="product" />
+      <img loading="lazy" src={item.image ?? undefined} className={cls("productPic", item.placeholder && "product-placeholder")} alt="product" />
       <div className="itemTitle" style={{ textAlign: "center" }}>{item.title}</div>
       <div className="volume">{item.volume}</div>
       <div>
@@ -34,7 +34,7 @@ function MobileSlide({ item, hide }: { item: CatalogItem; hide: boolean }) {
       <div className="slideContent">
         {item.tag && <img src={item.tag} alt="tag" className="tag" />}
         <a href={`/products/${item.slug}/`} className="mobile-product">
-          <img loading="lazy" src={item.image ?? undefined} alt="product" />
+          <img loading="lazy" src={item.image ?? undefined} className={item.placeholder ? "product-placeholder" : undefined} alt="product" />
           <div className="name">{item.title}</div>
           <div className="volume">{item.volume}</div>
         </a>
@@ -110,7 +110,7 @@ export default function Catalog({ lines, filters }: { lines: Line[]; filters: { 
           {filters.flavour.map((f) => <option key={f.key} value={f.key}>{f.label}</option>)}
         </select>
       </div>
-      <div className="content" ref={sliders}>
+      <div className="content">
         {lines.map((line) => {
           const blockHidden =
             (active?.kind === "lineage" && active.key !== line.slug) ||
@@ -126,6 +126,9 @@ export default function Catalog({ lines, filters }: { lines: Line[]; filters: { 
             </div>
           );
         })}
+      </div>
+      {/* Mobile layout: the theme hides .content on phones and shows these sliders instead. */}
+      <div className="mContent" ref={sliders}>
         {lines.map((line) => {
           const byFlavour = mobFlavour !== "all-flavours";
           const sliderHidden = mobLine !== "all-items" && mobLine !== line.slug;

@@ -18,7 +18,7 @@ export function cssToStyle(css: string): React.CSSProperties {
 }
 export type Filter = { key: string; label: string };
 
-export type CatalogItem = { slug: string; flavour: string | null; image: string | null; tag: string | null; title: string; volume: string };
+export type CatalogItem = { slug: string; flavour: string | null; image: string | null; tag: string | null; title: string; volume: string; placeholder?: boolean };
 export type Line = { slug: string; title: string; items: CatalogItem[] };
 export type Variant = {
   anchor: string | null; title: string; subtitle: string; textHtml: string; tagsHtml: string | null;
